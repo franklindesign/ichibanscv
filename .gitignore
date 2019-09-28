@@ -1,6 +1,7 @@
 node_modules
 .env
 .sass-cache
+.next
 
 
 # Compiled source #

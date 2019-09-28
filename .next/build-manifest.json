@@ -1,24 +1,45 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_397dc449097af0b4e992.js",
-    "static/development/dll/dll_397dc449097af0b4e992.js.map"
-  ],
+  "devFiles": [],
   "pages": {
+    "/": [
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
+    ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
     ],
     "/ayce": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
     ],
     "/happyhour": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
+    ],
+    "/menu": [
+      "static/runtime/webpack-035ac2b14bde147cb4a8.js",
+      "static/chunks/commons.c2329a307aa58fa1549c.js",
+      "static/runtime/main-026596a16b7a09943e8f.js"
     ]
   }
 }
