@@ -18,6 +18,8 @@ const useStyles = makeStyles(theme => ({
   button: {
     margin: theme.spacing(2)
   },
+  link: { color: theme.primary },
+
   menuButton: {
     marginRight: theme.spacing(2),
     display: "flex",
@@ -33,7 +35,7 @@ const useStyles = makeStyles(theme => ({
       display: "flex"
     }
   },
-  logo: { marginTop: 10, marginLeft: 10, maxWidth: 350, flexGrow: 1 },
+  logo: { marginTop: 10, maxWidth: 350, flexGrow: 1 },
 
   sectionDesktop: {
     marginRight: theme.spacing(5),
@@ -77,41 +79,25 @@ export default function ButtonAppBar() {
           </Typography>
 
           <div className={classes.sectionDesktop}>
-            <Button
-              color="inherit"
-              className={classes.button}
-              href="/menu"
-              disableRipple="true"
-            >
-              Menu
+            <Button color="inherit" className={classes.button}>
+              <Link href="/menu">Menu</Link>
             </Button>
-            <Button
-              color="inherit"
-              className={classes.button}
-              href="/happyhour"
-              disableRipple="true"
-            >
-              Happy Hour!
+            <Button color="inherit" className={classes.button}>
+              <Link href="/happyhour">Happy Hour!</Link>
             </Button>
-            <Button
-              color="inherit"
-              className={classes.button}
-              href="/ayce"
-              disableRipple="true"
-            >
-              All You Can Eat
+            <Button color="inherit" className={classes.button}>
+              <Link href="/ayce">All You Can Eat</Link>
             </Button>
             <Button
               color="inherit"
               className={classes.button}
               href="https://goo.gl/maps/qBwuJL1U36P6FE238"
               target="_blank"
-              disableRipple="true"
             >
               Location
             </Button>
-            <Button color="inherit" className={classes.button} href="/about">
-              About
+            <Button color="inherit" className={classes.button}>
+              <Link href="/about">about</Link>
             </Button>
             <Button
               className={classes.ubereats}
@@ -139,10 +125,19 @@ export default function ButtonAppBar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>Menu</MenuItem>
-              <MenuItem onClick={handleClose}>AYCE</MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/menu">Menu</Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/happyhour">Happy Hour</Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/ayce">AYCE</Link>{" "}
+              </MenuItem>
               <MenuItem onClick={handleClose}>Location</MenuItem>
-              <MenuItem onClick={handleClose}>About</MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link href="/about">About</Link>{" "}
+              </MenuItem>
               <MenuItem onClick={handleClose}>UberEats</MenuItem>
             </Menu>
           </IconButton>

@@ -3,17 +3,24 @@ import { red } from "@material-ui/core/colors";
 
 // Create a theme instance.
 const theme = createMuiTheme({
+  props: {
+    // Name of the component ⚛️
+    MuiButtonBase: {
+      // The properties to apply
+      disableRipple: true // No more ripple, on the whole application 💣!
+    }
+  },
   palette: {
-    type: "dark",
+    type: "light",
     primary: { main: red[500] },
     secondary: {
-      main: "#19857b"
+      main: "#ccc"
     },
     error: {
       main: red.A400
     },
     background: {
-      default: "#000"
+      default: "#fff"
     }
   }
 });

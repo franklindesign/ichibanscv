@@ -1262,19 +1262,27 @@ __webpack_require__.r(__webpack_exports__);
  // Create a theme instance.
 
 const theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["createMuiTheme"])({
+  props: {
+    // Name of the component ⚛️
+    MuiButtonBase: {
+      // The properties to apply
+      disableRipple: true // No more ripple, on the whole application 💣!
+
+    }
+  },
   palette: {
-    type: "dark",
+    type: "light",
     primary: {
       main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][500]
     },
     secondary: {
-      main: "#19857b"
+      main: "#ccc"
     },
     error: {
       main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"].A400
     },
     background: {
-      default: "#000"
+      default: "#fff"
     }
   }
 });

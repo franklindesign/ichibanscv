@@ -2,19 +2,19 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
   card: {
     display: "flex",
-    backgroundColor: "#1c1c1c"
+    backgroundColor: "#fff"
   },
   details: {
     display: "flex",
     flexDirection: "column",
     width: "100%",
-    height: "150px"
+    height: "150px",
+    backgroundColor: "#fff"
   },
   content: {
     textAlign: "left"
@@ -23,10 +23,22 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     flex: "0 0 150px",
     width: 125
+  },
+  price: {
+    color: "#F46523"
+  },
+  description: {
+    color: "#000"
   }
 }));
 
-export default function CardItem({ itemName, itemDescription, itemImage }) {
+export default function CardItem({
+  itemName,
+  itemDescription,
+  itemImage,
+  itemPrice,
+  title
+}) {
   const classes = useStyles();
 
   return (
@@ -36,15 +48,20 @@ export default function CardItem({ itemName, itemDescription, itemImage }) {
           <Typography component="h6" variant="h6">
             {itemName.text}
           </Typography>
-          <Typography color="white" variant="body2">
-            {itemDescription.text}
+          <Typography className={classes.description} variant="body2">
+            <i>{itemDescription.text}</i>
+          </Typography>
+          <br></br>
+          <Typography className={classes.price} variant="body2">
+            {itemPrice.price}
           </Typography>
         </CardContent>
       </div>
       <CardMedia
         className={classes.cover}
         image={`${itemImage.image}`}
-        title="Live from space album cover"
+        title={`${itemName.text}`}
+        loading="lazy"
       />
     </Card>
   );
