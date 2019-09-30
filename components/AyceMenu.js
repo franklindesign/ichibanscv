@@ -236,7 +236,7 @@ export default function ScrollableTabsButtonAuto() {
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
+          textColor="#000"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"

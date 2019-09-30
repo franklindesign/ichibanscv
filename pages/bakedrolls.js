@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
   },
 
   ayce: {
-    textAlign: "center"
+    textAlign: "left"
   }
 }));
 
@@ -131,7 +131,7 @@ export default function BakedRollss() {
             <Dropdown></Dropdown>
             <Grid item xs={12}>
               <div className={classes.ayce}>
-                <Typography variant="h6" id="freshrolls">
+                <Typography variant="h4" id="freshrolls">
                   Baked Rolls
                 </Typography>
               </div>

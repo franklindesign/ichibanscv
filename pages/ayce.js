@@ -17,16 +17,21 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.text.secondary
   },
   banner: {
-    marginTop: 20,
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
-    width: "50%",
+    width: "100vw",
+    [theme.breakpoints.up("sm")]: {
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
+      width: "50vw"
+    },
     [theme.breakpoints.up("md")]: {
       display: "block",
       marginLeft: "auto",
       marginRight: "auto",
-      width: "60%"
+      width: "40vw"
     }
   }
 }));
@@ -35,12 +40,19 @@ export default function ayce() {
   const classes = useStyles();
   return (
     <Layout>
+      <div
+        style={{
+          backgroundColor: "#000",
+          paddingTop: 20
+        }}
+      >
+        {" "}
+        <img src="../static/ayce.jpg" className={classes.banner}></img>
+      </div>
       <Container maxWidth="md">
         <div className={classes.root}>
           <Grid container spacing={3}>
-            <Grid item xs={12}>
-              <img src="../static/ayce.png" className={classes.banner}></img>
-            </Grid>
+            <Grid item xs={12}></Grid>
             <Grid item xs={12}>
               <ScrollableTabsButtonAuto></ScrollableTabsButtonAuto>
             </Grid>

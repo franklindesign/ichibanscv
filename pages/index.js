@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Link from "../src/Link";
 import BigSlider from "../components/BigSlider";
+import ListFeaturedItems from "./listFeaturedItems";
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
         <BigSlider></BigSlider>
       </div>
       <Container maxWidth="lg">
+        <ListFeaturedItems></ListFeaturedItems>
         <Box my={4}>
           <Link href="/menu">
             <Typography variant="h6" component="h1" gutterBottom>

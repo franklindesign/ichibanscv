@@ -20,9 +20,15 @@ export default function Copyright() {
   return (
     <div className={classes.root}>
       <Typography align="center" variant="body2">
-        27625 Shangri-La Dr, Santa Clarita, CA 91351
+        <a
+          href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+          target="_blank"
+          style={{ color: "#fff" }}
+        >
+          27625 Shangri-La Dr, Santa Clarita, CA 91351
+        </a>
       </Typography>
-      <Typography variant="body2" color="textSecondary" align="center">
+      <Typography variant="body2" color="inherit" align="center">
         {"Copyright © "}
         <MuiLink color="inherit" href="https://ichibanscv.com/">
           Ichiban Sushi & Bar

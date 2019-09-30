@@ -88,17 +88,15 @@ export default function ButtonAppBar() {
             <Button color="inherit" className={classes.button}>
               <Link href="/ayce">All You Can Eat</Link>
             </Button>
-            <Button
-              color="inherit"
-              className={classes.button}
-              href="https://goo.gl/maps/qBwuJL1U36P6FE238"
-              target="_blank"
-            >
-              Location
-            </Button>
             <Button color="inherit" className={classes.button}>
-              <Link href="/about">about</Link>
+              <Link
+                href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+                target="_blank"
+              >
+                Location
+              </Link>
             </Button>
+
             <Button
               className={classes.ubereats}
               href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
@@ -126,6 +124,9 @@ export default function ButtonAppBar() {
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose}>
+                <Link href="/">Home</Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
                 <Link href="/menu">Menu</Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
@@ -134,11 +135,23 @@ export default function ButtonAppBar() {
               <MenuItem onClick={handleClose}>
                 <Link href="/ayce">AYCE</Link>{" "}
               </MenuItem>
-              <MenuItem onClick={handleClose}>Location</MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link href="/about">About</Link>{" "}
+                <Link
+                  href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+                  target="_blank"
+                >
+                  Location
+                </Link>
               </MenuItem>
-              <MenuItem onClick={handleClose}>UberEats</MenuItem>
+
+              <MenuItem onClick={handleClose}>
+                <Link
+                  href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
+                  target="_blank"
+                >
+                  UberEats
+                </Link>{" "}
+              </MenuItem>
             </Menu>
           </IconButton>
         </Toolbar>
