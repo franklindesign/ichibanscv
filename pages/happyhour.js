@@ -147,44 +147,44 @@ export default function happyhour() {
   return (
     <Layout>
       <img src="../static/happyhour.jpg" width="100%"></img>
-      <Container maxWidth="lg">
+      <Container maxWidth="md">
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}>
               Please inform a server about any food allergies. All crabmeat is
               imitation.
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Sushi (2 Pieces)</Typography>{" "}
                 <ul className={classes.list}>{listSushi}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Special Sushi </Typography>{" "}
                 <ul className={classes.list}>{listSpecialSushi}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Regular Rolls (Cut/Hand)</Typography>{" "}
                 <ul className={classes.list}>{listRegularRolls}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Fresh Rolls</Typography>{" "}
                 <ul className={classes.list}>{listFreshRolls}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Tempura Rolls</Typography>{" "}
                 <ul className={classes.list}>{listTempuraRolls}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Baked Rolls</Typography>{" "}
                 <ul className={classes.list}>{listBakedRolls}</ul>

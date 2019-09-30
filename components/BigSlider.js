@@ -5,12 +5,12 @@ export default class extends React.Component {
     return (
       <Carousel
         autoplay
-        renderCenterLeftControls={({ previousSlide }) => (
-          <button onClick={previousSlide}>Previous</button>
-        )}
-        renderCenterRightControls={({ nextSlide }) => (
-          <button onClick={nextSlide}>Next</button>
-        )}
+        // renderCenterLeftControls={({ previousSlide }) => (
+        //   <button onClick={previousSlide}>Previous</button>
+        // )}
+        // renderCenterRightControls={({ nextSlide }) => (
+        //   <button onClick={nextSlide}>Next</button>
+        // )}
       >
         <img src="../static/happyhour.jpg" />
         <img src="../static/happyhour.jpg" />

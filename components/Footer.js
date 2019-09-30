@@ -6,7 +6,7 @@ const useStyles = makeStyles({
   root: {
     background: "#000",
     color: "white",
-    height: 100,
+    height: 200,
     padding: "30px 30px",
 
     left: "0",
@@ -19,7 +19,13 @@ export default function Copyright() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Typography align="center" variant="body2">
+      <Typography align="center" variant="body1">
+        <strong>(661) 360-8526</strong>
+      </Typography>
+      <Typography align="center" variant="body1">
+        <strong>Open Hours: 11:30 AM to 10 PM</strong>
+      </Typography>
+      <Typography align="center" variant="body1">
         <a
           href="https://goo.gl/maps/qBwuJL1U36P6FE238"
           target="_blank"
@@ -28,6 +34,7 @@ export default function Copyright() {
           27625 Shangri-La Dr, Santa Clarita, CA 91351
         </a>
       </Typography>
+      <br></br>
       <Typography variant="body2" color="inherit" align="center">
         {"Copyright © "}
         <MuiLink color="inherit" href="https://ichibanscv.com/">
