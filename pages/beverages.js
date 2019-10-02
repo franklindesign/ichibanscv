@@ -22,25 +22,97 @@ const useStyles = makeStyles(theme => ({
 const kidsitems = [
   {
     id: 1,
-    name: "Chicken Bowl",
+    name: "Hot Tea",
     description: " ",
-    price: 4.95,
+    price: 1.95,
     image: "",
     largeImage: ""
   },
   {
     id: 2,
-    name: "Beef Bowl",
-    description: " ",
-    price: 4.95,
+    name: "Soda",
+    description: "pepsi, diet pepsi, sierra mist, dr.pepper, lemonade",
+    price: 2.95,
     image: "",
     largeImage: ""
   },
   {
     id: 3,
-    name: "Bulgogi Bowl",
+    name: "VOSS Sparkling Water",
     description: " ",
-    price: 5.95,
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 4,
+    name: "VOSS Bottled Water",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 5,
+    name: "Iced Tea Regular",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 6,
+    name: "Iced Tea Raspberry",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 7,
+    name: "Ramune",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 8,
+    name: "Iced Green Tea",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 9,
+    name: "Arnold Palmer",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 10,
+    name: "Shirley Temple",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 11,
+    name: "Strawberry Lemonade",
+    description: " ",
+    price: 2.95,
+    image: "",
+    largeImage: ""
+  },
+  {
+    id: 12,
+    name: "Apple Juice",
+    description: " ",
+    price: 2.95,
     image: "",
     largeImage: ""
   }

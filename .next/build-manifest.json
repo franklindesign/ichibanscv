@@ -12,11 +12,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/happyhour": [
+    "/beverages": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/menu": [
+    "/hotappetizers": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
