@@ -118,7 +118,7 @@ const freshRolls = [
     id: 12,
     name: "Mango Tango Roll",
     description:
-      "shrimp tempura, cucumber, mango, salmon, avocado on top, goma and sweet mayo sauce",
+      "shrimp tempura, cucumber, mango, salmon, avocado, goma and sweet mayo sauce",
     price: 10.95,
     image: "../static/items/freshRolls/MangoTangoRoll.jpg",
     largeImage: ""

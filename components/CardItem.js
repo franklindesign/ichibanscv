@@ -28,7 +28,8 @@ const useStyles = makeStyles(theme => ({
     color: "#F46523"
   },
   description: {
-    color: "#000"
+    color: "#000",
+    marginBottom: 5
   }
 }));
 
@@ -51,7 +52,7 @@ export default function CardItem({
           <Typography className={classes.description} variant="body2">
             <i>{itemDescription.text}</i>
           </Typography>
-          <br></br>
+
           <Typography className={classes.price} variant="body2">
             {itemPrice.price}
           </Typography>
