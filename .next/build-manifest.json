@@ -16,11 +16,43 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/beerwine": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/bentobox": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/beverages": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/coldappetizers": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/freshrolls": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/menu": [
+    "/sake": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/salad": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/soupandnoodles": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/sushicombo": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

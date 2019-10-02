@@ -54,22 +54,46 @@ const categories = [
     image: "../static/categories/sushiCombo.jpg",
     link: "/sushicombo"
   },
-  { name: "Sashimi Combo", image: "", link: "/freshrolls" },
-  { name: "Appetizers (Cold)", image: "", link: "/freshrolls" },
-  { name: "Appetizers (Hot)", image: "", link: "/hotappetizers" },
+  { name: "Sashimi Combo", image: "", link: "/sashimicombo" },
+  {
+    name: "Appetizers (Cold)",
+    image: "../static/categories/coldAppetizers.jpg",
+    link: "/coldappetizers"
+  },
+  {
+    name: "Appetizers (Hot)",
+    image: "../static/categories/hotAppetizers.jpg",
+    link: "/hotappetizers"
+  },
   {
     name: "Soup & Noodles",
     image: "../static/categories/soupAndNoodles.jpg",
     link: "/soupandnoodles"
   },
-  { name: "Salad", image: "", link: "/freshrolls" },
+  { name: "Salad", image: "../static/categories/salad.jpg", link: "/salad" },
   { name: "Entree", image: "", link: "/entrees" },
-  { name: "Bento Box", image: "", link: "/bentobox" },
+  {
+    name: "Bento Box",
+    image: "../static/categories/bentobox.jpg",
+    link: "/bentobox"
+  },
   { name: "Kid's Menu", image: "", link: "/kidsmenu" },
-  { name: "Dessert", image: "", link: "/freshrolls" },
-  { name: "Beverages", image: "", link: "/freshrolls" },
-  { name: "Beer & Wine", image: "", link: "/freshrolls" },
-  { name: "Sake", image: "", link: "/freshrolls" }
+  {
+    name: "Dessert",
+    image: "../static/categories/dessert.jpg",
+    link: "/dessert"
+  },
+  {
+    name: "Beverages",
+    image: "../static/categories/beverages.jpg",
+    link: "/beverages"
+  },
+  {
+    name: "Beer & Wine",
+    image: "../static/categories/beerAndWine.jpg",
+    link: "/beerwine"
+  },
+  { name: "Sake", image: "../static/categories/sake.jpg", link: "/sake" }
 ];
 
 export default function menu() {
@@ -81,13 +105,17 @@ export default function menu() {
           <Typography variant="h4" id="freshrolls">
             Categories
           </Typography>
+          <p>
+            *Menu is subject to change. Please confirm with server for item
+            availability.
+          </p>
           <Grid
             container
             spacing={3}
             style={{ marginTop: "20px", marginBottom: "50px" }}
           >
             {categories.map(category => (
-              <Grid item xs={6} sm={6} md={4}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Link href={`${category.link}`}>
                   <Card
                     className={classes.card}

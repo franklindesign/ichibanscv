@@ -9,11 +9,13 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
@@ -69,7 +71,7 @@ const entrees = [
   {
     id: 7,
     name: "Beef Don",
-    description: "sticky pan-fried pork",
+    description: "grilled beef with teriyaki sauce, rice on top",
     price: 9.95,
     image: " ",
     largeImage: ""

@@ -9,11 +9,13 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
@@ -44,7 +46,7 @@ const kidsitems = [
   }
 ];
 
-export default function Entrees() {
+export default function KidsMenu() {
   const classes = useStyles();
   return (
     <Layout>

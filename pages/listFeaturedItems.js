@@ -25,37 +25,43 @@ const items = [
     id: 1,
     title: "Sakura Roll",
     src: "../static/featuredItems/featuredItem01.jpg",
-    categories: ""
+    categories: "Fresh Roll",
+    link: "/freshrolls"
   },
   {
     id: 2,
     title: "Spicy Tuna on Rice Cake",
     src: "../static/featuredItems/featuredItem02.jpg",
-    categories: ""
+    categories: "Appetizer",
+    link: "/freshrolls"
   },
   {
     id: 3,
     title: "Ramen Combo",
     src: "../static/featuredItems/featuredItem03.jpg",
-    categories: ""
+    categories: "Combo Special",
+    link: "/freshrolls"
   },
   {
     id: 4,
     title: "Aguachile Roll",
     src: "../static/featuredItems/featuredItem04.jpg",
-    categories: ""
+    categories: "Fresh Roll",
+    link: "/freshrolls"
   },
   {
     id: 5,
     title: "Spicy Albacore Crunch Roll",
     src: "../static/featuredItems/featuredItem05.jpg",
-    categories: ""
+    categories: "Fresh Roll",
+    link: "/freshrolls"
   },
   {
     id: 6,
     title: "Yellowtail Delight Roll",
     src: "../static/featuredItems/featuredItem06.jpg",
-    categories: ""
+    categories: "Fresh Roll",
+    link: "/freshrolls"
   }
 ];
 

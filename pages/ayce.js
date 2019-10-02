@@ -20,17 +20,12 @@ const useStyles = makeStyles(theme => ({
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
+    padding: 20,
     width: "100vw",
     [theme.breakpoints.up("sm")]: {
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
       width: "50vw"
     },
     [theme.breakpoints.up("md")]: {
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
       width: "40vw"
     }
   }
@@ -47,9 +42,17 @@ export default function ayce() {
         }}
       >
         {" "}
-        <img src="../static/ayce.jpg" className={classes.banner}></img>
+        <img src="../static/ayce.png" className={classes.banner}></img>
       </div>
       <Container maxWidth="md">
+        <p style={{ textAlign: "center" }}>
+          All Items Listed are Included with All You Can Eat.
+        </p>
+        <p style={{ textAlign: "center" }}>
+          Please inform a server about any food allergies. All crabmeat is
+          imitation.
+        </p>
+
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}></Grid>

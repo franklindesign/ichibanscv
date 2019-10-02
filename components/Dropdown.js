@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
+import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import Link from "../src/Link";
 
 const useStyles = makeStyles(theme => ({
@@ -24,9 +25,9 @@ const useStyles = makeStyles(theme => ({
     position: "absolute",
     top: 36,
     right: 0,
-    left: -30,
+    left: 0,
     marginTop: 10,
-    height: 500,
+    height: 460,
     width: 130
   },
   list: {
@@ -51,7 +52,11 @@ export default function ClickAway() {
     <div className={classes.root}>
       <ClickAwayListener onClickAway={handleClickAway}>
         <div>
-          <Button onClick={handleClick}>Categories</Button>
+          <Button onClick={handleClick}>
+            Categories
+            <ArrowDropDownIcon />
+          </Button>
+
           {open ? (
             <Paper className={classes.paper}>
               <div className={classes.list}>
@@ -64,6 +69,24 @@ export default function ClickAway() {
                 <Link href="/bakedrolls">Baked Rolls</Link>{" "}
               </div>
               <div className={classes.list}>
+                <Link href="/sushicombo">Sushi Combos</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/sashimicombo">Sashimi Combo</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/coldappetizers">Appetizers (Cold)</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/hotappetizers">Appetizers (Hot)</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/soupandnoodles">Soup & noodles</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/salad">Salads</Link>{" "}
+              </div>
+              <div className={classes.list}>
                 <Link href="/entrees">Entrees</Link>{" "}
               </div>
               <div className={classes.list}>
@@ -73,7 +96,16 @@ export default function ClickAway() {
                 <Link href="/kidsmenu">Kid's Menu</Link>{" "}
               </div>
               <div className={classes.list}>
-                <Link href="/soupandnoodles">Soup & noodles</Link>{" "}
+                <Link href="/dessert">Dessert</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/beverages">Beverages</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/beerwine">Beer & Wine</Link>{" "}
+              </div>
+              <div className={classes.list}>
+                <Link href="/sake">Sake</Link>{" "}
               </div>
             </Paper>
           ) : null}

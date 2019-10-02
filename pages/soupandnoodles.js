@@ -9,11 +9,13 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
@@ -78,7 +80,7 @@ const soupAndNoodles = [
     id: 8,
     name: "Udon / Ramen Combo",
     description:
-      "Choose 1 item with Ramen or Udon: Sushi (5 pieces), Sashimi (6 pieces), California Cut Roll (8 pieces), or Spicy Tuna Cut Roll (8 pieces)",
+      "Choose 1 item with Ramen or Udon: Sushi (5), Sashimi (6), California Cut Roll, or Spicy Tuna Cut Roll",
     price: 13.95,
     image: ". ",
     largeImage: ""

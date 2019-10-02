@@ -9,126 +9,139 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
 const freshRolls = [
   {
-    id: 0,
-    name: "Aguachile Roll",
-    description: "shrimp, avocado, cucumber, aguachile sauce",
-    price: 12.95,
-    image: "",
-    largeImage: ""
-  },
-  {
     id: 1,
-    name: "Yellowtail Delight Roll",
+    name: "X Girl Friend Roll",
     description:
-      "spicy tuna, cucumber, yellowtail, jalapeno, red onion, masago, and ponzu sauce",
-    price: 12.99,
-    image: "",
+      "spicy crab, tuna, salmon, yellowtail, green onion, masago, chili oil",
+    price: 13.95,
+    image: "../static/items/freshRolls/XGirlFriendRoll.jpg",
     largeImage: ""
   },
   {
     id: 2,
-    name: "Hawaiian Roll",
-    description:
-      "spicy tuna roll topped with tuna, masago, green onion and goma sauce",
-    price: 12.99,
-    image: "",
+    name: "Aguachile Roll",
+    description: "shrimp, avocado, cucumber, aguachile sauce",
+    price: 12.95,
+    image: "../static/items/freshRolls/AguachileRoll.jpg",
     largeImage: ""
   },
   {
     id: 3,
-    name: "Cucumber Sashimi Roll",
-    description: "four kinds of fish, avocado, cucumber wrap",
+    name: "Yellowtail Delight Roll",
+    description:
+      "spicy tuna, cucumber, yellowtail, jalapeno, red onion, masago, and yuzu or ponzu sauce",
     price: 12.99,
-    image: "",
+    image: "../static/items/freshRolls/YellowtailDelightRoll.jpg",
     largeImage: ""
   },
   {
     id: 4,
-    name: "Sakura Roll",
+    name: "Hawaiian Roll",
     description:
-      "tuna, salmon, yellowtail, white fish, crab, asparagus, soy paper wrap, ponzu and house sauce.",
+      "spicy tuna roll topped with tuna, masago, green onion and spicy goma sauce",
     price: 12.99,
-    image: "../static/ph.png",
+    image: "../static/items/freshRolls/HawaiianRoll.jpg",
     largeImage: ""
   },
   {
     id: 5,
-    name: "Sexy Salmon Roll",
-    description: "salmon, crab, avocado, and cucumber wrap",
-    price: 12.95,
-    image: "../static/ph.png",
+    name: "Cucumber Sashimi Roll",
+    description: "four kinds of fish, avocado, cucumber wrap",
+    price: 12.99,
+    image: "../static/items/freshRolls/CucumberSashimiRoll.jpg",
     largeImage: ""
   },
   {
     id: 6,
-    name: "Lemon Roll",
-    description: "California roll, salmon, sliced lemon on top",
-    price: 11.95,
-    image: "../static/ph.png",
+    name: "Sakura Roll",
+    description:
+      "tuna, salmon, yellowtail, white fish, crab, asparagus, soy paper wrap, ponzu or yuzu sauce",
+    price: 12.99,
+    image: "../static/items/freshRolls/SakuraRoll.jpg",
     largeImage: ""
   },
   {
     id: 7,
-    name: "Mexican Roll",
-    description: "spicy shrimp, crab roll, avocado, spicy mayo and hot sauce",
-    price: 10.95,
-    image: "../static/ph.png",
+    name: "Sexy Salmon Roll",
+    description: "salmon, crab, avocado, cucumber wrap, and ponzu sauce",
+    price: 12.95,
+    image: "",
     largeImage: ""
   },
   {
     id: 8,
-    name: "Spicy Albacore Crunch Roll",
-    description:
-      "spicy tuna, cucumber, yellowtail, jalapeno, red onion, masago, and ponzu sauce",
+    name: "Lemon Roll",
+    description: "California roll, salmon, sliced lemon, and mustard sauce",
     price: 11.95,
-    image: "../static/ph.png",
+    image: "../static/items/freshRolls/LemonRoll.jpg",
     largeImage: ""
   },
   {
     id: 9,
-    name: "Albacore Delight Roll",
-    description:
-      "albacore, crab, red onion, green onion, masago, garlic, and ponzu sauce",
-    price: 11.95,
-    image: " ",
+    name: "Mexican Roll",
+    description: "spicy shrimp, crab, avocado, spicy mayo and hot sauce",
+    price: 10.95,
+    image: "../static/items/freshRolls/MexicanRoll.jpg",
     largeImage: ""
   },
   {
     id: 10,
-    name: "Mango Tango Roll",
-    description: "shrimp tempura, cucumber, mango, avocado and salmon on top",
-    price: 10.95,
-    image: " ",
+    name: "Spicy Albacore Crunch Roll",
+    description:
+      "shrimp tempura, crunch crab, albacore, deep fried garlic, and spicy ponzu sauce",
+    price: 11.95,
+    image: "../static/items/freshRolls/SpicyAlbacoreCrunchRoll.jpg",
     largeImage: ""
   },
   {
     id: 11,
-    name: "Mango Mania Roll",
-    description: "avocado, cucumber, mango, fresh salmon on top",
-    price: 10.95,
-    image: " ",
+    name: "Albacore Delight Roll",
+    description:
+      "albacore, crab, red onion, green onion, masago, garlic, and ponzu sauce",
+    price: 11.95,
+    image: "../static/items/freshRolls/AlbacoreDelightRoll.jpg",
     largeImage: ""
   },
   {
     id: 12,
+    name: "Mango Tango Roll",
+    description:
+      "shrimp tempura, cucumber, mango, salmon, avocado on top, goma and sweet mayo sauce",
+    price: 10.95,
+    image: "../static/items/freshRolls/MangoTangoRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 13,
+    name: "Mango Mania Roll",
+    description:
+      "avocado, cucumber, mango, fresh salmon on top, goma and sweet mayo sauce",
+    price: 10.95,
+    image: "../static/items/freshRolls/MangoManiaRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 14,
     name: "Alaskan Roll",
-    description: "spicy tuna roll topped with salmon",
+    description: "spicy tuna roll topped with salmon, and spicy goma sauce",
     price: 11.95,
     image: " ",
     largeImage: ""
   },
   {
-    id: 13,
+    id: 15,
     name: "Rainbow Roll",
     description: "California roll topped with four kinds of fish and avocado",
     price: 12.95,
@@ -136,20 +149,29 @@ const freshRolls = [
     largeImage: ""
   },
   {
-    id: 14,
+    id: 16,
     name: "911 Roll",
     description: "spicy tuna, avocado, chili oil, hot and sweet sauce",
     price: 10.95,
-    image: " ",
+    image: "../static/items/freshRolls/911Roll.jpg",
     largeImage: ""
   },
   {
-    id: 15,
-    name: "X Girl Friend Roll",
+    id: 17,
+    name: "Red Dragon Roll",
     description:
-      "spicy crab, tuna, salmon, yellowtail, green onion, masago, chili oil on top",
-    price: 13.95,
-    image: "",
+      "spicy California roll, deep fried jalapeno, tuna, spicy mayo, chili oil, and hot sauce",
+    price: 12.95,
+    image: "../static/items/freshRolls/RedDragonRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 18,
+    name: "Sun-Burn Roll",
+    description:
+      "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
+    price: 11.95,
+    image: "../static/items/freshRolls/SunBurnRoll.jpg",
     largeImage: ""
   }
 ];

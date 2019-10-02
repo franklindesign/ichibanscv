@@ -9,11 +9,13 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
@@ -38,7 +40,7 @@ const sushicombos = [
     id: 3,
     name: "Sashimi Donbury",
     description:
-      "sashimi on sushi rice and spring mix with masago, seaweed salad, hot sauce, sesame oil and seed",
+      "tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
     price: 15.95,
     image: "",
     largeImage: ""
@@ -47,7 +49,7 @@ const sushicombos = [
     id: 4,
     name: "Ichiban Poke Bowl",
     description:
-      "tuna, salmon, scallop on sushi rice and spring mix top with seaweed salad, crab meat and avocado",
+      "tuna, salmon, scallop on sushi rice & spring mix top with seaweed salad, crab meat and avocado",
     price: 15.95,
     image: "",
     largeImage: ""
@@ -55,8 +57,7 @@ const sushicombos = [
   {
     id: 5,
     name: "Special Sushi Combo",
-    description:
-      "served with miso soup, 10 pieces sushi with California roll or spicy tuna roll",
+    description: "10 pieces of sushi with California or spicy tuna roll",
     price: 19.95,
     image: "",
     largeImage: ""
@@ -64,7 +65,8 @@ const sushicombos = [
   {
     id: 6,
     name: "Special Sashimi Combo",
-    description: "served with miso soup, 12 pieces sashimi",
+    description:
+      "12 pieces sashimi: tuna, salmon, albacore, ocean striped bass",
     price: 21.95,
     image: "",
     largeImage: ""

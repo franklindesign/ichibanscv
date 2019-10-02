@@ -146,7 +146,11 @@ export default function happyhour() {
   const classes = useStyles();
   return (
     <Layout>
-      <img src="../static/happyhour.jpg" width="100%"></img>
+      <img
+        src="../static/ichiban-happyhour-1440x600.jpg"
+        width="100%"
+        loading="lazy"
+      ></img>
       <Container maxWidth="md">
         <div className={classes.root}>
           <Grid container spacing={3}>

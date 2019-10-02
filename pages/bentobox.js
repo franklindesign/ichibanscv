@@ -9,11 +9,13 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
+    marginBottom: 50
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
+    marginBottom: 25
   }
 }));
 
@@ -110,9 +112,20 @@ export default function BentoBox() {
             <Grid item xs={12}>
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
-                <Typography variant="h6" id="bentoboxes">
+                <Typography variant="h4" id="bentoboxes">
                   Bento Boxes
                 </Typography>
+                <p>Served with steamed rice, soup, salad & tempura.</p>
+                <p>(No substitutes and double order sushi & sashimi</p>
+                <p>
+                  <strong>Lunch: 12.95</strong>
+                </p>
+                <p>
+                  <strong>Dinner: 15.95</strong>
+                </p>
+                <p>
+                  <strong>Choose 2 Items for your bento:</strong>{" "}
+                </p>
               </div>
             </Grid>
 
