@@ -12,11 +12,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/freshrolls": [
+    "/happyhour": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/next/dist/pages/_error": [
+    "/menu": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

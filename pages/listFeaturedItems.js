@@ -7,6 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import Chip from "@material-ui/core/Chip";
+import Link from "../src/Link";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -77,24 +79,31 @@ export default function ListFeaturedItems() {
         {items.map(item => (
           <Grid item xs={12} sm={6} md={4} key={item.id}>
             <Card className={classes.card}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  alt="Contemplative Reptile"
-                  height="240"
-                  image={`${item.src}`}
-                  title={`${item.title}`}
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    {item.title}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
+              <CardMedia
+                component="img"
+                alt={`${item.title}`}
+                height="240"
+                image={`${item.src}`}
+                title={`${item.title}`}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  {item.title}
+                </Typography>
+                <Chip
+                  variant="outlined"
+                  color="secondary"
+                  size="small"
+                  label={`${item.categories}`}
+                ></Chip>
+              </CardContent>
+
               <CardActions>
-                <Button size="small" color="primary">
-                  More Items Like This
-                </Button>
+                <Link href={`${item.link}`}>
+                  <Button size="small" color="primary">
+                    More Items Like This
+                  </Button>
+                </Link>
               </CardActions>
             </Card>
           </Grid>

@@ -817,7 +817,7 @@ const theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["createMuiTh
       main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][500]
     },
     secondary: {
-      main: "#ccc"
+      main: "#F46523"
     },
     error: {
       main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"].A400

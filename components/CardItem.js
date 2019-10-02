@@ -14,7 +14,10 @@ const useStyles = makeStyles(theme => ({
     flexDirection: "column",
     width: "100%",
     height: "150px",
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    [theme.breakpoints.down("sm")]: {
+      height: "180px"
+    }
   },
   content: {
     textAlign: "left"
