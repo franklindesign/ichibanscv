@@ -79,26 +79,34 @@ export default function ButtonAppBar() {
           </Typography>
 
           <div className={classes.sectionDesktop}>
-            <Button color="inherit" className={classes.button}>
-              <Link href="/menu">Menu</Link>
-            </Button>
-            <Button color="inherit" className={classes.button}>
-              <Link href="/happyhour">Happy Hour!</Link>
-            </Button>
-            <Button color="inherit" className={classes.button}>
-              <Link href="/ayce">All You Can Eat</Link>
-            </Button>
-            <Button color="inherit" className={classes.button}>
-              <Link
-                href="https://goo.gl/maps/qBwuJL1U36P6FE238"
-                target="_blank"
-              >
-                Location
-              </Link>
+            <Link href="/menu">
+              <Button color="inherit" className={classes.button}>
+                Menu
+              </Button>
+            </Link>
+            <Link href="/happyhour">
+              <Button color="inherit" className={classes.button}>
+                Happy Hour!
+              </Button>
+            </Link>
+            <Link href="/ayce">
+              <Button color="inherit" className={classes.button}>
+                All You Can Eat
+              </Button>
+            </Link>
+
+            <Button
+              color="primary"
+              className={classes.button}
+              href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+              target="_blank"
+            >
+              Location
             </Button>
 
             <Button
               className={classes.ubereats}
+              color="primary"
               href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
               target="_blank"
             >
@@ -110,12 +118,9 @@ export default function ButtonAppBar() {
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
+            onClick={handleClick}
           >
-            <MenuIcon
-              aria-controls="simple-menu"
-              aria-haspopup="true"
-              onClick={handleClick}
-            />
+            <MenuIcon aria-controls="simple-menu" aria-haspopup="true" />
             <Menu
               id="simple-menu"
               anchorEl={anchorEl}
@@ -123,35 +128,27 @@ export default function ButtonAppBar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>
-                <Link href="/">Home</Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link href="/menu">Menu</Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link href="/happyhour">Happy Hour</Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link href="/ayce">AYCE</Link>{" "}
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link
-                  href="https://goo.gl/maps/qBwuJL1U36P6FE238"
-                  target="_blank"
-                >
-                  Location
-                </Link>
-              </MenuItem>
-
-              <MenuItem onClick={handleClose}>
-                <Link
-                  href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
-                  target="_blank"
-                >
-                  UberEats
-                </Link>{" "}
-              </MenuItem>
+              <Link href="/">
+                <MenuItem onClick={handleClose}>Home</MenuItem>
+              </Link>{" "}
+              <Link href="/menu">
+                <MenuItem onClick={handleClose}>Menu</MenuItem>
+              </Link>
+              <Link href="/happyhour">
+                <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
+              </Link>{" "}
+              <Link href="/ayce">
+                <MenuItem onClick={handleClose}>AYCE</MenuItem>
+              </Link>{" "}
+              <a href="https://goo.gl/maps/qBwuJL1U36P6FE238" target="_blank">
+                <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
+              </a>
+              <a
+                href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
+                target="_blank"
+              >
+                <MenuItem onClick={handleClose}>UberEats</MenuItem>
+              </a>{" "}
             </Menu>
           </IconButton>
         </Toolbar>

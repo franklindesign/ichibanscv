@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
+import UberEats from "../components/UberEats";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -87,7 +88,6 @@ export default function BakedRolls() {
                 </Typography>
               </div>
             </Grid>
-
             {bakedRolls.map(bakedRoll => (
               <Grid item xs={12} sm={6} key={bakedRoll.name}>
                 <CardItem
@@ -99,6 +99,9 @@ export default function BakedRolls() {
                 ></CardItem>
               </Grid>
             ))}
+            <Grid item xs={12}>
+              <UberEats></UberEats>
+            </Grid>
           </Grid>
         </div>
       </Container>

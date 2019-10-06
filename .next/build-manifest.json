@@ -12,11 +12,55 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/beerwine": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/beverages": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/hotappetizers": [
+    "/coldappetizers": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/dessert": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/email": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/freshrolls": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kidsmenu": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/menu": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/sake": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/salad": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/sashimicombo": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/sushicombo": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

@@ -55534,7 +55534,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/franklinmanghi/Desktop/nextjs-ichiban/pages/_app.js";
+var _jsxFileName = "/Users/franklinmanghi/Desktop/ichiban/nextjs-ichiban/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
@@ -55644,7 +55644,7 @@ var theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["createMuiThem
   palette: {
     type: "light",
     primary: {
-      main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][500]
+      main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][50]
     },
     secondary: {
       main: "#F46523"

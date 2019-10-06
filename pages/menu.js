@@ -105,17 +105,14 @@ export default function menu() {
           <Typography variant="h4" id="freshrolls">
             Categories
           </Typography>
-          <p>
-            *Menu is subject to change. Please confirm with server for item
-            availability.
-          </p>
+          <p>*Menu is subject to changes.</p>
           <Grid
             container
             spacing={3}
             style={{ marginTop: "20px", marginBottom: "50px" }}
           >
             {categories.map(category => (
-              <Grid item xs={6} sm={6} md={3}>
+              <Grid item xs={6} sm={6} md={3} key={category.name}>
                 <Link href={`${category.link}`}>
                   <Card
                     className={classes.card}

@@ -44,8 +44,10 @@ const sushi = [
   "White Fish"
 ];
 
-const listSushi = sushi.map(sushi => (
-  <li style={{ padding: "5px" }}>{sushi}</li>
+const listSushi = sushi.map((sushi, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {sushi}
+  </li>
 ));
 
 const specialSushis = [
@@ -58,8 +60,10 @@ const specialSushis = [
   "Spanish Mackerel"
 ];
 
-const listSpecialSushi = specialSushis.map(specialSushi => (
-  <li style={{ padding: "5px" }}>{specialSushi}</li>
+const listSpecialSushi = specialSushis.map((specialSushi, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {specialSushi}
+  </li>
 ));
 
 const regularRolls = [
@@ -81,8 +85,10 @@ const regularRolls = [
   "Philadelphia Roll"
 ];
 
-const listRegularRolls = regularRolls.map(regularRoll => (
-  <li style={{ padding: "5px" }}>{regularRoll}</li>
+const listRegularRolls = regularRolls.map((regularRoll, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {regularRoll}
+  </li>
 ));
 
 const freshRolls = [
@@ -104,8 +110,10 @@ const freshRolls = [
   "Mango Mania Roll"
 ];
 
-const listFreshRolls = freshRolls.map(freshRoll => (
-  <li style={{ padding: "5px" }}>{freshRoll}</li>
+const listFreshRolls = freshRolls.map((freshRoll, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {freshRoll}
+  </li>
 ));
 
 const tempuraRolls = [
@@ -125,8 +133,10 @@ const tempuraRolls = [
   "Sun-Burn Roll"
 ];
 
-const listTempuraRolls = tempuraRolls.map(tempuraRoll => (
-  <li style={{ padding: "5px" }}>{tempuraRoll}</li>
+const listTempuraRolls = tempuraRolls.map((tempuraRoll, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {tempuraRoll}
+  </li>
 ));
 
 const bakedRolls = [
@@ -138,8 +148,10 @@ const bakedRolls = [
   "Sunset Roll"
 ];
 
-const listBakedRolls = bakedRolls.map(bakedRoll => (
-  <li style={{ padding: "5px" }}>{bakedRoll}</li>
+const listBakedRolls = bakedRolls.map((bakedRoll, index) => (
+  <li style={{ padding: "5px" }} key={index}>
+    {bakedRoll}
+  </li>
 ));
 
 export default function happyhour() {

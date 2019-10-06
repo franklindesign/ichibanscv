@@ -9,6 +9,7 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
+    height: "100vh",
     marginTop: 50,
     marginBottom: 50
   },

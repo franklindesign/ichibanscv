@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
+import { Modal } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -193,7 +194,7 @@ export default function menu() {
             </Grid>
 
             {freshRolls.map(freshRoll => (
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6} key={freshRoll.id}>
                 <CardItem
                   key={freshRoll.id}
                   itemName={{ text: `${freshRoll.name}` }}

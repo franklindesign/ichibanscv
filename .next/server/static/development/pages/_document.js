@@ -1115,7 +1115,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/theme */ "./src/theme.js");
 
 
-var _jsxFileName = "/Users/franklinmanghi/Desktop/nextjs-ichiban/pages/_document.js";
+var _jsxFileName = "/Users/franklinmanghi/Desktop/ichiban/nextjs-ichiban/pages/_document.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -1273,7 +1273,7 @@ const theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["createMuiTh
   palette: {
     type: "light",
     primary: {
-      main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][500]
+      main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][50]
     },
     secondary: {
       main: "#F46523"

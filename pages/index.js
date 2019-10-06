@@ -20,6 +20,10 @@ export default function Index() {
           name="keywords"
           content="Ichiban Sushi, Ichiban Sushi & Bar, Santa Clarita Sushi, Sushi, Ichiban Canyon Country, Ichiban Santa Clarita, Ichiban SCV, ichibanscv, Ichiban Sushi Rolls, Ichiban Bar, Ichiban All You Can Eat, Ichiban ayce, Ichiban all-you-can-eat, ayce sushi santa clarita, ayce sushi, ayce scv, ichiban sushi delivery, ubereats ichiban, ubereats, ichiban happy hour"
         ></meta>
+        <meta
+          name="google-site-verification"
+          content="OINQBuObmtSiXbJalJ3dmBaSvK0lJaUUybkptctbx80"
+        />
         <meta name="author" content="FranklinDesign (designbyfranklin.com)" />
       </Head>
       <Layout>

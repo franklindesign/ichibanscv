@@ -9,7 +9,6 @@ import Link from "../src/Link";
 const useStyles = makeStyles(theme => ({
   root: {
     position: "absolute",
-
     right: "5%",
     [theme.breakpoints.up("md")]: {
       right: "5%"
@@ -27,12 +26,24 @@ const useStyles = makeStyles(theme => ({
     right: 0,
     left: 0,
     marginTop: 10,
-    height: 460,
-    width: 130
+    height: 470,
+    width: 140,
+    padding: 0
   },
   list: {
-    margin: theme.spacing(1)
-    // Selects every two elements among any group of siblings.
+    listStyleType: "none",
+    padding: 4,
+    width: "100%",
+    "&:hover": {
+      backgroundColor: "#D1D2D4",
+      color: "#000"
+    }
+  },
+  link: {
+    color: "#EE1C25"
+  },
+  droplist: {
+    marginLeft: -30
   }
 }));
 
@@ -48,6 +59,73 @@ export default function ClickAway() {
     setOpen(false);
   };
 
+  const categories = [
+    {
+      category: "Fresh Rolls",
+      link: "/freshrolls"
+    },
+    {
+      category: "Tempura Rolls",
+      link: "/tempurarolls"
+    },
+    {
+      category: "Baked Rolls",
+      link: "/bakedrolls"
+    },
+    {
+      category: "Sushi Combo",
+      link: "/sushicombo"
+    },
+    {
+      category: "Sashimi Combo",
+      link: "/sashimicombo"
+    },
+    {
+      category: "Appetizers (Cold)",
+      link: "/coldappetizers"
+    },
+    {
+      category: "Appetizers (Hot)",
+      link: "/hotappetizers"
+    },
+    {
+      category: "Soup & noodles",
+      link: "/soupandnoodles"
+    },
+    {
+      category: "Salads",
+      link: "/salad"
+    },
+    {
+      category: "Entrees",
+      link: "/entrees"
+    },
+    {
+      category: "Bento Box",
+      link: "/bentobox"
+    },
+    {
+      category: "Kid's Menu",
+      link: "/kidsmenu"
+    },
+    {
+      category: "Dessert",
+      link: "/dessert"
+    },
+    {
+      category: "Beverages",
+      link: "/beverages"
+    },
+    {
+      category: "Beer & Wine",
+      link: "/beerwine"
+    },
+    {
+      category: "Sake",
+      link: "/sake"
+    }
+  ];
+
   return (
     <div className={classes.root}>
       <ClickAwayListener onClickAway={handleClickAway}>
@@ -59,54 +137,17 @@ export default function ClickAway() {
 
           {open ? (
             <Paper className={classes.paper}>
-              <div className={classes.list}>
-                <Link href="/freshrolls">Fresh Rolls</Link>{" "}
-              </div>{" "}
-              <div className={classes.list}>
-                <Link href="/tempurarolls">Tempura Rolls</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/bakedrolls">Baked Rolls</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/sushicombo">Sushi Combos</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/sashimicombo">Sashimi Combo</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/coldappetizers">Appetizers (Cold)</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/hotappetizers">Appetizers (Hot)</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/soupandnoodles">Soup & noodles</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/salad">Salads</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/entrees">Entrees</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/bentobox">Bento Box</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/kidsmenu">Kid's Menu</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/dessert">Dessert</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/beverages">Beverages</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/beerwine">Beer & Wine</Link>{" "}
-              </div>
-              <div className={classes.list}>
-                <Link href="/sake">Sake</Link>{" "}
-              </div>
+              <ul className={classes.droplist}>
+                {categories.map((category, index) => (
+                  <Link
+                    href={`${category.link}`}
+                    className={classes.link}
+                    key={index}
+                  >
+                    <li className={classes.list}>{category.category}</li>
+                  </Link>
+                ))}
+              </ul>
             </Paper>
           ) : null}
         </div>
