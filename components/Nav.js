@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
   button: {
     margin: theme.spacing(2)
   },
-  link: { color: theme.primary },
+  link: { color: "#000", textDecoration: "none" },
 
   menuButton: {
     marginRight: theme.spacing(2),
@@ -116,11 +116,14 @@ export default function ButtonAppBar() {
           <IconButton
             edge="start"
             className={classes.menuButton}
-            color="inherit"
+            color="primary"
             aria-label="menu"
-            onClick={handleClick}
           >
-            <MenuIcon aria-controls="simple-menu" aria-haspopup="true" />
+            <MenuIcon
+              onClick={handleClick}
+              aria-controls="simple-menu"
+              aria-haspopup="true"
+            />
             <Menu
               id="simple-menu"
               anchorEl={anchorEl}
@@ -128,24 +131,29 @@ export default function ButtonAppBar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <Link href="/">
+              <Link href="/" className={classes.link}>
                 <MenuItem onClick={handleClose}>Home</MenuItem>
               </Link>{" "}
-              <Link href="/menu">
+              <Link href="/menu" className={classes.link}>
                 <MenuItem onClick={handleClose}>Menu</MenuItem>
               </Link>
-              <Link href="/happyhour">
+              <Link href="/happyhour" className={classes.link}>
                 <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
               </Link>{" "}
-              <Link href="/ayce">
+              <Link href="/ayce" className={classes.link}>
                 <MenuItem onClick={handleClose}>AYCE</MenuItem>
               </Link>{" "}
-              <a href="https://goo.gl/maps/qBwuJL1U36P6FE238" target="_blank">
+              <a
+                href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+                target="_blank"
+                className={classes.link}
+              >
                 <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
               </a>
               <a
                 href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
                 target="_blank"
+                className={classes.link}
               >
                 <MenuItem onClick={handleClose}>UberEats</MenuItem>
               </a>{" "}
