@@ -65,7 +65,7 @@ export default function Entrees() {
             <Grid item xs={12}>
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
-                <Typography variant="h6" id="dessert">
+                <Typography variant="h4" id="dessert">
                   Dessert
                 </Typography>
               </div>

@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
     height: "50px",
     textDecoration: "none",
     backgroundColor: "#3e9920",
-    color: "#ffffff",
+
     borderRadius: "50px",
     padding: 15,
     fontSize: 16,
@@ -17,8 +17,9 @@ const useStyles = makeStyles(theme => ({
       marginLeft: "75%"
     },
     "&:hover": {
-      background: "#ccc",
-      color: "#3e9920"
+      background: "#000",
+      color: "#3e9920",
+      textDecoration: "none"
     }
   }
 }));
@@ -31,6 +32,10 @@ export default function UberEats() {
         <a
           href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
           target="_blank"
+          style={{
+            textDecoration: "none",
+            color: "#ffffff"
+          }}
         >
           Place an order with UberEats →{" "}
         </a>

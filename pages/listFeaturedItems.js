@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
+
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -19,6 +19,9 @@ const useStyles = makeStyles(theme => ({
   card: {
     maxWidth: "100vw",
     marginTop: 25
+  },
+  more: {
+    color: "#F6A9CD"
   }
 }));
 
@@ -35,14 +38,14 @@ const items = [
     title: "Spicy Tuna on Rice Cake",
     src: "../static/featuredItems/featuredItem02.jpg",
     categories: "Appetizer",
-    link: "/freshrolls"
+    link: "/coldappetizers"
   },
   {
     id: 3,
     title: "Ramen Combo",
     src: "../static/featuredItems/featuredItem03.jpg",
-    categories: "Combo Special",
-    link: "/freshrolls"
+    categories: "Soup & Noodle",
+    link: "/soupandnoodles"
   },
   {
     id: 4,
@@ -100,7 +103,7 @@ export default function ListFeaturedItems() {
 
               <CardActions>
                 <Link href={`${item.link}`}>
-                  <Button size="small" color="primary">
+                  <Button size="small" className={classes.more}>
                     More Items Like This
                   </Button>
                 </Link>

@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import { Modal } from "@material-ui/core";
+import UberEats from "../components/UberEats";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -205,6 +206,7 @@ export default function menu() {
               </Grid>
             ))}
           </Grid>
+          <UberEats></UberEats>
         </div>
       </Container>
     </Layout>

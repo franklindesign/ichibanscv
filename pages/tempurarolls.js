@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
+import UberEats from "../components/UberEats";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -176,6 +177,7 @@ export default function TempuraRolls() {
               </Grid>
             ))}
           </Grid>
+          <UberEats></UberEats>
         </div>
       </Container>
     </Layout>
