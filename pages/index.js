@@ -7,6 +7,8 @@ import Container from "@material-ui/core/Container";
 // import BigSlider from "../components/BigSlider";
 import ListFeaturedItems from "./listFeaturedItems";
 import Hero from "..//components/Hero";
+import Mailchimp from "../components/Mailchimp";
+import OrderWith from "../components/OrderWith";
 
 export default function Index() {
   return (
@@ -31,8 +33,13 @@ export default function Index() {
           <Hero></Hero>
           {/* <BigSlider></BigSlider> */}
         </div>
+
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
+          <Mailchimp></Mailchimp>
           <ListFeaturedItems></ListFeaturedItems>
+          <div style={{ marginTop: 40, marginBottom: 20 }}>
+            <OrderWith></OrderWith>
+          </div>
         </Container>
       </Layout>
     </>

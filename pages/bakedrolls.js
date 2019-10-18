@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import UberEats from "../components/UberEats";
+import OrderWith from "../components/OrderWith";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -99,10 +100,8 @@ export default function BakedRolls() {
                 ></CardItem>
               </Grid>
             ))}
-            <Grid item xs={12}>
-              <UberEats></UberEats>
-            </Grid>
           </Grid>
+          <OrderWith></OrderWith>
         </div>
       </Container>
     </Layout>

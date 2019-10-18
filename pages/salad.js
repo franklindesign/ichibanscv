@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
-import UberEats from "../components/UberEats";
+import OrderWith from "../components/OrderWith";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -109,7 +109,7 @@ export default function Salad() {
               </Grid>
             ))}
           </Grid>
-          <UberEats></UberEats>
+          <OrderWith></OrderWith>
         </div>
       </Container>
     </Layout>

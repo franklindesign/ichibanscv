@@ -9,6 +9,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Link from "../src/Link";
+import MapIcon from "@material-ui/icons/Map";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -101,16 +102,7 @@ export default function ButtonAppBar() {
               href="https://goo.gl/maps/qBwuJL1U36P6FE238"
               target="_blank"
             >
-              Location
-            </Button>
-
-            <Button
-              className={classes.ubereats}
-              color="primary"
-              href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
-              target="_blank"
-            >
-              UberEats
+              <MapIcon style={{ marginRight: 5 }}></MapIcon> Location
             </Button>
           </div>
           <IconButton
@@ -149,6 +141,13 @@ export default function ButtonAppBar() {
                 className={classes.link}
               >
                 <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
+              </a>
+              <a
+                href="https://grubhub.com/restaurant/r/1437256"
+                target="_blank"
+                className={classes.link}
+              >
+                <MenuItem onClick={handleClose}>GrubHub</MenuItem>
               </a>
               <a
                 href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"

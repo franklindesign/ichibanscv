@@ -7,12 +7,11 @@ const useStyles = makeStyles(theme => ({
     marginTop: 5,
     height: "50px",
     textDecoration: "none",
-    backgroundColor: "#3e9920",
+    backgroundColor: "#F93039",
 
     borderRadius: "50px",
     padding: 15,
     fontSize: 16,
-
     "&:hover": {
       background: "#000",
       color: "#3e9920",
@@ -21,22 +20,22 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function UberEats() {
+export default function GrubHub() {
   const classes = useStyles();
   return (
     <>
-      <button className={classes.root}>
+      <div className={classes.root}>
         <a
-          href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
+          href="https://grubhub.com/restaurant/r/1437256"
           target="_blank"
           style={{
             textDecoration: "none",
             color: "#ffffff"
           }}
         >
-          Order with UberEats
+          Order with GrubHub
         </a>
-      </button>
+      </div>
     </>
   );
 }
