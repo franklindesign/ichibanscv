@@ -25,9 +25,10 @@ export default function Mailchimp() {
         <Grid item xs={12} md={6}>
           <Button
             size="large"
-            variant="outlined"
+            variant="contained"
             color="secondary"
             href="http://eepurl.com/gED0XT"
+            rel="noopener"
           >
             Sign Up
           </Button>

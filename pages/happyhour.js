@@ -162,6 +162,7 @@ export default function happyhour() {
         src="../static/ichiban-happyhour-1440x600.jpg"
         width="100%"
         loading="lazy"
+        alt="Happy Hour"
       ></img>
       <Container maxWidth="md">
         <div className={classes.root}>

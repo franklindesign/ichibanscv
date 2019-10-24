@@ -29,6 +29,7 @@ export default function UberEats() {
         <a
           href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
           target="_blank"
+          rel="noopener"
           style={{
             textDecoration: "none",
             color: "#ffffff"

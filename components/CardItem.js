@@ -7,7 +7,14 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(theme => ({
   card: {
     display: "flex",
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
+    transition: "all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)",
+    transform: "translateY(0)",
+    "&:hover": {
+      boxShadow: "0 5px 15px rgba(0,0,0,0.5)",
+      transform: "translateY(-10px)"
+    }
   },
   details: {
     display: "flex",

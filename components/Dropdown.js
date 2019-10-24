@@ -9,6 +9,7 @@ import Link from "../src/Link";
 const useStyles = makeStyles(theme => ({
   root: {
     position: "absolute",
+    zIndex: "1",
     right: "5%",
     [theme.breakpoints.up("md")]: {
       right: "5%"

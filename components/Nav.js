@@ -73,6 +73,7 @@ export default function ButtonAppBar() {
             <img
               src="../static/ichiban_logo.png"
               className={classes.logo}
+              alt="Ichiban Sushi Logo"
             ></img>
           </Link>
           <Typography variant="h6" className={classes.title}>
@@ -101,6 +102,7 @@ export default function ButtonAppBar() {
               className={classes.button}
               href="https://goo.gl/maps/qBwuJL1U36P6FE238"
               target="_blank"
+              rel="noopener"
             >
               <MapIcon style={{ marginRight: 5 }}></MapIcon> Location
             </Button>
@@ -138,6 +140,7 @@ export default function ButtonAppBar() {
               <a
                 href="https://goo.gl/maps/qBwuJL1U36P6FE238"
                 target="_blank"
+                rel="noopener"
                 className={classes.link}
               >
                 <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
@@ -145,6 +148,7 @@ export default function ButtonAppBar() {
               <a
                 href="https://grubhub.com/restaurant/r/1437256"
                 target="_blank"
+                rel="noopener"
                 className={classes.link}
               >
                 <MenuItem onClick={handleClose}>GrubHub</MenuItem>
@@ -152,10 +156,11 @@ export default function ButtonAppBar() {
               <a
                 href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
                 target="_blank"
+                rel="noopener"
                 className={classes.link}
               >
                 <MenuItem onClick={handleClose}>UberEats</MenuItem>
-              </a>{" "}
+              </a>
             </Menu>
           </IconButton>
         </Toolbar>

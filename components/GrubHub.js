@@ -28,6 +28,7 @@ export default function GrubHub() {
         <a
           href="https://grubhub.com/restaurant/r/1437256"
           target="_blank"
+          rel="noopener"
           style={{
             textDecoration: "none",
             color: "#ffffff"

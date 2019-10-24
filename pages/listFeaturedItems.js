@@ -2,10 +2,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 
-import CardActions from "@material-ui/core/CardActions";
+// import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import Link from "../src/Link";
@@ -18,10 +18,28 @@ const useStyles = makeStyles(theme => ({
 
   card: {
     maxWidth: "100vw",
-    marginTop: 25
+    marginTop: 25,
+    boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
+    transition: "all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)",
+    transform: "translateY(0)",
+    "&:hover": {
+      boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+      transform: "translateY(-10px)"
+    }
   },
   more: {
-    color: "#F6A9CD"
+    color: "orange"
+  },
+  link: {
+    color: "black",
+    cursor: "pointer"
+  },
+  item: {
+    boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
+    transition: "boxShadow 0.3s ease-in-out",
+    "&:hover": {
+      boxShadow: "0 5px 15px rgba(0,0,0,0.3)"
+    }
   }
 }));
 
@@ -93,21 +111,22 @@ export default function ListFeaturedItems() {
                 <Typography gutterBottom variant="h5" component="h2">
                   {item.title}
                 </Typography>
-                <Chip
-                  variant="outlined"
-                  color="secondary"
-                  size="small"
-                  label={`${item.categories}`}
-                ></Chip>
+                <Link href={`${item.link}`} className={classes.link}>
+                  <Chip
+                    color="black"
+                    size="medium"
+                    label={`${item.categories}`}
+                  ></Chip>
+                </Link>
               </CardContent>
 
-              <CardActions>
+              {/* <CardActions>
                 <Link href={`${item.link}`}>
-                  <Button size="small" className={classes.more}>
+                  <Button size="large" className={classes.more}>
                     More Items Like This
                   </Button>
                 </Link>
-              </CardActions>
+              </CardActions> */}
             </Card>
           </Grid>
         ))}

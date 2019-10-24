@@ -29,6 +29,7 @@ export default function Copyright() {
         <a
           href="https://goo.gl/maps/qBwuJL1U36P6FE238"
           target="_blank"
+          rel="noopener"
           style={{ color: "#fff" }}
         >
           27625 Shangri-La Dr, Santa Clarita, CA 91351
