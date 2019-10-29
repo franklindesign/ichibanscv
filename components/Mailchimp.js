@@ -2,12 +2,17 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
+
+import Container from "@material-ui/core/Container";
 
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(3, 2),
     marginTop: 20
+  },
+  signup: {
+    backgroundColor: "#ccc",
+    padding: 20
   }
 }));
 
@@ -15,25 +20,29 @@ export default function Mailchimp() {
   const classes = useStyles();
 
   return (
-    <Paper className={classes.root}>
-      <Grid container spacing={2}>
-        <Grid xs={12} md={6} item>
-          <Typography variant="h6">
-            Get offers and coupons, subscribe to Ichiban Emails.
-          </Typography>
+    <div className={classes.root}>
+      <Container maxWidth="md" className={classes.signup}>
+        <Grid container spacing={1}>
+          <Grid xs={12} md={10}>
+            <Typography variant="h6">
+              Subscribe to Ichiban Emails for news, specials offers, and
+              discount coupons.
+            </Typography>
+          </Grid>
+          <Grid xs={12} md={2}>
+            <Button
+              size="large"
+              variant="contained"
+              color="secondary"
+              href="http://eepurl.com/gED0XT"
+              rel="noopener"
+              style={{ margin: 5 }}
+            >
+              Sign Up
+            </Button>
+          </Grid>
         </Grid>
-        <Grid item xs={12} md={6}>
-          <Button
-            size="large"
-            variant="contained"
-            color="secondary"
-            href="http://eepurl.com/gED0XT"
-            rel="noopener"
-          >
-            Sign Up
-          </Button>
-        </Grid>
-      </Grid>
-    </Paper>
+      </Container>
+    </div>
   );
 }

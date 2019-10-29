@@ -17,7 +17,8 @@ const useStyles = makeStyles(theme => ({
   },
   nav: { background: "#000" },
   button: {
-    margin: theme.spacing(2)
+    margin: theme.spacing(2),
+    fontSize: 18
   },
   link: { color: "#000", textDecoration: "none" },
 
