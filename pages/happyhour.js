@@ -164,7 +164,7 @@ export default function happyhour() {
         loading="lazy"
         alt="Happy Hour"
       ></img>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <div className={classes.root}>
           <Grid container spacing={3}>
             <Grid item xs={12}>

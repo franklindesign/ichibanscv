@@ -107,7 +107,7 @@ export default function menu() {
   const classes = useStyles();
   return (
     <Layout>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <div className={classes.root}>
           <Typography variant="h4" id="freshrolls">
             Categories
