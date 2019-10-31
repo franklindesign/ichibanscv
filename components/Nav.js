@@ -97,7 +97,11 @@ export default function ButtonAppBar() {
                 All You Can Eat
               </Button>
             </Link>
-
+            <Link href="/photos">
+              <Button color="inherit" className={classes.button}>
+                Photo Gallery
+              </Button>
+            </Link>
             <Button
               color="primary"
               className={classes.button}
@@ -128,16 +132,20 @@ export default function ButtonAppBar() {
             >
               <Link href="/" className={classes.link}>
                 <MenuItem onClick={handleClose}>Home</MenuItem>
-              </Link>{" "}
+              </Link>
               <Link href="/menu" className={classes.link}>
                 <MenuItem onClick={handleClose}>Menu</MenuItem>
               </Link>
               <Link href="/happyhour" className={classes.link}>
                 <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
-              </Link>{" "}
+              </Link>
+
               <Link href="/ayce" className={classes.link}>
                 <MenuItem onClick={handleClose}>AYCE</MenuItem>
-              </Link>{" "}
+              </Link>
+              <Link href="/photos" className={classes.link}>
+                <MenuItem onClick={handleClose}>Photos</MenuItem>
+              </Link>
               <a
                 href="https://goo.gl/maps/qBwuJL1U36P6FE238"
                 target="_blank"

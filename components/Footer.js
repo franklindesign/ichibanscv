@@ -33,38 +33,39 @@ export default function Copyright() {
       <Container maxWidth="lg">
         <Grid container spacing={3}>
           <Grid item xs={12} sm={4}>
-            <Typography align="center" variant="body1">
+            <div align="center">
               <AccessTimeIcon />
-              <p>
-                Open Hours: <br></br>11:30 AM to 10 PM
-              </p>
+            </div>
+            <Typography align="center" variant="body1">
+              Open Hours: <br></br>11:30 AM to 10 PM
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Typography align="center" variant="body1">
-              <a
-                href="https://goo.gl/maps/qBwuJL1U36P6FE238"
-                target="_blank"
-                rel="noopener"
-                className={classes.links}
-              >
+            <a
+              href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+              target="_blank"
+              rel="noopener"
+              className={classes.links}
+            >
+              <div align="center">
                 <MapIcon />
-                <p>
-                  27625 Shangri-La Dr. <br></br>Santa Clarita, CA 91351
-                </p>
-              </a>
-            </Typography>
+              </div>
+
+              <Typography align="center" variant="body1">
+                27625 Shangri-La Dr. <br></br>Santa Clarita, CA 91351
+              </Typography>
+            </a>
           </Grid>
 
           <Grid item xs={12} sm={4}>
-            <Typography align="center" variant="body1">
-              <a href="tel:+16613608526" className={classes.links}>
+            <a href="tel:+16613608526" className={classes.links}>
+              <div align="center">
                 <CallIcon />
-                <p>
-                  Give us a call: <br></br>(661) 360-8526
-                </p>
-              </a>
-            </Typography>
+              </div>
+              <Typography align="center" variant="body1">
+                Give us a call: <br></br>(661) 360-8526
+              </Typography>
+            </a>
           </Grid>
         </Grid>
 
