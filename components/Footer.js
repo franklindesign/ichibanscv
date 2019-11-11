@@ -11,13 +11,13 @@ const useStyles = makeStyles(theme => ({
   root: {
     background: "#000",
     color: "white",
-    height: 250,
+    height: 200,
     padding: "30px 30px",
     left: "0",
     bottom: "0",
     width: "100%",
     [theme.breakpoints.down("xs")]: {
-      height: 500
+      height: 400
     }
   },
   links: {

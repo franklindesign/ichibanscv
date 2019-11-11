@@ -1,8 +1,8 @@
 export const photos = [
   {
     src: "../static/photos/Yelp/Yelp-BrianaP.jpg",
-    width: 3,
-    height: 3,
+    width: 1,
+    height: 1,
     title: "Photo by Briana P. (Yelp)"
   },
   {
@@ -13,8 +13,8 @@ export const photos = [
   },
   {
     src: "../static/photos/Yelp/Yelp-JackH.jpg",
-    width: 3,
-    height: 3,
+    width: 1,
+    height: 1,
     title: "Photo by Jack H (Yelp)"
   },
   {
@@ -31,8 +31,8 @@ export const photos = [
   },
   {
     src: "../static/photos/Yelp/Yelp-ScottB.jpg",
-    width: 3,
-    height: 3,
+    width: 1,
+    height: 1,
     title: "Photo by Scott B. (Yelp)"
   },
   {
