@@ -11,12 +11,13 @@ const useStyles = makeStyles(theme => ({
     marginTop: 5
   },
   signup: {
-    backgroundColor: "#ccc",
+    backgroundColor: "#000",
+    color: "#fff",
     padding: 20
   }
 }));
 
-export default function Mailchimp() {
+export default function SpecialDiscount() {
   const classes = useStyles();
 
   return (
@@ -25,20 +26,20 @@ export default function Mailchimp() {
         <Grid container spacing={1}>
           <Grid xs={12} md={10}>
             <Typography variant="h6">
-              Subscribe to Ichiban Emails for news, specials offers, and
-              discount coupons.
+              Monday Night Football Special: <br></br>50% OFF ALL DRINKS.
+              Monday, 4pm - 10pm. Must Show Offer.
             </Typography>
           </Grid>
           <Grid xs={12} md={2}>
             <Button
               size="large"
               variant="contained"
-              color="secondary"
-              href="http://eepurl.com/gED0XT"
+              href="../static/coupons/MNF_Special.png"
               rel="noopener"
               style={{ margin: 5 }}
+              target="_blank"
             >
-              Sign Up
+              View Offer
             </Button>
           </Grid>
         </Grid>
