@@ -10,7 +10,7 @@ import Hero from "..//components/Hero";
 import Mailchimp from "../components/Mailchimp";
 import OrderWith from "../components/OrderWith";
 
-import SpecialDiscount from "../components/SpecialDiscount";
+// import SpecialDiscount from "../components/SpecialDiscount";
 
 export default function Index() {
   return (
@@ -37,7 +37,7 @@ export default function Index() {
         </div>
 
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
-          <SpecialDiscount></SpecialDiscount>
+          {/* <SpecialDiscount></SpecialDiscount> */}
           <Mailchimp></Mailchimp>
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 40, marginBottom: 20 }}>
