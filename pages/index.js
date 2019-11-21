@@ -5,12 +5,13 @@ import Container from "@material-ui/core/Container";
 // import Box from "@material-ui/core/Box";
 // import Link from "../src/Link";
 // import BigSlider from "../components/BigSlider";
-import ListFeaturedItems from "./listFeaturedItems";
-import Hero from "..//components/Hero";
+import ListFeaturedItems from "../components/listFeaturedItems";
+import Hero from "../components/Hero";
 import Mailchimp from "../components/Mailchimp";
 import OrderWith from "../components/OrderWith";
 
 // import SpecialDiscount from "../components/SpecialDiscount";
+import FeaturedVideo from "../components/featuredVideo";
 
 export default function Index() {
   return (
@@ -39,6 +40,7 @@ export default function Index() {
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
           {/* <SpecialDiscount></SpecialDiscount> */}
           <Mailchimp></Mailchimp>
+          <FeaturedVideo></FeaturedVideo>
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 40, marginBottom: 20 }}>
             <OrderWith></OrderWith>

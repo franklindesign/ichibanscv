@@ -17,10 +17,17 @@ const useStyles = makeStyles(theme => ({
   },
   nav: { background: "#000" },
   button: {
-    margin: theme.spacing(2),
-    fontSize: 18
+    margin: theme.spacing(1),
+    fontSize: 18,
+    [theme.breakpoints.down("md")]: {
+      fontSize: 14,
+      margin: theme.spacing(0)
+    }
   },
-  link: { color: "#000", textDecoration: "none" },
+  link: {
+    color: "#000",
+    textDecoration: "none"
+  },
 
   menuButton: {
     marginRight: theme.spacing(2),
@@ -99,7 +106,7 @@ export default function ButtonAppBar() {
             </Link>
             <Link href="/photos">
               <Button color="inherit" className={classes.button}>
-                Photo Gallery
+                Photos
               </Button>
             </Link>
             <Button
