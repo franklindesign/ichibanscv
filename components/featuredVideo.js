@@ -33,9 +33,9 @@ export default function FeaturedVideo() {
           width="100%"
           height="315"
           src="https://www.youtube.com/embed/7m9Olyoe9EU"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <Typography gutterBottom variant="h6" component="h1">
           <a

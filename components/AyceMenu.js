@@ -100,31 +100,50 @@ export default function ScrollableTabsButtonAuto() {
   ));
 
   const freshRolls = [
-    { id: 1, item: "Sakura Roll" },
-    { id: 2, item: "Lemon Roll" },
-    { id: 3, item: "Spicy Albacore Crunch Roll" },
-    { id: 4, item: "Rainbow Roll" },
-    { id: 5, item: "Alaskan Roll" },
-    { id: 6, item: "Albacore Delight Roll" },
-    { id: 7, item: "Mexican Roll" },
-    { id: 8, item: "Hawaiian Roll" },
-    { id: 9, item: "911 Roll" }
+    { id: 1, item: "Sexy on the Beach" },
+    { id: 2, item: "Spicy Tuna on Rice" },
+    { id: 3, item: "X Girl Friend Roll" },
+    { id: 4, item: "Aguachile Roll" },
+    { id: 5, item: "Yellowtail Delight Roll" },
+    { id: 6, item: "Hawaiian Roll" },
+    { id: 7, item: "Cucumber Sashimi Roll" },
+    { id: 8, item: "Sakura Roll" },
+    { id: 9, item: "Sexy Salmon Roll" },
+    { id: 10, item: "Lemon Roll" },
+    { id: 11, item: "Mexican Roll" },
+    { id: 12, item: "Spicy Albacore Crunch Roll" },
+    { id: 13, item: "Albacore Delight Roll" },
+    { id: 14, item: "Mango Tango Roll" },
+    { id: 15, item: "Mango Mania Roll" },
+    { id: 16, item: "Alaskan Roll" },
+    { id: 17, item: "Rainbow Roll" },
+    { id: 18, item: "911 Roll" },
+    { id: 19, item: "Red Dragon Roll" },
+    { id: 20, item: "Baja Roll (NEW!)" },
+    { id: 21, item: "Superman Burrito Roll (NEW!)" }
   ];
   const listFreshRolls = freshRolls.map(freshRoll => (
     <li key={freshRoll.id}>{freshRoll.item}</li>
   ));
 
   const tempuraRolls = [
-    { id: 1, item: "Crunch Roll" },
-    { id: 2, item: "Popcorn Lobster Roll" },
-    { id: 3, item: "Crunch Scallop Roll" },
-    { id: 4, item: "Heart Attack" },
-    { id: 5, item: "California Tempura Roll" },
-    { id: 6, item: "Tempura Roll" },
-    { id: 7, item: "Tiger Roll" },
-    { id: 8, item: "Vegas Roll" },
-    { id: 9, item: "Spicy Tuna Tempura Roll" },
-    { id: 10, item: "Spider Roll" }
+    { id: 1, item: "Spicy Shrimp & Crab Crunch Roll" },
+    { id: 2, item: "California Tempura Roll" },
+    { id: 3, item: "Avocado Crunch Roll" },
+    { id: 4, item: "Shrimp Tempura Roll" },
+    { id: 5, item: "Crunch Roll" },
+    { id: 6, item: "Amber Roll" },
+    { id: 7, item: "Spicy Tuna Tempura Roll" },
+    { id: 8, item: "Monkey Roll" },
+    { id: 9, item: "Dragon Roll" },
+    { id: 10, item: "Vegas Roll" },
+    { id: 11, item: "Spider Roll" },
+    { id: 12, item: "Popcorn Lobster Roll" },
+    { id: 13, item: "Crunch Scallop Roll" },
+    { id: 14, item: "Tiger Roll" },
+    { id: 15, item: "Fire Fire Roll" },
+    { id: 16, item: "Sun Burn Roll" },
+    { id: 17, item: "Heart Attack" }
   ];
 
   const listTempuraRolls = tempuraRolls.map(tempuraRoll => (
@@ -151,8 +170,7 @@ export default function ScrollableTabsButtonAuto() {
     { id: 4, item: "Sweet Shrimp" },
     { id: 5, item: "Soft Shell Crab" },
     { id: 6, item: "Oyster (2 Pieces)" },
-    { id: 7, item: "Oyster Ceviche (2 Pieces)" },
-    { id: 8, item: "Toro Sushi" }
+    { id: 7, item: "Oyster Ceviche (2 Pieces)" }
   ];
 
   const listSpecialtyItems = specialtyItems.map(specialtyItem => (
@@ -169,7 +187,7 @@ export default function ScrollableTabsButtonAuto() {
     { id: 7, item: "Mixed Tempura" },
     { id: 8, item: "Shrimp Tempura" },
     { id: 9, item: "Vegetable Tempura" },
-    { id: 10, item: "Garlic Edamame" },
+    { id: 10, item: "Spicy Garlic Edamame" },
     { id: 11, item: "Shishito Peppers" },
     { id: 12, item: "Spicy Tuna on Rice Cake" }
   ];

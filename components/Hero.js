@@ -3,7 +3,7 @@ export default function Hero() {
     <>
       <img
         style={{ width: "100%" }}
-        srcset="../static/heroes/ichiban-hero.jpg 320w,
+        srcSet="../static/heroes/ichiban-hero.jpg 320w,
              ../static/heroes/ichiban-hero.jpg 480w,
              ../static/heroes/ichiban-hero.jpg 800w"
         sizes="(max-width: 320px) 280px,

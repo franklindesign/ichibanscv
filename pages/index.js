@@ -9,6 +9,7 @@ import ListFeaturedItems from "../components/listFeaturedItems";
 import Hero from "../components/Hero";
 import Mailchimp from "../components/Mailchimp";
 import OrderWith from "../components/OrderWith";
+// import CardSlides from "../components/CardSlides";
 
 // import SpecialDiscount from "../components/SpecialDiscount";
 import FeaturedVideo from "../components/featuredVideo";
@@ -35,6 +36,7 @@ export default function Index() {
         <div>
           <Hero></Hero>
           {/* <BigSlider></BigSlider> */}
+          {/* <CardSlides></CardSlides> */}
         </div>
 
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
