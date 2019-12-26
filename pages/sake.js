@@ -25,7 +25,7 @@ const sakes = [
     name: "House Hot Sake (Small)",
     description: "",
     price: 3.5,
-    image: "",
+    image: "../static/items/sake/hotsake.jpg",
     largeImage: ""
   },
   {
@@ -33,7 +33,7 @@ const sakes = [
     name: "House Hot Sake (Large)",
     description: " ",
     price: 6.5,
-    image: "",
+    image: "../static/items/sake/sake.jpg",
     largeImage: ""
   },
   {
@@ -41,7 +41,7 @@ const sakes = [
     name: "Plum Hot Sake (Large)",
     description: " ",
     price: 8.5,
-    image: "",
+    image: "../static/items/sake/plumHotSake.jpg",
     largeImage: ""
   },
   {
@@ -49,7 +49,7 @@ const sakes = [
     name: "Soju",
     description: "Chamisul Original (375ml)",
     price: 12,
-    image: "",
+    image: "../static/items/sake/jinro_chamisul.jpg",
     largeImage: ""
   },
   {
@@ -57,7 +57,7 @@ const sakes = [
     name: "Soju (Flavored)",
     description: "Pineapple, Peach, or Blueberry (375ml)",
     price: 12,
-    image: "",
+    image: "../static/items/sake/chamisul_flavored.jpg",
     largeImage: ""
   },
   {
@@ -65,7 +65,7 @@ const sakes = [
     name: "Nigori",
     description: "cold sake, (300ml)",
     price: 12,
-    image: "",
+    image: "../static/items/sake/nigori.jpg",
     largeImage: ""
   },
   {
@@ -73,7 +73,7 @@ const sakes = [
     name: "Ginjo",
     description: "cold sake, (300ml)",
     price: 12,
-    image: "",
+    image: "../static/items/sake/ginjo.jpg",
     largeImage: ""
   },
   {
@@ -81,7 +81,7 @@ const sakes = [
     name: "Kikusui (Small)",
     description: "cold sake, (375ml)",
     price: 16,
-    image: "",
+    image: "../static/items/sake/kikusui.jpg",
     largeImage: ""
   },
   {
@@ -89,7 +89,7 @@ const sakes = [
     name: "Kikusui (Large)",
     description: "cold sake, (720ml)",
     price: 30,
-    image: "",
+    image: "../static/items/sake/kikusui_large.jpg",
     largeImage: ""
   },
 
@@ -99,7 +99,7 @@ const sakes = [
     description:
       "premium cold sake (300ml), Junmai Daiginjo, soft and smooth texture",
     price: "Ask Server",
-    image: "",
+    image: "../static/items/sake/kubota.jpg",
     largeImage: ""
   }
 ];
@@ -117,6 +117,7 @@ export default function Entrees() {
                 <Typography variant="h4" id="kidsMenu">
                   Sake
                 </Typography>
+                <p>Must be 21 or older to drink sake.</p>
               </div>
             </Grid>
 

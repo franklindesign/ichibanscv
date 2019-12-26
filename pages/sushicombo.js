@@ -52,7 +52,7 @@ const sushicombos = [
     description:
       "tuna, salmon, scallop on sushi rice & spring mix top with seaweed salad, crab meat and avocado",
     price: 15.95,
-    image: "",
+    image: "../static/items/sushiCombo/ichibanPokeBowl.jpg",
     largeImage: ""
   },
   {

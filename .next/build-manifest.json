@@ -12,27 +12,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/coldappetizers": [
+    "/bakedrolls": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/dessert": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/freshrolls": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/salad": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/tempurarolls": [
+    "/sake": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

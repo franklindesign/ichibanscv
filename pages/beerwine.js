@@ -139,6 +139,7 @@ export default function Entrees() {
                 <Typography variant="h4" id="beerAndWine">
                   Beer & Wine
                 </Typography>
+                <p>Must be 21 or older to drink beer and wine.</p>
               </div>
             </Grid>
 
