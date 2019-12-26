@@ -46,45 +46,45 @@ const useStyles = makeStyles(theme => ({
 const items = [
   {
     id: 1,
-    title: "Sakura Roll",
+    title: "Baja Roll (NEW!)",
     src: "../static/featuredItems/featuredItem01.jpg",
     categories: "Fresh Roll",
     link: "/freshrolls"
   },
   {
     id: 2,
-    title: "Spicy Tuna on Rice Cake",
+    title: "Superman Roll (NEW!)",
     src: "../static/featuredItems/featuredItem02.jpg",
-    categories: "Appetizer",
-    link: "/coldappetizers"
+    categories: "Fresh Roll",
+    link: "/freshrolls"
   },
   {
     id: 3,
-    title: "Ramen Combo",
+    title: "Fire Fire Roll",
     src: "../static/featuredItems/featuredItem03.jpg",
-    categories: "Soup & Noodle",
-    link: "/soupandnoodles"
+    categories: "Tempura Roll",
+    link: "/tempurarolls"
   },
   {
     id: 4,
-    title: "Aguachile Roll",
+    title: "Monkey Roll",
     src: "../static/featuredItems/featuredItem04.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls"
+    categories: "Tempura Roll",
+    link: "/tempurarolls"
   },
   {
     id: 5,
-    title: "Spicy Albacore Crunch Roll",
+    title: "Sunset Roll",
     src: "../static/featuredItems/featuredItem05.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls"
+    categories: "Baked Roll",
+    link: "/bakedrolls"
   },
   {
     id: 6,
-    title: "Yellowtail Delight Roll",
+    title: "Sun Burn Roll",
     src: "../static/featuredItems/featuredItem06.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls"
+    categories: "Tempura Roll",
+    link: "/tempurarolls"
   }
 ];
 

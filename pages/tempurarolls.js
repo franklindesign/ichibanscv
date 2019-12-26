@@ -146,6 +146,24 @@ const tempuraRolls = [
     price: 11.95,
     image: "../static/items/tempuraRolls/FireFireRoll.jpg",
     largeImage: ""
+  },
+  {
+    id: 16,
+    name: "Sun Burn Roll",
+    description:
+      "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
+    price: 11.95,
+    image: "../static/items/tempurarolls/SunBurnRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 17,
+    name: "Heart Attack Roll",
+    description:
+      "Spicy tuna, cream cheese, deep fried jalapeno, with eel and spicy mayo sauce",
+    price: 8.95,
+    image: "",
+    largeImage: ""
   }
 ];
 

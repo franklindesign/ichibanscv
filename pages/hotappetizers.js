@@ -142,15 +142,15 @@ const hotAppetizers = [
     image: "",
     largeImage: ""
   },
-  {
-    id: 16,
-    name: "Heart Attack",
-    description:
-      "deep fried jalapeno, cream cheese, spicy tuna with eel sauce, masago, and green onion",
-    price: 8.95,
-    image: "",
-    largeImage: ""
-  },
+  // {
+  //   id: 16,
+  //   name: "Heart Attack",
+  //   description:
+  //     "deep fried jalapeno, cream cheese, spicy tuna with eel sauce, masago, and green onion",
+  //   price: 8.95,
+  //   image: "",
+  //   largeImage: ""
+  // },
   {
     id: 17,
     name: "Sesami Chicken",

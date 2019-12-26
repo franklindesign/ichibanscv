@@ -35,7 +35,7 @@ const bakedRolls = [
     name: "Sunset Roll",
     description: "California roll, eel, avocado, and eel sauce",
     price: 9.95,
-    image: "",
+    image: "../static/items/bakedRolls/SunsetRoll.jpg",
     largeImage: ""
   },
   {
