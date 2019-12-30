@@ -26,7 +26,7 @@ const bakedRolls = [
     id: 1,
     name: "Baked Salmon Roll",
     description: "California roll, baked salmon, and eel sauce.",
-    price: 10.95,
+    price: 11.95,
     image: "",
     largeImage: ""
   },
@@ -34,7 +34,7 @@ const bakedRolls = [
     id: 2,
     name: "Sunset Roll",
     description: "California roll, eel, avocado, and eel sauce",
-    price: 9.95,
+    price: 12.95,
     image: "../static/items/bakedRolls/SunsetRoll.jpg",
     largeImage: ""
   },
@@ -43,7 +43,7 @@ const bakedRolls = [
     name: "Volcano Roll",
     description:
       "California roll, baked scallop, shrimp, crab, creamy and eel sauce",
-    price: 11.95,
+    price: 12.95,
     image: "../static/items/bakedRolls/VolcanoRoll.jpg",
     largeImage: ""
   },
@@ -51,7 +51,7 @@ const bakedRolls = [
     id: 4,
     name: "Caterpillar Roll",
     description: "fresh eel, cucumber, avocado, and eel sauce",
-    price: 9.95,
+    price: 11.95,
     image: " ",
     largeImage: ""
   },
@@ -59,7 +59,7 @@ const bakedRolls = [
     id: 5,
     name: "Lobster Roll",
     description: "California roll, baked lobster, and lobster sauce",
-    price: 8.95,
+    price: 13.95,
     image: "../static/items/bakedRolls/LobsterRoll.jpg",
     largeImage: ""
   },
@@ -68,7 +68,7 @@ const bakedRolls = [
     id: 6,
     name: "B.S.C. Roll",
     description: "California roll, baked scallop, masago, and eel sauce",
-    price: 10.95,
+    price: 12.95,
     image: "../static/items/bakedRolls/BSCRoll.jpg",
     largeImage: ""
   }
