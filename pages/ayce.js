@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
 // import ScrollableTabsButtonAuto from "../components/AyceMenu";
-import Ayce from "../components/NewAyceMenu";
+// import Ayce from "../components/NewAyceMenu";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -33,6 +33,11 @@ const useStyles = makeStyles(theme => ({
 
 export default function ayce() {
   const classes = useStyles();
+  const ayceFreshRolls = "../static/ayceMenu/ayceFreshRolls.jpg";
+  const ayceTempuraRolls = "../static/ayceMenu/ayceTempuraRolls.jpg";
+  const ayceBakedRolls = "../static/ayceMenu/ayceBakedRolls.jpg";
+  const ayceSpecialItems = "../static/ayceMenu/ayceSpecialItems.jpg";
+
   return (
     <Layout>
       <div
@@ -57,7 +62,29 @@ export default function ayce() {
           <Grid container spacing={3}>
             <Grid item xs={12}></Grid>
             <Grid item xs={12}>
-              <Ayce></Ayce>
+              <div>
+                {" "}
+                <img
+                  src={ayceFreshRolls}
+                  loading="lazy"
+                  alt="Fresh Rolls"
+                ></img>
+                <img
+                  src={ayceTempuraRolls}
+                  loading="lazy"
+                  alt="Tempura Rolls"
+                ></img>
+                <img
+                  src={ayceBakedRolls}
+                  loading="lazy"
+                  alt="Baked Rolls"
+                ></img>
+                <img
+                  src={ayceSpecialItems}
+                  loading="lazy"
+                  alt="Special Items"
+                ></img>
+              </div>
             </Grid>
           </Grid>
         </div>
