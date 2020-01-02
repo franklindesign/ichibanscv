@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
 // import ScrollableTabsButtonAuto from "../components/AyceMenu";
-import AyceMenu from "../components/NewAyceMenu";
+import Ayce from "../components/NewAyceMenu";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -57,7 +57,7 @@ export default function ayce() {
           <Grid container spacing={3}>
             <Grid item xs={12}></Grid>
             <Grid item xs={12}>
-              <AyceMenu></AyceMenu>
+              <Ayce></Ayce>
             </Grid>
           </Grid>
         </div>
