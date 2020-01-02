@@ -51,11 +51,12 @@ export default function ayce() {
       </div>
       <Container maxWidth="md">
         <p style={{ textAlign: "center" }}>
-          All Items Listed are Included with All You Can Eat.
+          All Items Listed are Included with All You Can Eat. Items may vary
+          from photos.
         </p>
         <p style={{ textAlign: "center" }}>
           Please inform a server about any food allergies. All crabmeat is
-          imitation.
+          imitation. We charge 18% gratuity for parties of six or more.
         </p>
 
         <div className={classes.root}>

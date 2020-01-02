@@ -112,7 +112,10 @@ export default function menu() {
           <Typography variant="h4" id="freshrolls">
             Categories
           </Typography>
-          <p>*Menu is subject to changes.</p>
+          <p>
+            *Menu is subject to changes. Items may vary from photos. Please
+            inform a server about any food allergies. All crabmeat is imitation.
+          </p>
           <Grid
             container
             spacing={3}

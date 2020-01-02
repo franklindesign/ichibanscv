@@ -26,7 +26,7 @@ const tempuraRolls = [
     name: "Spicy Shrimp & Crab Crunch Roll",
     description: "spicy shrimp, crab, hot sauce on top",
     price: 9.95,
-    image: " ",
+    image: "../static/items/tempuraRolls/SpicyShrimpCrunchRoll.jpg",
     largeImage: ""
   },
   {
@@ -34,7 +34,7 @@ const tempuraRolls = [
     name: "California Tempura Roll",
     description: "deep fried California roll and eel sauce",
     price: 8.95,
-    image: " ",
+    image: "../static/items/tempuraRolls/CaliforniaTempuraRoll.jpg",
     largeImage: ""
   },
   {
@@ -50,7 +50,7 @@ const tempuraRolls = [
     name: "Shrimp Tempura Roll",
     description: "shrimp tempura topped with avocado, spicy, and eel",
     price: 10.95,
-    image: "",
+    image: "../static/items/tempuraRolls/ShrimpTempuraRoll.jpg",
     largeImage: ""
   },
   {
@@ -74,7 +74,7 @@ const tempuraRolls = [
     name: "Spicy Tuna Tempura Roll",
     description: "deep fried spicy tuna roll, spicy mayo and eel",
     price: 9.95,
-    image: "",
+    image: "../static/items/tempuraRolls/SpicyTunaTempuraRoll.jpg",
     largeImage: ""
   },
   {
@@ -110,7 +110,7 @@ const tempuraRolls = [
     description:
       "Deep fried, soft shell crab, gobo, avocado, masago, and eel sauce",
     price: 12.95,
-    image: "",
+    image: "../static/items/tempuraRolls/SpiderRoll.jpg",
     largeImage: ""
   },
   {
@@ -162,7 +162,7 @@ const tempuraRolls = [
     description:
       "Spicy tuna, cream cheese, deep fried jalapeno, with eel and spicy mayo sauce",
     price: 8.95,
-    image: "",
+    image: "../static/items/tempurarolls/HeartAttack.jpg",
     largeImage: ""
   }
 ];

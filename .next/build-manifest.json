@@ -15,6 +15,18 @@
     "/ayce": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/freshrolls": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/menu": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/tempurarolls": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

@@ -79,7 +79,7 @@ const freshRolls = [
     name: "Sexy Salmon Roll",
     description: "salmon, crab, avocado, cucumber wrap, and ponzu sauce",
     price: 12.95,
-    image: "",
+    image: "../static/items/freshRolls/SexySalmonRoll.jpg",
     largeImage: ""
   },
   {
@@ -139,7 +139,7 @@ const freshRolls = [
     name: "Alaskan Roll",
     description: "spicy tuna roll topped with salmon, and spicy goma sauce",
     price: 11.95,
-    image: " ",
+    image: "../static/items/freshRolls/AlaskanRoll.jpg",
     largeImage: ""
   },
   {
@@ -147,7 +147,7 @@ const freshRolls = [
     name: "Rainbow Roll",
     description: "California roll topped with four kinds of fish and avocado",
     price: 12.95,
-    image: " ",
+    image: "../static/items/freshRolls/RainbowRoll.jpg",
     largeImage: ""
   },
   {
@@ -174,6 +174,24 @@ const freshRolls = [
       "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
     price: 11.95,
     image: "../static/items/freshRolls/SunBurnRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 19,
+    name: "Baja Roll (NEW!)",
+    description:
+      "Crab meat, Jalapeno, red onion, avocado, cilantro with garlic ponzu.",
+    price: 11.95,
+    image: "../static/items/freshRolls/bajaRoll.jpg",
+    largeImage: ""
+  },
+  {
+    id: 20,
+    name: "Superman Burrito Roll (NEW!)",
+    description:
+      "Spicy tuna, shrimp, asparagus tempura, avocado, cucumber, soy paper, with eel & spicy mayo sauce.",
+    price: 10.95,
+    image: "../static/items/freshRolls/SupermanBurrito.jpg",
     largeImage: ""
   }
 ];
