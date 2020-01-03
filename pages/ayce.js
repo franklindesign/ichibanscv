@@ -68,21 +68,25 @@ export default function ayce() {
                 <img
                   src={ayceFreshRolls}
                   loading="lazy"
+                  width="100%"
                   alt="Fresh Rolls"
                 ></img>
                 <img
                   src={ayceTempuraRolls}
                   loading="lazy"
+                  width="100%"
                   alt="Tempura Rolls"
                 ></img>
                 <img
                   src={ayceBakedRolls}
                   loading="lazy"
+                  width="100%"
                   alt="Baked Rolls"
                 ></img>
                 <img
                   src={ayceSpecialItems}
                   loading="lazy"
+                  width="100%"
                   alt="Special Items"
                 ></img>
               </div>
