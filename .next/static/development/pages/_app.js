@@ -55534,7 +55534,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/franklinmanghi/Desktop/ichiban/nextjs-ichiban/pages/_app.js";
+var _jsxFileName = "/Users/franklinmanghi/Documents/ichiban/nextjs-ichiban/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 

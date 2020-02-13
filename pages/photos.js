@@ -6,7 +6,7 @@ import Galleries from "../components/Galleries";
 export default function Photos() {
   return (
     <Layout>
-      <Container maxWidth="lg" style={{ marginTop: 50, marginBottom: 50 }}>
+      <Container maxWidth="lg" style={{ marginTop: 100, marginBottom: 50 }}>
         <Typography variant="h4" id="freshrolls">
           Photo Gallery
         </Typography>

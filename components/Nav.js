@@ -75,7 +75,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.nav}>
+      <AppBar position="fixed" className={classes.nav}>
         <Toolbar>
           <Link href="/">
             <img

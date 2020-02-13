@@ -10,7 +10,7 @@ import Link from "../src/Link";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 100
   },
 
   ayce: {
@@ -57,18 +57,43 @@ const categories = [
     link: "/bakedrolls"
   },
   {
-    name: "Sushi Combos",
+    name: "Regular Cut Rolls",
+    image: "",
+    link: "/regularrolls"
+  },
+  {
+    name: "Hand Rolls",
+    image: "",
+    link: "/handrolls"
+  },
+  {
+    name: "Sushi",
+    image: "",
+    link: "/sushis"
+  },
+  {
+    name: "Special Sushi",
+    image: "",
+    link: "/specialsushis"
+  },
+  {
+    name: "Sushi Combo",
     image: "../static/categories/sushiCombo.jpg",
     link: "/sushicombo"
   },
+  {
+    name: "Sashimi",
+    image: "",
+    link: "/sashimis"
+  },
   { name: "Sashimi Combo", image: "", link: "/sashimicombo" },
   {
-    name: "Appetizers (Cold)",
+    name: "Cold Appetizers",
     image: "../static/categories/coldAppetizers.jpg",
     link: "/coldappetizers"
   },
   {
-    name: "Appetizers (Hot)",
+    name: "Hot Appetizers",
     image: "../static/categories/hotAppetizers.jpg",
     link: "/hotappetizers"
   },

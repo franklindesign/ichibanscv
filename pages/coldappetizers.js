@@ -23,16 +23,16 @@ const useStyles = makeStyles(theme => ({
 const coldAppetizers = [
   {
     id: 1,
-    name: "Fresh Oyster (2 Pieces)",
-    description: "",
+    name: "Fresh Oyster",
+    description: "2 pieces of fresh oysters",
     price: 5.95,
     image: "",
     largeImage: ""
   },
   {
     id: 2,
-    name: "Fresh Oyster (6 Pieces)",
-    description: " ",
+    name: "Fresh Oyster",
+    description: "6 pieces of fresh oysters",
     price: 14.95,
     image: "",
     largeImage: ""
@@ -40,15 +40,15 @@ const coldAppetizers = [
   {
     id: 3,
     name: "Oyster Shooter",
-    description: "",
+    description: "oyster with ponzu",
     price: 5.95,
     image: "",
     largeImage: ""
   },
   {
     id: 4,
-    name: "Spicy Tuna on Rice Crispy",
-    description: "crunchy rice cake with spicy tuna on top",
+    name: "Spicy Tuna on Rice Crispy ",
+    description: "4 pieces of crunchy rice cakes with spicy tuna on top",
     price: 9.95,
     image: "../static/items/coldAppetizers/SpicyTunaOnRiceCrispy.jpg",
     largeImage: ""
@@ -56,7 +56,7 @@ const coldAppetizers = [
   {
     id: 5,
     name: "Yellowtail Carpaccio (6 Pieces)",
-    description: "jalapeno, yuzu, and chili oil",
+    description: "yellowtail with jalapeno, yuzu, and chili oil",
     price: 14.95,
     image: "../static/items/coldAppetizers/YellowtailCappaccio.jpg",
     largeImage: ""
@@ -64,7 +64,7 @@ const coldAppetizers = [
   {
     id: 6,
     name: "Albacore Carpaccio (8 Pieces)",
-    description: "ponzu and fried onion",
+    description: "albacore with ponzu and fried onion",
     price: 14.95,
     image: "../static/items/coldAppetizers/AlbacoreCappaccio.jpg",
     largeImage: ""
@@ -72,7 +72,7 @@ const coldAppetizers = [
   {
     id: 7,
     name: "Cajun Spicy Tuna Sashimi",
-    description: "avocado, ponzu, and chili oil",
+    description: "with avocado, ponzu, and chili oil",
     price: 14.95,
     image: "",
     largeImage: ""
@@ -80,7 +80,8 @@ const coldAppetizers = [
   {
     id: 8,
     name: "Sexy on the Beach",
-    description: "avocado, ponzu, and chili oil",
+    description:
+      "tuna, spicy crab, and shrimp with avocado, ponzu, and chili oil",
     price: "",
     image: "../static/items/coldAppetizers/SexyOnTheBeach.jpg",
     largeImage: ""

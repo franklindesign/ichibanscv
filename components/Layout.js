@@ -7,6 +7,9 @@ function Layout(props) {
   const fullheight = {
     height: "100vh"
   };
+  const navMargin = {
+    marginTop: "80px"
+  };
   useEffect(() => {
     if (!window.GA_INITIALIZED) {
       initGA();
@@ -18,7 +21,8 @@ function Layout(props) {
   return (
     <div style={fullheight}>
       <Nav />
-      {props.children}
+      <div style={navMargin}>{props.children}</div>
+
       <Footer></Footer>
     </div>
   );

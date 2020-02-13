@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     right: 0,
     left: 0,
     marginTop: 10,
-    height: 470,
+    height: 610,
     width: 140,
     padding: 0
   },
@@ -74,19 +74,39 @@ export default function ClickAway() {
       link: "/bakedrolls"
     },
     {
+      category: "Regular Cut Rolls",
+      link: "/regularrolls"
+    },
+    {
+      category: "Hand Rolls",
+      link: "/handrolls"
+    },
+    {
+      category: "Sushi",
+      link: "/sushis"
+    },
+    {
+      category: "Special Sushi",
+      link: "/specialsushis"
+    },
+    {
       category: "Sushi Combo",
       link: "/sushicombo"
+    },
+    {
+      category: "Sashimi",
+      link: "/sashimis"
     },
     {
       category: "Sashimi Combo",
       link: "/sashimicombo"
     },
     {
-      category: "Appetizers (Cold)",
+      category: "Cold Appetizers",
       link: "/coldappetizers"
     },
     {
-      category: "Appetizers (Hot)",
+      category: "Hot Appetizers",
       link: "/hotappetizers"
     },
     {
