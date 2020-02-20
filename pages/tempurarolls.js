@@ -10,7 +10,7 @@ import UberEats from "../components/UberEats";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50,
+    marginTop: 100,
     marginBottom: 50
   },
 

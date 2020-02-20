@@ -9,7 +9,7 @@ import Dropdown from "../components/Dropdown";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    marginTop: 50,
+    marginTop: 100,
     marginBottom: 50
   },
 
@@ -118,7 +118,7 @@ export default function BentoBox() {
                 <p>Served with steamed rice, soup, salad & tempura.</p>
                 <p>(No substitutes and double order sushi & sashimi</p>
                 <p>
-                  <strong>Lunch: 12.95</strong>
+                  <strong>Lunch Special: 9.95</strong>
                 </p>
                 <p>
                   <strong>Dinner: 15.95</strong>

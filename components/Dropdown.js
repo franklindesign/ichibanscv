@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     right: 0,
     left: 0,
     marginTop: 10,
-    height: 610,
+    height: 640,
     width: 140,
     padding: 0
   },
@@ -61,6 +61,7 @@ export default function ClickAway() {
   };
 
   const categories = [
+    { category: "Lunch Specials", link: "/lunchspecials" },
     {
       category: "Fresh Rolls",
       link: "/freshrolls"

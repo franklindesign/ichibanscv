@@ -42,6 +42,11 @@ const useStyles = makeStyles(theme => ({
 
 const categories = [
   {
+    name: "Lunch Specials",
+    image: "",
+    link: "/lunchspecials"
+  },
+  {
     name: "Fresh Rolls",
     image: "../static/categories/freshRolls.jpg",
     link: "/freshrolls"
