@@ -4,7 +4,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   card: {
     display: "flex",
     backgroundColor: "#fff",
@@ -13,34 +13,34 @@ const useStyles = makeStyles(theme => ({
     transform: "translateY(0)",
     "&:hover": {
       boxShadow: "0 5px 15px rgba(0,0,0,0.5)",
-      transform: "translateY(-10px)"
-    }
+      transform: "translateY(-10px)",
+    },
   },
   details: {
     display: "flex",
     flexDirection: "column",
     width: "100%",
     height: "150px",
-    backgroundColor: "#fff",
+    backgroundColor: "#000",
     [theme.breakpoints.down("sm")]: {
-      height: "180px"
-    }
+      height: "180px",
+    },
   },
   content: {
-    textAlign: "left"
+    textAlign: "left",
   },
   cover: {
     display: "flex",
     flex: "0 0 150px",
-    width: 125
+    width: 125,
   },
   price: {
-    color: "#F46523"
+    color: "#f4a8ca", // price $ color
   },
   description: {
-    color: "#000",
-    marginBottom: 5
-  }
+    color: "#fff", // text color
+    marginBottom: 5,
+  },
 }));
 
 export default function CardItem({
@@ -48,7 +48,7 @@ export default function CardItem({
   itemDescription,
   itemImage,
   itemPrice,
-  title
+  title,
 }) {
   const classes = useStyles();
 

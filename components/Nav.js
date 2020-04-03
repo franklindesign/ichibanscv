@@ -11,9 +11,9 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Link from "../src/Link";
 import MapIcon from "@material-ui/icons/Map";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   nav: { background: "#000" },
   button: {
@@ -21,12 +21,12 @@ const useStyles = makeStyles(theme => ({
     fontSize: 18,
     [theme.breakpoints.down("md")]: {
       fontSize: 14,
-      margin: theme.spacing(0)
-    }
+      margin: theme.spacing(0),
+    },
   },
   link: {
-    color: "#000",
-    textDecoration: "none"
+    color: "#fff",
+    textDecoration: "none",
   },
 
   menuButton: {
@@ -34,15 +34,15 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     flexGrow: 1,
     [theme.breakpoints.up("md")]: {
-      display: "none"
-    }
+      display: "none",
+    },
   },
   title: {
     flexGrow: 1,
     display: "none",
     [theme.breakpoints.up("md")]: {
-      display: "flex"
-    }
+      display: "flex",
+    },
   },
   logo: { marginTop: 10, maxWidth: 350, flexGrow: 1 },
 
@@ -50,22 +50,22 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(5),
     display: "none",
     [theme.breakpoints.up("md")]: {
-      display: "flex"
-    }
+      display: "flex",
+    },
   },
 
   ubereats: {
     background: "green",
     margin: theme.spacing(2),
-    color: "white"
-  }
+    color: "white",
+  },
 }));
 
 export default function ButtonAppBar() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
 

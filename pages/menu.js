@@ -6,15 +6,16 @@ import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Link from "../src/Link";
+import Alert from "@material-ui/lab/Alert";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: 100
+    marginTop: 100,
   },
 
   ayce: {
-    textAlign: "left"
+    textAlign: "left",
   },
   card: {
     maxWidth: "100vw",
@@ -24,113 +25,120 @@ const useStyles = makeStyles(theme => ({
     transform: "translateY(0)",
     "&:hover": {
       boxShadow: "0 5px 15px rgba(0,0,0,0.5)",
-      transform: "translateY(-10px)"
-    }
+      transform: "translateY(-10px)",
+    },
   },
 
   title: {
-    fontSize: 14
+    fontSize: 14,
   },
   pos: {
-    marginBottom: 12
+    marginBottom: 12,
+  },
+  alerts: {
+    marginTop: 20,
   },
   category: {
     marginTop: 40,
-    color: `#fff`
-  }
+    color: `#fff`,
+  },
 }));
 
 const categories = [
   {
     name: "Lunch Specials",
     image: "",
-    link: "/lunchspecials"
+    link: "/lunchspecials",
   },
   {
     name: "Fresh Rolls",
     image: "../static/categories/freshRolls.jpg",
-    link: "/freshrolls"
+    link: "/freshrolls",
   },
   {
     name: "Tempura Rolls",
     image: "../static/categories/tempuraRolls.jpg",
-    link: "/tempurarolls"
+    link: "/tempurarolls",
   },
   {
     name: "Baked Rolls",
     image: "../static/categories/bakedRolls.jpg",
-    link: "/bakedrolls"
+    link: "/bakedrolls",
   },
   {
     name: "Regular Cut Rolls",
     image: "",
-    link: "/regularrolls"
+    link: "/regularrolls",
   },
   {
     name: "Hand Rolls",
     image: "",
-    link: "/handrolls"
+    link: "/handrolls",
   },
   {
     name: "Sushi",
     image: "",
-    link: "/sushis"
+    link: "/sushis",
   },
   {
     name: "Special Sushi",
     image: "",
-    link: "/specialsushis"
+    link: "/specialsushis",
   },
   {
     name: "Sushi Combo",
     image: "../static/categories/sushiCombo.jpg",
-    link: "/sushicombo"
+    link: "/sushicombo",
   },
   {
     name: "Sashimi",
     image: "",
-    link: "/sashimis"
+    link: "/sashimis",
   },
   { name: "Sashimi Combo", image: "", link: "/sashimicombo" },
   {
     name: "Cold Appetizers",
     image: "../static/categories/coldAppetizers.jpg",
-    link: "/coldappetizers"
+    link: "/coldappetizers",
   },
   {
     name: "Hot Appetizers",
     image: "../static/categories/hotAppetizers.jpg",
-    link: "/hotappetizers"
+    link: "/hotappetizers",
   },
   {
     name: "Soup & Noodles",
     image: "../static/categories/soupAndNoodles.jpg",
-    link: "/soupandnoodles"
+    link: "/soupandnoodles",
   },
   { name: "Salad", image: "../static/categories/salad.jpg", link: "/salad" },
-  { name: "Entree", image: "", link: "/entrees" },
+  {
+    name: "Entree",
+    image: "../static/categories/entrees.jpg",
+    link: "/entrees",
+  },
   {
     name: "Bento Box",
     image: "../static/categories/bentobox.jpg",
-    link: "/bentobox"
+    link: "/bentobox",
   },
   { name: "Kid's Menu", image: "", link: "/kidsmenu" },
   {
     name: "Dessert",
     image: "../static/categories/dessert.jpg",
-    link: "/dessert"
+    link: "/dessert",
   },
   {
     name: "Beverages",
     image: "../static/categories/beverages.jpg",
-    link: "/beverages"
+    link: "/beverages",
   },
   {
     name: "Beer & Wine",
     image: "../static/categories/beerAndWine.jpg",
-    link: "/beerwine"
+    link: "/beerwine",
   },
-  { name: "Sake", image: "../static/categories/sake.jpg", link: "/sake" }
+  { name: "Sake", image: "../static/categories/sake.jpg", link: "/sake" },
 ];
 
 export default function menu() {
@@ -142,16 +150,20 @@ export default function menu() {
           <Typography variant="h4" id="freshrolls">
             Categories
           </Typography>
-          <p>
-            *Menu is subject to changes. Items may vary from photos. Please
-            inform a server about any food allergies. All crabmeat is imitation.
-          </p>
+          <div className={classes.alerts}>
+            <Alert variant="outlined" severity="info">
+              Menu is subject to changes. Items may vary from photos. Please
+              inform a server about any food allergies. All crabmeat is
+              imitation.
+            </Alert>
+          </div>
+
           <Grid
             container
             spacing={3}
             style={{ marginTop: "20px", marginBottom: "50px" }}
           >
-            {categories.map(category => (
+            {categories.map((category) => (
               <Grid item xs={6} sm={6} md={3} key={category.name}>
                 <Link href={`${category.link}`}>
                   <Card
@@ -161,7 +173,7 @@ export default function menu() {
                       backgroundRepeat: `no-repeat`,
                       backgroundSize: `cover`,
                       backgroundPosition: `center`,
-                      backgroundColor: `#000`
+                      backgroundColor: `#000`,
                     }}
                   >
                     <CardContent>

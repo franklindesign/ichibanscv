@@ -6,20 +6,21 @@ import Paper from "@material-ui/core/Paper";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import Link from "../src/Link";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     position: "absolute",
+    background: "#ed2228",
     zIndex: "1",
     right: "5%",
     [theme.breakpoints.up("md")]: {
-      right: "5%"
+      right: "5%",
     },
     [theme.breakpoints.up("lg")]: {
-      right: "15%"
+      right: "15%",
     },
     [theme.breakpoints.up("xl")]: {
-      right: "20%"
-    }
+      right: "20%",
+    },
   },
   paper: {
     position: "absolute",
@@ -29,23 +30,24 @@ const useStyles = makeStyles(theme => ({
     marginTop: 10,
     height: 640,
     width: 140,
-    padding: 0
+    padding: 0,
+    backgroundColor: "#2a2a2a",
   },
   list: {
     listStyleType: "none",
     padding: 4,
     width: "100%",
     "&:hover": {
-      backgroundColor: "#D1D2D4",
-      color: "#000"
-    }
+      backgroundColor: "#f26624",
+      color: "#000",
+    },
   },
   link: {
-    color: "#EE1C25"
+    color: "#fff",
   },
   droplist: {
-    marginLeft: -30
-  }
+    marginLeft: -30,
+  },
 }));
 
 export default function ClickAway() {
@@ -53,7 +55,7 @@ export default function ClickAway() {
   const classes = useStyles();
 
   const handleClick = () => {
-    setOpen(prev => !prev);
+    setOpen((prev) => !prev);
   };
 
   const handleClickAway = () => {
@@ -64,88 +66,88 @@ export default function ClickAway() {
     { category: "Lunch Specials", link: "/lunchspecials" },
     {
       category: "Fresh Rolls",
-      link: "/freshrolls"
+      link: "/freshrolls",
     },
     {
       category: "Tempura Rolls",
-      link: "/tempurarolls"
+      link: "/tempurarolls",
     },
     {
       category: "Baked Rolls",
-      link: "/bakedrolls"
+      link: "/bakedrolls",
     },
     {
       category: "Regular Cut Rolls",
-      link: "/regularrolls"
+      link: "/regularrolls",
     },
     {
       category: "Hand Rolls",
-      link: "/handrolls"
+      link: "/handrolls",
     },
     {
       category: "Sushi",
-      link: "/sushis"
+      link: "/sushis",
     },
     {
       category: "Special Sushi",
-      link: "/specialsushis"
+      link: "/specialsushis",
     },
     {
       category: "Sushi Combo",
-      link: "/sushicombo"
+      link: "/sushicombo",
     },
     {
       category: "Sashimi",
-      link: "/sashimis"
+      link: "/sashimis",
     },
     {
       category: "Sashimi Combo",
-      link: "/sashimicombo"
+      link: "/sashimicombo",
     },
     {
       category: "Cold Appetizers",
-      link: "/coldappetizers"
+      link: "/coldappetizers",
     },
     {
       category: "Hot Appetizers",
-      link: "/hotappetizers"
+      link: "/hotappetizers",
     },
     {
       category: "Soup & noodles",
-      link: "/soupandnoodles"
+      link: "/soupandnoodles",
     },
     {
       category: "Salads",
-      link: "/salad"
+      link: "/salad",
     },
     {
       category: "Entrees",
-      link: "/entrees"
+      link: "/entrees",
     },
     {
       category: "Bento Box",
-      link: "/bentobox"
+      link: "/bentobox",
     },
     {
       category: "Kid's Menu",
-      link: "/kidsmenu"
+      link: "/kidsmenu",
     },
     {
       category: "Dessert",
-      link: "/dessert"
+      link: "/dessert",
     },
     {
       category: "Beverages",
-      link: "/beverages"
+      link: "/beverages",
     },
     {
       category: "Beer & Wine",
-      link: "/beerwine"
+      link: "/beerwine",
     },
     {
       category: "Sake",
-      link: "/sake"
-    }
+      link: "/sake",
+    },
   ];
 
   return (

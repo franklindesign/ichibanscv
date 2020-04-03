@@ -5,20 +5,20 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
-// import UberEats from "../components/UberEats";
+import Alert from "@material-ui/lab/Alert";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
-
+  alerts: { marginTop: 20 },
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const sushis = [
@@ -27,40 +27,40 @@ const sushis = [
     name: "Tuna",
     description: "2 pieces",
     price: "5.50",
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Salmon",
     description: "2 pieces",
     price: "4.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Escolar (ono)",
     description: "2 pieces",
     price: "4.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Albacore",
     description: "2 pieces",
     price: "4.95",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Halibut",
     description: "2 pieces",
     price: "5.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
 
   {
@@ -68,129 +68,129 @@ const sushis = [
     name: "Yellowtail",
     description: "2 pieces",
     price: "5.50",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Crab",
     description: "2 pieces",
     price: "3.95",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 8,
     name: "Egg",
     description: "2 pieces",
     price: "3.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 9,
     name: "Fresh Water Eel (Unagi)",
     description: "2 pieces",
     price: "5.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 10,
     name: "Inari",
     description: "2 pieces",
     price: "3.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 11,
     name: "Mackerel",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 12,
     name: "Octopus",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 13,
     name: "Red Clam",
     description: "2 pieces",
     price: "3.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 14,
     name: "Salmon Egg",
     description: "2 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 15,
     name: "Scallop",
     description: "2 pieces",
     price: "4.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 16,
     name: "Sea Urchin (Uni)",
     description: "2 pieces",
     price: "9.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 17,
     name: "Shrimp",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 18,
     name: "Smelt Egg",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 19,
     name: "Squid",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 20,
     name: "Sweet Shrimp",
     description: "2 pieces",
     price: "9.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 21,
     name: "White Fish",
     description: "2 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
-  }
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function Sushis() {
@@ -206,10 +206,15 @@ export default function Sushis() {
                 <Typography variant="h4" id="sushis">
                   Sushi
                 </Typography>
+                <div className={classes.alerts}>
+                  <Alert variant="outlined" severity="warning">
+                    Out of Stock: Halibut and Sea Urchin (Uni)
+                  </Alert>
+                </div>
               </div>
             </Grid>
 
-            {sushis.map(sushi => (
+            {sushis.map((sushi) => (
               <Grid item xs={12} sm={6} key={sushi.name}>
                 <CardItem
                   itemName={{ text: `${sushi.name}` }}

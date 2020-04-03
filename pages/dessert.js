@@ -6,18 +6,18 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100vh"
+    height: "100vh",
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const desserts = [
@@ -26,33 +26,41 @@ const desserts = [
     name: "Ice Cream",
     description: "green tea or vanilla",
     price: 2.5,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Mochi Ice Cream",
     description: "green tea, mango, or strawberry",
     price: 2.5,
-    image: "",
-    largeImage: ""
+    image: "../static/items/desserts/mochi.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Tempura Ice Cream",
     description: "green tea or vanilla",
     price: 5.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Tempura Cheese Cake",
     description: "green tea or vanilla",
     price: 6.95,
-    image: "",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },
+  {
+    id: 5,
+    name: "MACARON Gelato Sandwiches",
+    description: "multiple flavors",
+    price: 1.95,
+    image: "../static/items/desserts/macaron.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function Entrees() {
@@ -71,7 +79,7 @@ export default function Entrees() {
               </div>
             </Grid>
 
-            {desserts.map(dessert => (
+            {desserts.map((dessert) => (
               <Grid item xs={12} sm={6} key={dessert.name}>
                 <CardItem
                   itemName={{ text: `${dessert.name}` }}

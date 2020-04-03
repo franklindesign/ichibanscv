@@ -7,85 +7,61 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const coldAppetizers = [
   {
     id: 1,
-    name: "Fresh Oyster",
-    description: "2 pieces of fresh oysters",
-    price: 5.95,
-    image: "",
-    largeImage: ""
-  },
-  {
-    id: 2,
-    name: "Fresh Oyster",
-    description: "6 pieces of fresh oysters",
-    price: 14.95,
-    image: "",
-    largeImage: ""
-  },
-  {
-    id: 3,
-    name: "Oyster Shooter",
-    description: "oyster with ponzu",
-    price: 5.95,
-    image: "",
-    largeImage: ""
-  },
-  {
-    id: 4,
     name: "Spicy Tuna on Rice Crispy ",
     description: "4 pieces of crunchy rice cakes with spicy tuna on top",
     price: 9.95,
     image: "../static/items/coldAppetizers/SpicyTunaOnRiceCrispy.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
-    id: 5,
+    id: 2,
     name: "Yellowtail Carpaccio (6 Pieces)",
     description: "yellowtail with jalapeno, yuzu, and chili oil",
     price: 14.95,
     image: "../static/items/coldAppetizers/YellowtailCappaccio.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
-    id: 6,
+    id: 3,
     name: "Albacore Carpaccio (8 Pieces)",
     description: "albacore with ponzu and fried onion",
     price: 14.95,
     image: "../static/items/coldAppetizers/AlbacoreCappaccio.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
-    id: 7,
+    id: 4,
     name: "Cajun Spicy Tuna Sashimi",
     description: "with avocado, ponzu, and chili oil",
     price: 14.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
-    id: 8,
+    id: 5,
     name: "Sexy on the Beach",
     description:
       "tuna, spicy crab, and shrimp with avocado, ponzu, and chili oil",
     price: "",
     image: "../static/items/coldAppetizers/SexyOnTheBeach.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function Entrees() {
@@ -104,7 +80,7 @@ export default function Entrees() {
               </div>
             </Grid>
 
-            {coldAppetizers.map(coldAppetizer => (
+            {coldAppetizers.map((coldAppetizer) => (
               <Grid item xs={12} sm={6} key={coldAppetizer.name}>
                 <CardItem
                   itemName={{ text: `${coldAppetizer.name}` }}

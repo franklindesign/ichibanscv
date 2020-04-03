@@ -7,18 +7,18 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100%"
+    height: "100%",
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const salads = [
@@ -27,32 +27,32 @@ const salads = [
     name: "House Salad",
     description: "ginger dressing",
     price: 4.5,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Cucumber Salad",
     description: "cucumber in a vinagrette with sesame seed",
     price: 4.5,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Seaweed Salad",
     description: "marinated seaweed with sesame oil and seed",
     price: 4.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Salmon Skin Salad",
     description: "broiled salmon skin, gobo, bonito",
     price: 7.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
@@ -61,15 +61,15 @@ const salads = [
       "spicy tuna, cucumber with gobo, masago, green onion, sesame oil and seed",
     price: 12.95,
     image: "../static/items/salad/spicyTunaSalad.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 6,
     name: "Sashimi Salad",
     description: "green salad with 8 pieces of sashimi",
     price: 12.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
@@ -77,8 +77,8 @@ const salads = [
     description: "",
     price: 11.95,
     image: "../static/items/salad/calamariTempuraSalad.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function Salad() {
@@ -97,7 +97,7 @@ export default function Salad() {
               </div>
             </Grid>
 
-            {salads.map(salad => (
+            {salads.map((salad) => (
               <Grid item xs={12} sm={6} key={salad.name}>
                 <CardItem
                   itemName={{ text: `${salad.name}` }}

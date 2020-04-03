@@ -6,18 +6,18 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100vh"
+    height: "100vh",
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const sushicombos = [
@@ -26,16 +26,16 @@ const sushicombos = [
     name: "Chirashi",
     description: "mixed sashimi on a bowl of sushi rice",
     price: 17.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Unagi Bowl",
     description: "sushi rice with broiled eel and avocado",
     price: 17.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
@@ -43,8 +43,8 @@ const sushicombos = [
     description:
       "tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
     price: 15.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
@@ -53,15 +53,15 @@ const sushicombos = [
       "tuna, salmon, scallop on sushi rice & spring mix top with seaweed salad, crab meat and avocado",
     price: 15.95,
     image: "../static/items/sushiCombo/ichibanPokeBowl.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 5,
     name: "Special Sushi Combo",
     description: "10 pieces of sushi with California or spicy tuna roll",
     price: 19.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 6,
@@ -69,9 +69,9 @@ const sushicombos = [
     description:
       "12 pieces sashimi: tuna, salmon, albacore, ocean striped bass",
     price: 21.95,
-    image: "",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function SushiCombo() {
@@ -91,7 +91,7 @@ export default function SushiCombo() {
               </div>
             </Grid>
 
-            {sushicombos.map(sushicombo => (
+            {sushicombos.map((sushicombo) => (
               <Grid item xs={12} sm={6} key={sushicombo.name}>
                 <CardItem
                   itemName={{ text: `${sushicombo.name}` }}

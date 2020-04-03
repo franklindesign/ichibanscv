@@ -6,17 +6,17 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const beerAndWines = [
@@ -25,105 +25,105 @@ const beerAndWines = [
     name: "Beer Bottles",
     description: "Kirin, Kirin Light, Sapporo, and Asahi",
     price: 7,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Draft Sapporo (Glass)",
     description: "draft beer, glass",
     price: 3.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Draft Sapporo Beer (Pitcher)",
     description: "draft beer, pitcher",
     price: 12,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "White Chardonnay (Glass)",
     description: "Clos Du Bois, white wine, glass",
     price: 6,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "White Chardonnay (Bottle)",
     description: "Clos Du Bois, white wine, glass",
     price: 18,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 6,
     name: "Chardonnay (Glass)",
     description: "Kendall Jackson, white wine, glass",
     price: 8,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Chardonnay (Bottle)",
     description: "Kendall Jackson, white wine, bottle",
     price: 28,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 8,
     name: "White Zinfandel (Glass)",
     description: "white wine, glass",
     price: 6,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 9,
     name: "Plum Wine",
     description: "white wine, glass",
     price: 6,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 10,
     name: "Cabernet Sauvignon (Glass)",
     description: "Clos Du Bois, red wine, glass",
     price: 6,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 11,
     name: "Cabernet Sauvignon (Bottle)",
     description: "Clos Du Bois, red wine, bottle",
     price: 18,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 12,
     name: "Pinot Noir (Glass)",
     description: "red wine, glass",
     price: 6,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 13,
     name: "Pinot Noir (Bottle)",
     description: "red wine, glass",
     price: 18,
-    image: "",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function Entrees() {
@@ -143,7 +143,7 @@ export default function Entrees() {
               </div>
             </Grid>
 
-            {beerAndWines.map(beerAndWine => (
+            {beerAndWines.map((beerAndWine) => (
               <Grid item xs={12} sm={6} key={beerAndWine.name}>
                 <CardItem
                   itemName={{ text: `${beerAndWine.name}` }}

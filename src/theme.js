@@ -7,22 +7,22 @@ const theme = createMuiTheme({
     // Name of the component ⚛️
     MuiButtonBase: {
       // The properties to apply
-      disableRipple: true // No more ripple, on the whole application 💣!
-    }
+      disableRipple: true, // No more ripple, on the whole application 💣!
+    },
   },
   palette: {
-    type: "light",
+    type: "dark",
     primary: { main: red[50] },
     secondary: {
-      main: "#F46523"
+      main: "#F46523",
     },
     error: {
-      main: red.A400
+      main: red.A400,
     },
     background: {
-      default: "#fff"
-    }
-  }
+      default: "#050505", // preferred background color
+    },
+  },
 });
 
 export default theme;

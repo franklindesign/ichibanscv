@@ -1,9 +1,17 @@
 {
   "devFiles": [
-    "static/development/dll/dll_397dc449097af0b4e992.js",
-    "static/development/dll/dll_397dc449097af0b4e992.js.map"
+    "static/development/dll/dll_fe850393d08f72bfe67b.js",
+    "static/development/dll/dll_fe850393d08f72bfe67b.js.map"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -12,11 +20,23 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/bakedrolls": [
+    "/_polyfills": [
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
+    ],
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/menu": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/soupandnoodles": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/tempurarolls": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

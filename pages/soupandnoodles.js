@@ -6,17 +6,17 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const soupAndNoodles = [
@@ -25,56 +25,56 @@ const soupAndNoodles = [
     name: "Tempura Udon",
     description: "shrimp tempura in noodle soup",
     price: 9.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Chicken Udon",
     description: "chicken in noodle soup",
     price: 9.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Beef Udon",
     description: "beef in noodle soup",
     price: 9.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Seafood Udon",
     description: " ",
     price: 11.95,
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Tonkatsu Ramen",
     description: " ",
     price: 9.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Miso Ramen",
     description: "",
     price: 9.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Seafood Ramen",
     description: "shrimp, jumbo scallop, mussel, calamari, vegetables",
     price: 11.95,
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 8,
@@ -82,41 +82,41 @@ const soupAndNoodles = [
     description:
       "Choose 1 item with Ramen or Udon: Sushi (5), Sashimi (6), California Cut Roll, or Spicy Tuna Cut Roll",
     price: 13.95,
-    image: ". ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 9,
     name: "Yaki Soba (Vegetables)",
     description: "pan fried Japanese thin noodles with vegetables",
     price: 7.95,
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 10,
     name: "Yaki Soba (Chicken)",
     description: "pan fried Japanese thin noodles with chicken",
     price: 9.95,
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 11,
     name: "Yaki Soba (Beef)",
     description: "pan fried Japanese thin noodles with beef",
     price: 9.95,
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 12,
     name: "Sukiyaki",
     description: "beef, vegetables, tofu, yam noodle, egg with rice",
     price: 14.95,
-    image: " ",
-    largeImage: ""
-  }
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function SoupAndNoodles() {
@@ -135,7 +135,7 @@ export default function SoupAndNoodles() {
               </div>
             </Grid>
 
-            {soupAndNoodles.map(soupAndNoodle => (
+            {soupAndNoodles.map((soupAndNoodle) => (
               <Grid item xs={12} sm={6} key={soupAndNoodle.name}>
                 <CardItem
                   itemName={{ text: `${soupAndNoodle.name}` }}

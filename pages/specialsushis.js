@@ -8,17 +8,17 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const specialSushis = [
@@ -27,41 +27,41 @@ const specialSushis = [
     name: "Spicy Tuna",
     description: "2 pieces, with avocado and chili oil",
     price: "5.50",
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Yellowtail",
     description: "2 pieces, with jalapeno yuzu sauce",
     price: "5.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Escolar (ono)",
     description: "2 pieces, with lemon pepper and fried onion",
     price: "4.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Big Scallop",
     description: "2 pieces",
     price: "8.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Cajun Tuna",
     description: "2 pieces",
     price: "5.50",
-    image: " ",
-    largeImage: ""
-  }
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function SpecialSushis() {
@@ -80,7 +80,7 @@ export default function SpecialSushis() {
               </div>
             </Grid>
 
-            {specialSushis.map(specialSushi => (
+            {specialSushis.map((specialSushi) => (
               <Grid item xs={12} sm={6} key={specialSushi.name}>
                 <CardItem
                   itemName={{ text: `${specialSushi.name}` }}

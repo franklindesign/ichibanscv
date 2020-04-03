@@ -8,17 +8,17 @@ import Dropdown from "../components/Dropdown";
 import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const bakedRolls = [
@@ -27,8 +27,8 @@ const bakedRolls = [
     name: "Baked Salmon Roll",
     description: "California roll, baked salmon, and eel sauce.",
     price: 11.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const bakedRolls = [
     description: "California roll, eel, avocado, and eel sauce",
     price: 12.95,
     image: "../static/items/bakedRolls/SunsetRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 3,
@@ -45,15 +45,15 @@ const bakedRolls = [
       "California roll, baked scallop, shrimp, crab, creamy and eel sauce",
     price: 12.95,
     image: "../static/items/bakedRolls/VolcanoRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 4,
     name: "Caterpillar Roll",
     description: "fresh eel, cucumber, avocado, and eel sauce",
     price: 11.95,
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const bakedRolls = [
     description: "California roll, baked lobster, and lobster sauce",
     price: 13.95,
     image: "../static/items/bakedRolls/LobsterRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
 
   {
@@ -70,8 +70,8 @@ const bakedRolls = [
     description: "California roll, baked scallop, masago, and eel sauce",
     price: 12.95,
     image: "../static/items/bakedRolls/BSCRoll.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function BakedRolls() {
@@ -89,7 +89,7 @@ export default function BakedRolls() {
                 </Typography>
               </div>
             </Grid>
-            {bakedRolls.map(bakedRoll => (
+            {bakedRolls.map((bakedRoll) => (
               <Grid item xs={12} sm={6} key={bakedRoll.name}>
                 <CardItem
                   itemName={{ text: `${bakedRoll.name}` }}

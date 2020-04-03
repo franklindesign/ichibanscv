@@ -8,17 +8,17 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const regularRolls = [
@@ -27,40 +27,40 @@ const regularRolls = [
     name: "California (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Spicy Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Albacore (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Avocado (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
 
   {
@@ -68,81 +68,81 @@ const regularRolls = [
     name: "Cucumber (Cut Roll)",
     description: "6-8 pieces",
     price: "4.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Eel (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 8,
     name: "Salmon (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 9,
     name: "Salmon Skin (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 10,
     name: "Scallop (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 11,
     name: "Shrimp & Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 12,
     name: "Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 13,
     name: "Vegetable (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
   },
   {
     id: 14,
     name: "Yellowtail (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 15,
     name: "Philadelphia (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ",
-    largeImage: ""
-  }
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function RegularRolls() {
@@ -161,7 +161,7 @@ export default function RegularRolls() {
               </div>
             </Grid>
 
-            {regularRolls.map(regularRoll => (
+            {regularRolls.map((regularRoll) => (
               <Grid item xs={12} sm={6} key={regularRoll.name}>
                 <CardItem
                   itemName={{ text: `${regularRoll.name}` }}

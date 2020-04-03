@@ -5,19 +5,19 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
-import UberEats from "../components/UberEats";
+import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const tempuraRolls = [
@@ -27,7 +27,7 @@ const tempuraRolls = [
     description: "spicy shrimp, crab, hot sauce on top",
     price: 9.95,
     image: "../static/items/tempuraRolls/SpicyShrimpCrunchRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const tempuraRolls = [
     description: "deep fried California roll and eel sauce",
     price: 8.95,
     image: "../static/items/tempuraRolls/CaliforniaTempuraRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const tempuraRolls = [
     description: "deep fried avocado roll, spicy mayo, and eel sauce.",
     price: 8.95,
     image: "../static/items/tempuraRolls/AvocadoCrunchRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const tempuraRolls = [
     description: "shrimp tempura topped with avocado, spicy, and eel",
     price: 10.95,
     image: "../static/items/tempuraRolls/ShrimpTempuraRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const tempuraRolls = [
     description: "shrimp tempura with avocado and crunch on top",
     price: 9.95,
     image: "../static/items/tempuraRolls/CrunchRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const tempuraRolls = [
     description: "shrimp tempura topped with spicy crab",
     price: 11.95,
     image: "../static/items/tempuraRolls/AmberRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const tempuraRolls = [
     description: "deep fried spicy tuna roll, spicy mayo and eel",
     price: 9.95,
     image: "../static/items/tempuraRolls/SpicyTunaTempuraRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const tempuraRolls = [
     description: "mushroom with spicy tuna deep fried, spicy mayo and eel",
     price: 8.95,
     image: "../static/items/tempuraRolls/MonkeyRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 9,
@@ -92,7 +92,7 @@ const tempuraRolls = [
       "shrimp tempura, eel and spicy tuna topped with avocado and eel sauce",
     price: 13.95,
     image: "../static/items/tempuraRolls/DragonRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
 
   {
@@ -102,7 +102,7 @@ const tempuraRolls = [
       "Deep fried spicy seafood with avocado, cream cheese, topped with eel and hot sauce",
     price: 10.95,
     image: "../static/items/tempuraRolls/VegasRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 11,
@@ -111,7 +111,7 @@ const tempuraRolls = [
       "Deep fried, soft shell crab, gobo, avocado, masago, and eel sauce",
     price: 12.95,
     image: "../static/items/tempuraRolls/SpiderRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 12,
@@ -119,7 +119,7 @@ const tempuraRolls = [
     description: "California roll topped with deep fried lobster and eel sauce",
     price: 13.95,
     image: "../static/items/tempuraRolls/PopcornLobsterRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 13,
@@ -127,7 +127,7 @@ const tempuraRolls = [
     description: "California roll, deep fried scallop on top",
     price: 12.95,
     image: "../static/items/tempuraRolls/CrunchScallopRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 14,
@@ -136,7 +136,7 @@ const tempuraRolls = [
       "shrimp tempura & spicy tuna, avocado topped with spicy mayo, and eel sauce.",
     price: 11.95,
     image: "../static/items/tempuraRolls/TigerRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 15,
@@ -145,7 +145,7 @@ const tempuraRolls = [
       "spicy crab, spicy tuna, spicy crunch and jalapeno with chili oil",
     price: 11.95,
     image: "../static/items/tempuraRolls/FireFireRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 16,
@@ -154,7 +154,7 @@ const tempuraRolls = [
       "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
     price: 11.95,
     image: "../static/items/tempurarolls/SunBurnRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 17,
@@ -163,8 +163,8 @@ const tempuraRolls = [
       "Spicy tuna, cream cheese, deep fried jalapeno, with eel and spicy mayo sauce",
     price: 8.95,
     image: "../static/items/tempurarolls/HeartAttack.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function TempuraRolls() {
@@ -183,7 +183,7 @@ export default function TempuraRolls() {
               </div>
             </Grid>
 
-            {tempuraRolls.map(tempuraRoll => (
+            {tempuraRolls.map((tempuraRoll) => (
               <Grid item xs={12} sm={6} key={tempuraRoll.name}>
                 <CardItem
                   itemName={{ text: `${tempuraRoll.name}` }}
@@ -195,7 +195,7 @@ export default function TempuraRolls() {
               </Grid>
             ))}
           </Grid>
-          <UberEats></UberEats>
+          <OrderWith></OrderWith>
         </div>
       </Container>
     </Layout>

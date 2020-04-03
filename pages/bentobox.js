@@ -6,17 +6,17 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const bentoboxes = [
@@ -25,81 +25,81 @@ const bentoboxes = [
     name: "Chicken",
     description: "grilled chicken with teriyaki sauce",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Beef",
     description: "grilled beef with teriyaki sauce",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Salmon",
     description: "broiled fresh salmon with teriyaki sauce",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Pork Cutlet",
     description: "tender pork breaded and deep fried with tonkatsu sauce",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Bulgogi",
     description: "marinated Korean style beef",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 6,
     name: "Sesame Chicken",
     description: "lightly fried chicken marinated in sesame sauce",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Sushi",
     description: "Chef's choice (5 pieces)",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 8,
     name: "Sashimi",
     description: "Chef's choice (6 pieces)",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 9,
     name: "California Roll",
     description: " ",
     price: null,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 10,
     name: "Spicy Tuna",
     description: " ",
     price: null,
-    image: "",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function BentoBox() {
@@ -129,7 +129,7 @@ export default function BentoBox() {
               </div>
             </Grid>
 
-            {bentoboxes.map(bentoboxe => (
+            {bentoboxes.map((bentoboxe) => (
               <Grid item xs={12} sm={6} key={bentoboxe.name}>
                 <CardItem
                   itemName={{ text: `${bentoboxe.name}` }}
