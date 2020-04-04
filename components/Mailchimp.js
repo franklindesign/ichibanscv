@@ -5,15 +5,15 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import Container from "@material-ui/core/Container";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     padding: theme.spacing(3, 2),
-    marginTop: 5
+    marginTop: 5,
   },
   signup: {
-    backgroundColor: "#ccc",
-    padding: 20
-  }
+    backgroundColor: "#121212",
+    padding: 20,
+  },
 }));
 
 export default function Mailchimp() {

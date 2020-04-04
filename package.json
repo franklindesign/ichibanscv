@@ -11,6 +11,7 @@
     "react-ga": "^2.7.0",
     "react-images": "^1.1.0",
     "react-photo-gallery": "^8.0.0",
+    "react-responsive": "^8.0.3",
     "react-slick": "^0.25.2",
     "serialize-javascript": "^3.0.0",
     "slick-carousel": "^1.8.1"

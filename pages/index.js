@@ -10,9 +10,9 @@ import Hero from "../components/Hero";
 import Mailchimp from "../components/Mailchimp";
 import OrderWith from "../components/OrderWith";
 // import CardSlides from "../components/CardSlides";
-
 // import SpecialDiscount from "../components/SpecialDiscount";
-import FeaturedVideo from "../components/featuredVideo";
+// import FeaturedVideo from "../components/featuredVideo";
+import Alerts from "../components/Alerts";
 
 export default function Index() {
   return (
@@ -41,8 +41,9 @@ export default function Index() {
 
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
           {/* <SpecialDiscount></SpecialDiscount> */}
+          <Alerts></Alerts>
           <Mailchimp></Mailchimp>
-          <FeaturedVideo></FeaturedVideo>
+          {/* <FeaturedVideo></FeaturedVideo> */}
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 40, marginBottom: 20 }}>
             <OrderWith></OrderWith>
