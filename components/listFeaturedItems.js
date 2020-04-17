@@ -1,22 +1,20 @@
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
-
-// import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-// import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import Link from "../src/Link";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: 50
+    marginTop: 50,
   },
 
   card: {
+    backgroundColor: "black",
     maxWidth: "100vw",
     marginTop: 25,
     boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
@@ -24,68 +22,70 @@ const useStyles = makeStyles(theme => ({
     transform: "translateY(0)",
     "&:hover": {
       boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
-      transform: "translateY(-10px)"
-    }
+      transform: "translateY(-10px)",
+    },
   },
   more: {
-    color: "orange"
+    color: "orange",
   },
   link: {
-    color: "black",
-    cursor: "pointer"
+    cursor: "pointer",
+    "&:hover": {
+      color: "#fff",
+    },
   },
   item: {
     boxShadow: "0 1px 2px rgba(0,0,0,0.15)",
     transition: "boxShadow 0.3s ease-in-out",
     "&:hover": {
-      boxShadow: "0 5px 15px rgba(0,0,0,0.3)"
-    }
-  }
+      boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+    },
+  },
 }));
 
 const items = [
   {
     id: 1,
-    title: "Baja Roll (NEW!)",
+    title: "Rainbow Roll",
     src: "../static/featuredItems/featuredItem01.jpg",
     categories: "Fresh Roll",
-    link: "/freshrolls"
+    link: "/freshrolls",
   },
   {
     id: 2,
-    title: "Superman Roll (NEW!)",
+    title: "Bento Box",
     src: "../static/featuredItems/featuredItem02.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls"
+    categories: "Bento Box",
+    link: "/bentobox",
   },
   {
     id: 3,
-    title: "Fire Fire Roll",
+    title: "911 Roll",
     src: "../static/featuredItems/featuredItem03.jpg",
-    categories: "Tempura Roll",
-    link: "/tempurarolls"
+    categories: "Fresh Roll",
+    link: "/freshrolls",
   },
   {
     id: 4,
-    title: "Monkey Roll",
+    title: "Mexican Roll",
     src: "../static/featuredItems/featuredItem04.jpg",
-    categories: "Tempura Roll",
-    link: "/tempurarolls"
+    categories: "Fresh Roll",
+    link: "/freshrolls",
   },
   {
     id: 5,
-    title: "Sunset Roll",
+    title: "Crunch Roll",
     src: "../static/featuredItems/featuredItem05.jpg",
-    categories: "Baked Roll",
-    link: "/bakedrolls"
+    categories: "Tempura Roll",
+    link: "/tempurarolls",
   },
   {
     id: 6,
-    title: "Sun Burn Roll",
+    title: "Spicy Albacore Crunch Roll",
     src: "../static/featuredItems/featuredItem06.jpg",
     categories: "Tempura Roll",
-    link: "/tempurarolls"
-  }
+    link: "/tempurarolls",
+  },
 ];
 
 export default function ListFeaturedItems() {
@@ -94,10 +94,10 @@ export default function ListFeaturedItems() {
   return (
     <div className={classes.root}>
       <Typography gutterBottom variant="h4" component="h1">
-        Featured Items
+        Top Menu Items
       </Typography>
       <Grid container spacing={1}>
-        {items.map(item => (
+        {items.map((item) => (
           <Grid item xs={12} sm={6} md={4} key={item.id}>
             <Card className={classes.card}>
               <CardMedia
@@ -113,20 +113,12 @@ export default function ListFeaturedItems() {
                 </Typography>
                 <Link href={`${item.link}`} className={classes.link}>
                   <Chip
-                    color="black"
+                    color="secondary"
                     size="medium"
                     label={`${item.categories}`}
                   ></Chip>
                 </Link>
               </CardContent>
-
-              {/* <CardActions>
-                <Link href={`${item.link}`}>
-                  <Button size="large" className={classes.more}>
-                    More Items Like This
-                  </Button>
-                </Link>
-              </CardActions> */}
             </Card>
           </Grid>
         ))}

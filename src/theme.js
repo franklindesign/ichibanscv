@@ -10,11 +10,12 @@ const theme = createMuiTheme({
       disableRipple: true, // No more ripple, on the whole application 💣!
     },
   },
+
   palette: {
     type: "dark",
-    primary: { main: red[50] },
+    primary: { main: "#ed2227" }, // [brand]red
     secondary: {
-      main: "#F46523",
+      main: "#f6a8ca", // [brand]pink
     },
     error: {
       main: red.A400,

@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
   },
   nav: { background: "#000" },
   button: {
+    "&:hover": {
+      color: "#fff",
+    },
     margin: theme.spacing(1),
     fontSize: 18,
     [theme.breakpoints.down("md")]: {
@@ -25,8 +28,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   link: {
-    color: "#fff",
-    textDecoration: "none",
+    color: "#f6a8ca",
+    cursor: "pointer",
+    "&:hover": {
+      color: "#fff",
+    },
   },
 
   menuButton: {
@@ -89,28 +95,28 @@ export default function ButtonAppBar() {
           </Typography>
 
           <div className={classes.sectionDesktop}>
-            <Link href="/menu">
-              <Button color="inherit" className={classes.button}>
+            <Link href="/menu" underline="none">
+              <Button color="secondary" className={classes.button}>
                 Menu
               </Button>
             </Link>
-            <Link href="/happyhour">
-              <Button color="inherit" className={classes.button}>
+            <Link href="/happyhour" underline="none">
+              <Button color="secondary" className={classes.button}>
                 Happy Hour!
               </Button>
             </Link>
-            <Link href="/ayce">
-              <Button color="inherit" className={classes.button}>
+            <Link href="/ayce" underline="none">
+              <Button color="secondary" className={classes.button}>
                 All You Can Eat
               </Button>
             </Link>
-            <Link href="/photos">
-              <Button color="inherit" className={classes.button}>
+            <Link href="/photos" underline="none">
+              <Button color="secondary" className={classes.button}>
                 Photos
               </Button>
             </Link>
             <Button
-              color="primary"
+              color="secondary"
               className={classes.button}
               href="https://goo.gl/maps/qBwuJL1U36P6FE238"
               target="_blank"
@@ -122,7 +128,7 @@ export default function ButtonAppBar() {
           <IconButton
             edge="start"
             className={classes.menuButton}
-            color="primary"
+            color="secondary"
             aria-label="menu"
           >
             <MenuIcon

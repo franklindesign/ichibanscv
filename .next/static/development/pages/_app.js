@@ -52287,10 +52287,12 @@ var theme = Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["createMuiThem
   palette: {
     type: "dark",
     primary: {
-      main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"][50]
+      main: "#ed2227"
     },
+    // [brand]red
     secondary: {
-      main: "#F46523"
+      main: "#f6a8ca" // [brand]pink
+
     },
     error: {
       main: _material_ui_core_colors__WEBPACK_IMPORTED_MODULE_1__["red"].A400
