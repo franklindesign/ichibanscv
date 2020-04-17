@@ -57,7 +57,7 @@ const desserts = [
     id: 5,
     name: "MACARON Gelato Sandwiches",
     description: "multiple flavors",
-    price: 1.95,
+    price: 3.5,
     image: "../static/items/desserts/macaron.jpg",
     largeImage: "",
   },
