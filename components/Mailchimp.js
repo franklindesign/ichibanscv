@@ -23,13 +23,13 @@ export default function Mailchimp() {
     <div className={classes.root}>
       <Container maxWidth="md" className={classes.signup}>
         <Grid container spacing={1}>
-          <Grid xs={12} md={10}>
+          <Grid item xs={12} md={10}>
             <Typography variant="h6">
               Subscribe to Ichiban Emails for news, specials offers, and
               discount coupons.
             </Typography>
           </Grid>
-          <Grid xs={12} md={2}>
+          <Grid item xs={12} md={2}>
             <Button
               size="large"
               variant="contained"
