@@ -8,17 +8,17 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const sashimis = [
@@ -27,65 +27,65 @@ const sashimis = [
     name: "Tuna",
     description: "5-6 pieces",
     price: "14.95",
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Cajun Tuna",
     description: "5-6 pieces",
     price: "15.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Big Scallop",
     description: "5-6 pieces",
     price: "19.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 4,
     name: "Salmon",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 5,
     name: "Escolar (ono)",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 6,
     name: "Albacore",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 7,
     name: "Halibut",
     description: "5-6 pieces",
     price: "14.95",
-    image: " ",
-    largeImage: ""
+    image: " ../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 8,
     name: "Yellowtail",
     description: "5-6 pieces",
     price: "14.95",
-    image: " ",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg ",
+    largeImage: "",
+  },
 ];
 
 export default function Sashimis() {
@@ -104,7 +104,7 @@ export default function Sashimis() {
               </div>
             </Grid>
 
-            {sashimis.map(sashimi => (
+            {sashimis.map((sashimi) => (
               <Grid item xs={12} sm={6} key={sashimi.name}>
                 <CardItem
                   itemName={{ text: `${sashimi.name}` }}

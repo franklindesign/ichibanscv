@@ -8,6 +8,8 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -27,7 +29,7 @@ const regularRolls = [
     name: "California (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -35,7 +37,7 @@ const regularRolls = [
     name: "Spicy Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -43,7 +45,7 @@ const regularRolls = [
     name: "Albacore (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -51,7 +53,7 @@ const regularRolls = [
     name: "Avocado (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -59,7 +61,7 @@ const regularRolls = [
     name: "Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 
@@ -68,7 +70,7 @@ const regularRolls = [
     name: "Cucumber (Cut Roll)",
     description: "6-8 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -76,7 +78,7 @@ const regularRolls = [
     name: "Eel (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -84,7 +86,7 @@ const regularRolls = [
     name: "Salmon (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -92,7 +94,7 @@ const regularRolls = [
     name: "Salmon Skin (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -100,7 +102,7 @@ const regularRolls = [
     name: "Scallop (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -108,7 +110,7 @@ const regularRolls = [
     name: "Shrimp & Crab (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -132,7 +134,7 @@ const regularRolls = [
     name: "Yellowtail (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -140,7 +142,7 @@ const regularRolls = [
     name: "Philadelphia (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

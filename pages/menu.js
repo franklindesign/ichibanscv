@@ -67,17 +67,17 @@ const categories = [
   },
   {
     name: "Regular Cut Rolls",
-    image: "",
+    image: "../static/categories/regularCutRolls.jpg",
     link: "/regularrolls",
   },
   {
     name: "Hand Rolls",
-    image: "",
+    image: "../static/categories/handRolls.jpg",
     link: "/handrolls",
   },
   {
     name: "Sushi",
-    image: "",
+    image: "../static/categories/sushi.jpg",
     link: "/sushis",
   },
   {
@@ -92,10 +92,14 @@ const categories = [
   },
   {
     name: "Sashimi",
-    image: "",
+    image: "../static/categories/sashimi.jpg",
     link: "/sashimis",
   },
-  { name: "Sashimi Combo", image: "", link: "/sashimicombo" },
+  {
+    name: "Sashimi Combo",
+    image: "../static/categories/sashimiCombo.jpg",
+    link: "/sashimicombo",
+  },
   {
     name: "Cold Appetizers",
     image: "../static/categories/coldAppetizers.jpg",
@@ -153,8 +157,7 @@ export default function menu() {
           <div className={classes.alerts}>
             <Alert variant="outlined" severity="info">
               Menu is subject to changes. Items may vary from photos. Please
-              inform a server about any food allergies. All crabmeat is
-              imitation.
+              inform us of any food allergies. All crabmeat is imitation.
             </Alert>
           </div>
 

@@ -6,18 +6,18 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100vh"
+    height: "100vh",
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const sashimicombos = [
@@ -26,25 +26,25 @@ const sashimicombos = [
     name: "Small Combo",
     description: "6 pieces of sashimi",
     price: 14.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 2,
     name: "Medium Combo",
     description: "16 pieces of sashimi",
     price: 34.95,
-    image: "",
-    largeImage: ""
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
   },
   {
     id: 3,
     name: "Large Combo",
     description: "24 pieces of sashimi",
     price: 59.95,
-    image: "",
-    largeImage: ""
-  }
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function SashimiCombo() {
@@ -63,7 +63,7 @@ export default function SashimiCombo() {
               </div>
             </Grid>
 
-            {sashimicombos.map(sashimicombo => (
+            {sashimicombos.map((sashimicombo) => (
               <Grid item xs={12} sm={6} key={sashimicombo.name}>
                 <CardItem
                   itemName={{ text: `${sashimicombo.name}` }}

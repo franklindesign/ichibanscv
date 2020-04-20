@@ -8,6 +8,8 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -27,7 +29,7 @@ const specialSushis = [
     name: "Spicy Tuna",
     description: "2 pieces, with avocado and chili oil",
     price: "5.50",
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -35,7 +37,7 @@ const specialSushis = [
     name: "Yellowtail",
     description: "2 pieces, with jalapeno yuzu sauce",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -43,7 +45,7 @@ const specialSushis = [
     name: "Escolar (ono)",
     description: "2 pieces, with lemon pepper and fried onion",
     price: "4.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -51,7 +53,7 @@ const specialSushis = [
     name: "Big Scallop",
     description: "2 pieces",
     price: "8.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -59,7 +61,7 @@ const specialSushis = [
     name: "Cajun Tuna",
     description: "2 pieces",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

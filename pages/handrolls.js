@@ -8,6 +8,8 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -27,7 +29,7 @@ const handRolls = [
     name: "California (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -35,7 +37,7 @@ const handRolls = [
     name: "Spicy Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -43,7 +45,7 @@ const handRolls = [
     name: "Albacore (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -51,7 +53,7 @@ const handRolls = [
     name: "Avocado (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -59,7 +61,7 @@ const handRolls = [
     name: "Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 
@@ -68,7 +70,7 @@ const handRolls = [
     name: "Cucumber (Hand Roll)",
     description: "1 piece",
     price: "3.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -76,7 +78,7 @@ const handRolls = [
     name: "Eel (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -84,7 +86,7 @@ const handRolls = [
     name: "Salmon (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -92,7 +94,7 @@ const handRolls = [
     name: "Salmon Skin (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -100,7 +102,7 @@ const handRolls = [
     name: "Scallop (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -108,7 +110,7 @@ const handRolls = [
     name: "Shrimp & Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -116,7 +118,7 @@ const handRolls = [
     name: "Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -124,7 +126,7 @@ const handRolls = [
     name: "Vegetable (Hand Roll)",
     description: "1 piece",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -132,7 +134,7 @@ const handRolls = [
     name: "Yellowtail (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -140,7 +142,7 @@ const handRolls = [
     name: "Philadelphia (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

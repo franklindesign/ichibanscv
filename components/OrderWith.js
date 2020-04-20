@@ -6,7 +6,7 @@ export default function OrderWith() {
   return (
     <div style={{ marginTop: 20 }}>
       <Grid container spacing={2}>
-        <Grid xs={12} container justify="center">
+        <Grid item xs={12} container justify="center">
           Want to order online? Delivery/Pickup:
         </Grid>
         <Grid item xs={12} sm={6}>

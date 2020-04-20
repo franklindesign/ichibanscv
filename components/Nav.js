@@ -125,66 +125,65 @@ export default function ButtonAppBar() {
               <MapIcon style={{ marginRight: 5 }}></MapIcon> Location
             </Button>
           </div>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="secondary"
-            aria-label="menu"
-          >
-            <MenuIcon
+          <div>
+            <IconButton
+              edge="start"
+              className={classes.menuButton}
+              color="secondary"
+              aria-label="menu"
               onClick={handleClick}
-              aria-controls="simple-menu"
-              aria-haspopup="true"
-            />
-            <Menu
-              id="simple-menu"
-              anchorEl={anchorEl}
-              keepMounted
-              open={Boolean(anchorEl)}
-              onClose={handleClose}
             >
-              <Link href="/" className={classes.link}>
-                <MenuItem onClick={handleClose}>Home</MenuItem>
-              </Link>
-              <Link href="/menu" className={classes.link}>
-                <MenuItem onClick={handleClose}>Menu</MenuItem>
-              </Link>
-              <Link href="/happyhour" className={classes.link}>
-                <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
-              </Link>
+              <MenuIcon aria-controls="simple-menu" aria-haspopup="true" />
+              <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <Link href="/" className={classes.link}>
+                  <MenuItem onClick={handleClose}>Home</MenuItem>
+                </Link>
+                <Link href="/menu" className={classes.link}>
+                  <MenuItem onClick={handleClose}>Menu</MenuItem>
+                </Link>
+                <Link href="/happyhour" className={classes.link}>
+                  <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
+                </Link>
 
-              <Link href="/ayce" className={classes.link}>
-                <MenuItem onClick={handleClose}>AYCE</MenuItem>
-              </Link>
-              <Link href="/photos" className={classes.link}>
-                <MenuItem onClick={handleClose}>Photos</MenuItem>
-              </Link>
-              <a
-                href="https://goo.gl/maps/qBwuJL1U36P6FE238"
-                target="_blank"
-                rel="noopener"
-                className={classes.link}
-              >
-                <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
-              </a>
-              <a
-                href="https://grubhub.com/restaurant/r/1437256"
-                target="_blank"
-                rel="noopener"
-                className={classes.link}
-              >
-                <MenuItem onClick={handleClose}>GrubHub</MenuItem>
-              </a>
-              <a
-                href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
-                target="_blank"
-                rel="noopener"
-                className={classes.link}
-              >
-                <MenuItem onClick={handleClose}>UberEats</MenuItem>
-              </a>
-            </Menu>
-          </IconButton>
+                <Link href="/ayce" className={classes.link}>
+                  <MenuItem onClick={handleClose}>AYCE</MenuItem>
+                </Link>
+                <Link href="/photos" className={classes.link}>
+                  <MenuItem onClick={handleClose}>Photos</MenuItem>
+                </Link>
+                <a
+                  href="https://goo.gl/maps/qBwuJL1U36P6FE238"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.link}
+                >
+                  <MenuItem onClick={handleClose}>Location</MenuItem>{" "}
+                </a>
+                <a
+                  href="https://grubhub.com/restaurant/r/1437256"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.link}
+                >
+                  <MenuItem onClick={handleClose}>GrubHub</MenuItem>
+                </a>
+                <a
+                  href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.link}
+                >
+                  <MenuItem onClick={handleClose}>UberEats</MenuItem>
+                </a>
+              </Menu>
+            </IconButton>
+          </div>
         </Toolbar>
       </AppBar>
     </div>
