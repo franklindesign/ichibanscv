@@ -7,7 +7,7 @@ import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import MapIcon from "@material-ui/icons/Map";
 import Container from "@material-ui/core/Container";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     background: "#000",
     color: "white",
@@ -17,13 +17,13 @@ const useStyles = makeStyles(theme => ({
     bottom: "0",
     width: "100%",
     [theme.breakpoints.down("xs")]: {
-      height: 400
-    }
+      height: 400,
+    },
   },
   links: {
     textDecoration: "none",
-    color: "#ffffff"
-  }
+    color: "#ffffff",
+  },
 }));
 
 export default function Copyright() {
@@ -37,7 +37,7 @@ export default function Copyright() {
               <AccessTimeIcon />
             </div>
             <Typography align="center" variant="body1">
-              Open Hours: <br></br>11:30 AM to 10 PM
+              Mon-Thur, Sun: 12 PM to 9 PM <br></br>Fri-Sat: 12 PM to 9:30 PM
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>

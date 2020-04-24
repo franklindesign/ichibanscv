@@ -1,10 +1,10 @@
 import { useMediaQuery } from "react-responsive";
+import React from "react";
 
 export default function Hero() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-device-width: 1224px)",
   });
-  const isBigScreen = useMediaQuery({ query: "(min-device-width: 1824px)" });
   const isTabletOrMobileDevice = useMediaQuery({
     query: "(max-device-width: 1224px)",
   });
@@ -13,13 +13,11 @@ export default function Hero() {
     <div>
       {isDesktopOrLaptop && (
         <>
-          {isBigScreen && (
-            <img
-              style={{ width: "100%" }}
-              src="../static/heroes/ichiban-covid19.jpg"
-              alt="30% OFF total order for take-out only."
-            ></img>
-          )}
+          <img
+            style={{ width: "100%" }}
+            src="../static/heroes/ichiban-covid19.jpg"
+            alt="30% OFF total order for take-out only."
+          ></img>
         </>
       )}
       {isTabletOrMobileDevice && (
