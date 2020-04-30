@@ -26,7 +26,7 @@ const hotAppetizers = [
     name: "Baked Green Mussel (5 Pieces)",
     description: " ",
     price: 4.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/BakedGreenMussels.jpg",
     largeImage: "",
   },
   {
@@ -34,7 +34,7 @@ const hotAppetizers = [
     name: "Steamed Edamame",
     description: " ",
     price: 3.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/SteamedEdamame.jpg",
     largeImage: "",
   },
   {
@@ -42,7 +42,7 @@ const hotAppetizers = [
     name: "Spicy Garlic Edamame",
     description: "delicately sauteed soybeans with sea salt and garlic",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/GarlicEdamame.jpg",
     largeImage: "",
   },
   {
@@ -50,7 +50,7 @@ const hotAppetizers = [
     name: "Shrimp Tempura (3 Pieces)",
     description: " ",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/ShrimpTempura.jpg",
     largeImage: "",
   },
   {
@@ -58,7 +58,7 @@ const hotAppetizers = [
     name: "Vegetable Tempura (5 Pieces)",
     description: " ",
     price: 3.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/VegetableTempura.jpg",
     largeImage: "",
   },
   {
@@ -66,7 +66,7 @@ const hotAppetizers = [
     name: "Calamari Tempura",
     description: " ",
     price: 7.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/CalamariTempura.jpg",
     largeImage: "",
   },
   {
@@ -74,7 +74,7 @@ const hotAppetizers = [
     name: "Mixed Tempura",
     description: "shrimp and tempura",
     price: 8.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/MixedTempura.jpg",
     largeImage: "",
   },
   {
@@ -82,7 +82,7 @@ const hotAppetizers = [
     name: "Gyoza",
     description: "lightly fried pork and vegetable pot stickers (6 pieces)",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/Gyoza.jpg",
     largeImage: "",
   },
   {
@@ -115,7 +115,7 @@ const hotAppetizers = [
     name: "Soft Shell Crab",
     description: "fried soft shell crab with ponzu sauce",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/SoftShellCrab.jpg",
     largeImage: "",
   },
   {
@@ -131,7 +131,7 @@ const hotAppetizers = [
     name: "Shishito Peppers",
     description: "",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/Shishito.jpg",
     largeImage: "",
   },
   {
@@ -139,7 +139,7 @@ const hotAppetizers = [
     name: "Steamed Dimsum (5 Pieces)",
     description: "",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/Dimsum.jpg",
     largeImage: "",
   },
 
@@ -156,7 +156,7 @@ const hotAppetizers = [
     name: "Salmon Collar",
     description: "broiled salmon collar",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/SalmonCollar.jpg",
     largeImage: "",
   },
   {
@@ -164,7 +164,7 @@ const hotAppetizers = [
     name: "Yellowtail Collar",
     description: "broiled yellowtail collar",
     price: 8.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/YellowtailCollar.jpg",
     largeImage: "",
   },
   {
@@ -172,7 +172,7 @@ const hotAppetizers = [
     name: "Yakitori",
     description: "Japanese style skewers, shrimp, chicken, and beef",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/Yakitori.jpg",
     largeImage: "",
   },
   {
@@ -180,7 +180,7 @@ const hotAppetizers = [
     name: "Spicy Tofu",
     description: " ",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/SpicyTofu.jpg",
     largeImage: "",
   },
 ];
@@ -195,8 +195,8 @@ export default function Entrees() {
             <Grid item xs={12}>
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
-                <Typography variant="h4" id="WarmAppetizers">
-                  Warm Appetizers
+                <Typography variant="h4" id="HotAppetizers">
+                  Hot Appetizers
                 </Typography>
               </div>
             </Grid>

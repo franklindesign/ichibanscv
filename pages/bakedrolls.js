@@ -27,7 +27,7 @@ const bakedRolls = [
     name: "Baked Salmon Roll",
     description: "California roll, baked salmon, and eel sauce.",
     price: 11.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/bakedRolls/BakedSalmonRoll.jpg",
     largeImage: "",
   },
   {
@@ -52,7 +52,7 @@ const bakedRolls = [
     name: "Caterpillar Roll",
     description: "fresh eel, cucumber, avocado, and eel sauce",
     price: 11.95,
-    image: " ../static/items/NoImage.jpg",
+    image: " ../static/items/bakedRolls/CaterpillarRoll.jpg",
     largeImage: "",
   },
   {
