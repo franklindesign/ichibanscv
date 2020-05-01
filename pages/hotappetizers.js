@@ -90,7 +90,7 @@ const hotAppetizers = [
     name: "Shumai",
     description: "lightly fried shrimp and vegetable dumplings (6 pieces)",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/Shumai.jpg",
     largeImage: "",
   },
   {
@@ -123,7 +123,7 @@ const hotAppetizers = [
     name: "Deep Fried Tofu",
     description: "fried tofu with masago, bonito, green onion",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/hotAppetizers/DeepFriedTofu.jpg",
     largeImage: "",
   },
   {
