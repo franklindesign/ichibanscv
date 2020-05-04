@@ -8,17 +8,17 @@ import Dropdown from "../components/Dropdown";
 // import { Modal } from "@material-ui/core";
 import OrderWith from "../components/OrderWith";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const freshRolls = [
@@ -29,7 +29,7 @@ const freshRolls = [
       "spicy crab, tuna, salmon, yellowtail, green onion, masago, chili oil",
     price: 13.95,
     image: "../static/items/freshRolls/XGirlFriendRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const freshRolls = [
     description: "shrimp, avocado, cucumber, aguachile sauce",
     price: 12.95,
     image: "../static/items/freshRolls/AguachileRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const freshRolls = [
       "spicy tuna, cucumber, yellowtail, jalapeno, red onion, masago, and yuzu or ponzu sauce",
     price: 12.99,
     image: "../static/items/freshRolls/YellowtailDelightRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const freshRolls = [
       "spicy tuna roll topped with tuna, masago, green onion and spicy goma sauce",
     price: 12.99,
     image: "../static/items/freshRolls/HawaiianRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const freshRolls = [
     description: "four kinds of fish, avocado, cucumber wrap",
     price: 12.99,
     image: "../static/items/freshRolls/CucumberSashimiRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const freshRolls = [
       "tuna, salmon, yellowtail, white fish, crab, asparagus, soy paper wrap, ponzu or yuzu sauce",
     price: 12.99,
     image: "../static/items/freshRolls/SakuraRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 7,
@@ -80,7 +80,7 @@ const freshRolls = [
     description: "salmon, crab, avocado, cucumber wrap, and ponzu sauce",
     price: 12.95,
     image: "../static/items/freshRolls/SexySalmonRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 8,
@@ -88,7 +88,7 @@ const freshRolls = [
     description: "California roll, salmon, sliced lemon, and mustard sauce",
     price: 11.95,
     image: "../static/items/freshRolls/LemonRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ const freshRolls = [
     description: "spicy shrimp, crab, avocado, spicy mayo and hot sauce",
     price: 10.95,
     image: "../static/items/freshRolls/MexicanRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 10,
@@ -105,7 +105,7 @@ const freshRolls = [
       "shrimp tempura, crunch crab, albacore, deep fried garlic, and spicy ponzu sauce",
     price: 11.95,
     image: "../static/items/freshRolls/SpicyAlbacoreCrunchRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 11,
@@ -114,7 +114,7 @@ const freshRolls = [
       "albacore, crab, red onion, green onion, masago, garlic, and ponzu sauce",
     price: 11.95,
     image: "../static/items/freshRolls/AlbacoreDelightRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 12,
@@ -123,7 +123,7 @@ const freshRolls = [
       "shrimp tempura, cucumber, mango, salmon, avocado, goma and sweet mayo sauce",
     price: 10.95,
     image: "../static/items/freshRolls/MangoTangoRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 13,
@@ -132,7 +132,7 @@ const freshRolls = [
       "avocado, cucumber, mango, fresh salmon on top, goma and sweet mayo sauce",
     price: 10.95,
     image: "../static/items/freshRolls/MangoManiaRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 14,
@@ -140,7 +140,7 @@ const freshRolls = [
     description: "spicy tuna roll topped with salmon, and spicy goma sauce",
     price: 11.95,
     image: "../static/items/freshRolls/AlaskanRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 15,
@@ -148,7 +148,7 @@ const freshRolls = [
     description: "California roll topped with four kinds of fish and avocado",
     price: 12.95,
     image: "../static/items/freshRolls/RainbowRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 16,
@@ -156,7 +156,7 @@ const freshRolls = [
     description: "spicy tuna, avocado, chili oil, hot and sweet sauce",
     price: 10.95,
     image: "../static/items/freshRolls/911Roll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 17,
@@ -165,7 +165,7 @@ const freshRolls = [
       "spicy California roll, deep fried jalapeno, tuna, spicy mayo, chili oil, and hot sauce",
     price: 12.95,
     image: "../static/items/freshRolls/RedDragonRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 18,
@@ -174,26 +174,26 @@ const freshRolls = [
       "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
     price: 11.95,
     image: "../static/items/freshRolls/SunBurnRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 19,
-    name: "Baja Roll (NEW!)",
+    name: "Baja Roll",
     description:
       "Crab meat, Jalapeno, red onion, avocado, cilantro with garlic ponzu.",
     price: 11.95,
     image: "../static/items/freshRolls/bajaRoll.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 20,
-    name: "Superman Burrito Roll (NEW!)",
+    name: "Superman Burrito Roll",
     description:
       "Spicy tuna, shrimp, asparagus tempura, avocado, cucumber, soy paper, with eel & spicy mayo sauce.",
     price: 10.95,
     image: "../static/items/freshRolls/SupermanBurrito.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function menu() {
@@ -212,7 +212,7 @@ export default function menu() {
               </div>
             </Grid>
 
-            {freshRolls.map(freshRoll => (
+            {freshRolls.map((freshRoll) => (
               <Grid item xs={12} sm={6} key={freshRoll.id}>
                 <CardItem
                   key={freshRoll.id}

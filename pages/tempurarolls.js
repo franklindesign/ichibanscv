@@ -165,6 +165,31 @@ const tempuraRolls = [
     image: "../static/items/tempurarolls/HeartAttack.jpg",
     largeImage: "",
   },
+  {
+    id: 18,
+    name: "Vegetable Tempura Roll",
+    description: "Avocado, cucumber, and fried vegetables",
+    price: 8.95,
+    image: "../static/items/tempurarolls/vegetableTempuraRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 19,
+    name: "Sean's Roll",
+    description:
+      "Salmon, avocado, tempura shrimp, crabmeat, with spicy mayo sauce",
+    price: 11.95,
+    image: "../static/items/tempurarolls/seanRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 20,
+    name: "Hot Night Roll",
+    description: "Spicy tuna with crunch on top, shrimp tempura and crabmeat.",
+    price: 11.95,
+    image: "../static/items/tempurarolls/hotNightRoll.jpg",
+    largeImage: "",
+  },
 ];
 
 export default function TempuraRolls() {
