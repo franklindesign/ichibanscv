@@ -27,7 +27,7 @@ const lunchSpecials = [
     description:
       "Choose Ramen or Udon for a combo with 1 item of your choice: Sushi (5 pieces), Sashimi (6 pieces), California Cut Roll, Spicy Tuna Cut Roll, or Mixed Tempura.",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/lunchSpecials/udonSoup.jpg",
     largeImage: "",
   },
   {
@@ -36,7 +36,7 @@ const lunchSpecials = [
     description:
       "Choose two items: Chicken/Beef/Salmon Teriyaki, Pork Cutlet, Bulgogi, Sesame Chicken, Sushi (5), Sashimi (6), California Roll, and Spicy Tuna Roll. ",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/lunchSpecials/bentoBox.jpg",
     largeImage: "",
   },
   {

@@ -51,7 +51,7 @@ const entrees = [
     name: "Don Katsu",
     description: "pork, chicken or fish",
     price: 12.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/entrees/donKatsu.jpg",
     largeImage: "",
   },
   {

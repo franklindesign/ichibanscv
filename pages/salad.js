@@ -7,8 +7,6 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import OrderWith from "../components/OrderWith";
 
-const NoImage = "../static/items/NoImage.jpg";
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -29,7 +27,7 @@ const salads = [
     name: "House Salad",
     description: "ginger dressing",
     price: 4.5,
-    image: NoImage,
+    image: "../static/items/salad/houseSalad.jpg",
     largeImage: "",
   },
   {
@@ -37,7 +35,7 @@ const salads = [
     name: "Cucumber Salad",
     description: "cucumber in a vinagrette with sesame seed",
     price: 4.5,
-    image: NoImage,
+    image: "../static/items/salad/cucumberSalad.jpg",
     largeImage: "",
   },
   {
@@ -45,7 +43,7 @@ const salads = [
     name: "Seaweed Salad",
     description: "marinated seaweed with sesame oil and seed",
     price: 4.95,
-    image: NoImage,
+    image: "../static/items/salad/seaweedSalad.jpg",
     largeImage: "",
   },
   {
@@ -53,7 +51,7 @@ const salads = [
     name: "Salmon Skin Salad",
     description: "broiled salmon skin, gobo, bonito",
     price: 7.95,
-    image: NoImage,
+    image: "../static/items/salad/salmonSkinSalad.jpg",
     largeImage: "",
   },
   {
@@ -70,7 +68,7 @@ const salads = [
     name: "Sashimi Salad",
     description: "green salad with 8 pieces of sashimi",
     price: 12.95,
-    image: NoImage,
+    image: "../static/items/salad/sashimiSalad.jpg",
     largeImage: "",
   },
   {

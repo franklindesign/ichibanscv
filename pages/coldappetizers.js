@@ -58,9 +58,9 @@ const coldAppetizers = [
     name: "Sexy on the Beach",
     description:
       "tuna, spicy crab, and shrimp with avocado, ponzu, and chili oil",
-    price: "",
+    price: "5.95",
     image: "../static/items/coldAppetizers/SexyOnTheBeach.jpg",
-    largeImage: "",
+    largeImage: " ",
   },
 ];
 
