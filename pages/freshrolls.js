@@ -167,17 +167,9 @@ const freshRolls = [
     image: "../static/items/freshRolls/RedDragonRoll.jpg",
     largeImage: "",
   },
+
   {
     id: 18,
-    name: "Sun-Burn Roll",
-    description:
-      "Spicy mixed seafood, albacore, deep fried onion, and garlic ponzu sauce",
-    price: 11.95,
-    image: "../static/items/freshRolls/SunBurnRoll.jpg",
-    largeImage: "",
-  },
-  {
-    id: 19,
     name: "Baja Roll",
     description:
       "Crab meat, Jalapeno, red onion, avocado, cilantro with garlic ponzu.",
@@ -186,7 +178,7 @@ const freshRolls = [
     largeImage: "",
   },
   {
-    id: 20,
+    id: 19,
     name: "Superman Burrito Roll",
     description:
       "Spicy tuna, shrimp, asparagus tempura, avocado, cucumber, soy paper, with eel & spicy mayo sauce.",

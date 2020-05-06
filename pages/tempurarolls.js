@@ -48,7 +48,8 @@ const tempuraRolls = [
   {
     id: 4,
     name: "Shrimp Tempura Roll",
-    description: "shrimp tempura topped with avocado, spicy, and eel",
+    description:
+      "shrimp tempura topped with avocado with spicy mayo and eel sauce",
     price: 10.95,
     image: "../static/items/tempuraRolls/ShrimpTempuraRoll.jpg",
     largeImage: "",
