@@ -4,19 +4,19 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
+import Alert from "@material-ui/lab/Alert";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: "left",
-    color: "#000"
   },
   list: {
-    listStyleType: "none"
-  }
+    listStyleType: "none",
+  },
 }));
 
 const sushi = [
@@ -41,7 +41,7 @@ const sushi = [
   "Smelt Egg",
   "Squid",
   "Sweet Shrimp",
-  "White Fish"
+  "White Fish",
 ];
 
 const listSushi = sushi.map((sushi, index) => (
@@ -57,7 +57,7 @@ const specialSushis = [
   "Escolar (ono, with lemon pepper and fried onion)",
   "Big Scallop",
   "Cajun Tuna",
-  "Spanish Mackerel"
+  "Spanish Mackerel",
 ];
 
 const listSpecialSushi = specialSushis.map((specialSushi, index) => (
@@ -82,7 +82,7 @@ const regularRolls = [
   "Tuna Roll",
   "Vegetable Roll",
   "Yellowtail Rol",
-  "Philadelphia Roll"
+  "Philadelphia Roll",
 ];
 
 const listRegularRolls = regularRolls.map((regularRoll, index) => (
@@ -107,7 +107,7 @@ const freshRolls = [
   "Aguachile Roll",
   "Lemon Roll",
   "Mango Tango Roll",
-  "Mango Mania Roll"
+  "Mango Mania Roll",
 ];
 
 const listFreshRolls = freshRolls.map((freshRoll, index) => (
@@ -130,7 +130,7 @@ const tempuraRolls = [
   "Shrimp & Crab Crunch Roll",
   "Amber Roll",
   "Monkey Roll",
-  "Sun-Burn Roll"
+  "Sun-Burn Roll",
 ];
 
 const listTempuraRolls = tempuraRolls.map((tempuraRoll, index) => (
@@ -145,7 +145,7 @@ const bakedRolls = [
   "Caterpillar Roll",
   "Volcano Roll",
   "Lobster Roll",
-  "Sunset Roll"
+  "Sunset Roll",
 ];
 
 const listBakedRolls = bakedRolls.map((bakedRoll, index) => (
@@ -164,13 +164,16 @@ export default function happyhour() {
         loading="lazy"
         alt="Happy Hour"
       ></img>
+
       <Container maxWidth="lg">
+        <br></br>
+        <Alert variant="outlined" severity="info">
+          Please inform a server about any food allergies. All crabmeat is
+          imitation.
+        </Alert>
+        <br></br>
         <div className={classes.root}>
           <Grid container spacing={3}>
-            <Grid item xs={12}>
-              Please inform a server about any food allergies. All crabmeat is
-              imitation.
-            </Grid>
             <Grid item xs={12} sm={6} md={4}>
               <Paper className={classes.paper}>
                 <Typography variant="h4">Sushi (2 Pieces)</Typography>{" "}

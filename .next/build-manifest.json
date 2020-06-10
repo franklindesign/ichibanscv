@@ -37,14 +37,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/menu": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/photos": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
