@@ -26,14 +26,6 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/ayce": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/happyhour": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
