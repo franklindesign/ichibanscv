@@ -37,7 +37,7 @@ export default function Copyright() {
               <AccessTimeIcon />
             </div>
             <Typography align="center" variant="body1">
-              Mon-Thur, Sun: 12 PM to 9 PM <br></br>Fri-Sat: 12 PM to 9:30 PM
+              Sun-Thur, Sun: 12 PM to 9:30 PM <br></br>Fri-Sat: 12 PM to 10 PM
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
