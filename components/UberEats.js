@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     textAlign: "center",
     width: "100%",
@@ -16,9 +16,9 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       background: "#000",
       color: "#3e9920",
-      textDecoration: "none"
-    }
-  }
+      textDecoration: "none",
+    },
+  },
 }));
 
 export default function UberEats() {
@@ -27,12 +27,12 @@ export default function UberEats() {
     <>
       <button className={classes.root}>
         <a
-          href="https://www.ubereats.com/en-US/los-angeles/food-delivery/ichiban-sushi-%26-bar/SSFugl8EQyqLzEvZdvo-Sw/"
+          href="https://order.ubereats.com/los-angeles/food-delivery/Ichiban%20Sushi%20%26%20Bar/SSFugl8EQyqLzEvZdvo-Sw/?utm_source=web-restaurant-manager"
           target="_blank"
           rel="noopener"
           style={{
             textDecoration: "none",
-            color: "#ffffff"
+            color: "#ffffff",
           }}
         >
           Order with UberEats

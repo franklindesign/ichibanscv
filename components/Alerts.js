@@ -5,8 +5,9 @@ export default function Alerts() {
     <div style={{ marginTop: 20 }}>
       <Alert severity="info">
         <AlertTitle>Valued Patrons,</AlertTitle>Our patio is now open for
-        outdoor seating. We're also offering: 30% OFF sushi, sashimi, and rolls
-        for all diners. Questions? Give us a call.
+        outdoor dining. No All-You-Can-Eat options at this time. But we are
+        offering: 30% OFF sushi, sashimi, and rolls for all outdoor diners.
+        Questions? Give us a call.
       </Alert>
     </div>
   );
