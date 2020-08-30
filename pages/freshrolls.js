@@ -103,7 +103,7 @@ const freshRolls = [
     name: "Spicy Albacore Crunch Roll",
     description:
       "shrimp tempura, crunch crab, albacore, deep fried garlic, and spicy ponzu sauce",
-    price: 11.95,
+    price: 12.95,
     image: "../static/items/freshRolls/SpicyAlbacoreCrunchRoll.jpg",
     largeImage: "",
   },
@@ -112,7 +112,7 @@ const freshRolls = [
     name: "Albacore Delight Roll",
     description:
       "albacore, crab, red onion, green onion, masago, garlic, and ponzu sauce",
-    price: 11.95,
+    price: 12.95,
     image: "../static/items/freshRolls/AlbacoreDelightRoll.jpg",
     largeImage: "",
   },
@@ -121,7 +121,7 @@ const freshRolls = [
     name: "Mango Tango Roll",
     description:
       "shrimp tempura, cucumber, mango, salmon, avocado, goma and sweet mayo sauce",
-    price: 10.95,
+    price: 12.95,
     image: "../static/items/freshRolls/MangoTangoRoll.jpg",
     largeImage: "",
   },
@@ -130,7 +130,7 @@ const freshRolls = [
     name: "Mango Mania Roll",
     description:
       "avocado, cucumber, mango, fresh salmon on top, goma and sweet mayo sauce",
-    price: 10.95,
+    price: 12.95,
     image: "../static/items/freshRolls/MangoManiaRoll.jpg",
     largeImage: "",
   },
@@ -138,7 +138,7 @@ const freshRolls = [
     id: 14,
     name: "Alaskan Roll",
     description: "spicy tuna roll topped with salmon, and spicy goma sauce",
-    price: 11.95,
+    price: 12.95,
     image: "../static/items/freshRolls/AlaskanRoll.jpg",
     largeImage: "",
   },

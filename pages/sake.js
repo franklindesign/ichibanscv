@@ -6,17 +6,17 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-    marginBottom: 50
+    marginBottom: 50,
   },
 
   ayce: {
     textAlign: "left",
-    marginBottom: 25
-  }
+    marginBottom: 25,
+  },
 }));
 
 const sakes = [
@@ -26,7 +26,7 @@ const sakes = [
     description: "",
     price: 3.5,
     image: "../static/items/sake/hotsake.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 2,
@@ -34,15 +34,15 @@ const sakes = [
     description: " ",
     price: 6.5,
     image: "../static/items/sake/sake.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 3,
     name: "Plum Hot Sake (Large)",
     description: " ",
-    price: 8.5,
+    price: 9.5,
     image: "../static/items/sake/plumHotSake.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const sakes = [
     description: "Chamisul Original (375ml)",
     price: 12,
     image: "../static/items/sake/jinro_chamisul.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const sakes = [
     description: "Pineapple, Peach, or Blueberry (375ml)",
     price: 12,
     image: "../static/items/sake/chamisul_flavored.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const sakes = [
     description: "cold sake, (300ml)",
     price: 12,
     image: "../static/items/sake/nigori.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ const sakes = [
     description: "cold sake, (300ml)",
     price: 12,
     image: "../static/items/sake/ginjo.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 8,
@@ -82,26 +82,25 @@ const sakes = [
     description: "cold sake, (375ml)",
     price: 16,
     image: "../static/items/sake/kikusui.jpg",
-    largeImage: ""
+    largeImage: "",
   },
   {
     id: 9,
     name: "Kikusui (Large)",
     description: "cold sake, (720ml)",
-    price: 30,
+    price: 35,
     image: "../static/items/sake/kikusui_large.jpg",
-    largeImage: ""
+    largeImage: "",
   },
 
   {
     id: 10,
-    name: "Kubota",
-    description:
-      "premium cold sake (300ml), Junmai Daiginjo, soft and smooth texture",
-    price: "Ask Server",
+    name: "Kubota Junmai Daiginjo",
+    description: "premium cold sake (300ml), soft and smooth texture",
+    price: 24,
     image: "../static/items/sake/kubota.jpg",
-    largeImage: ""
-  }
+    largeImage: "",
+  },
 ];
 
 export default function Entrees() {
@@ -121,7 +120,7 @@ export default function Entrees() {
               </div>
             </Grid>
 
-            {sakes.map(sake => (
+            {sakes.map((sake) => (
               <Grid item xs={12} sm={6} key={sake.name}>
                 <CardItem
                   itemName={{ text: `${sake.name}` }}
