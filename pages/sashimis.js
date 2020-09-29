@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 const sashimis = [
   {
     id: 1,
-    name: "Tuna",
+    name: "Tuna (sashimi)",
     description: "5-6 pieces",
     price: "15.95",
     image: NoImage,
@@ -36,7 +36,7 @@ const sashimis = [
     id: 2,
     name: "Cajun Tuna",
     description: "5-6 pieces",
-    price: "15.95",
+    price: "16.95",
     image: NoImage,
     largeImage: "",
   },
