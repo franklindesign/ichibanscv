@@ -6,6 +6,9 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
+const NoImage = "../static/items/NoImage.jpg";
+const NoPrice = "Ask server for price";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -99,6 +102,14 @@ const sakes = [
     description: "premium cold sake (300ml), soft and smooth texture",
     price: 24,
     image: "../static/items/sake/kubota.jpg",
+    largeImage: "",
+  },
+  {
+    id: 11,
+    name: "Flavored Sake",
+    description: "Choose a flavor of pineapple or peach.",
+    price: 12,
+    image: "../static/items/sake/flavored-sake.jpg",
     largeImage: "",
   },
 ];

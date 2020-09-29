@@ -118,7 +118,7 @@ const regularRolls = [
     name: "Tuna (Cut Roll)",
     description: "6-8 pieces",
     price: "7.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -126,7 +126,7 @@ const regularRolls = [
     name: "Vegetable (Cut Roll)",
     description: "6-8 pieces",
     price: "6.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {

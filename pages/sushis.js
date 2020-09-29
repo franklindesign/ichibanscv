@@ -8,6 +8,8 @@ import Dropdown from "../components/Dropdown";
 import Alert from "@material-ui/lab/Alert";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -27,7 +29,7 @@ const sushis = [
     name: "Tuna",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -35,7 +37,7 @@ const sushis = [
     name: "Salmon",
     description: "2 pieces",
     price: "4.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -43,7 +45,7 @@ const sushis = [
     name: "Escolar (ono)",
     description: "2 pieces",
     price: "4.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -51,7 +53,7 @@ const sushis = [
     name: "Albacore",
     description: "2 pieces",
     price: "4.95",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -59,7 +61,7 @@ const sushis = [
     name: "Halibut",
     description: "2 pieces",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 
@@ -68,7 +70,7 @@ const sushis = [
     name: "Yellowtail",
     description: "2 pieces",
     price: "5.50",
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -76,7 +78,7 @@ const sushis = [
     name: "Crab",
     description: "2 pieces",
     price: "3.95",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -84,7 +86,7 @@ const sushis = [
     name: "Egg",
     description: "2 pieces",
     price: "3.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -92,7 +94,7 @@ const sushis = [
     name: "Fresh Water Eel (Unagi)",
     description: "2 pieces",
     price: "5.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -100,7 +102,7 @@ const sushis = [
     name: "Inari",
     description: "2 pieces",
     price: "3.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -108,7 +110,7 @@ const sushis = [
     name: "Mackerel",
     description: "2 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -116,7 +118,7 @@ const sushis = [
     name: "Octopus",
     description: "2 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -124,7 +126,7 @@ const sushis = [
     name: "Red Clam",
     description: "2 pieces",
     price: "3.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -132,7 +134,7 @@ const sushis = [
     name: "Salmon Egg",
     description: "2 pieces",
     price: "6.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -140,7 +142,7 @@ const sushis = [
     name: "Scallop",
     description: "2 pieces",
     price: "4.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -148,7 +150,7 @@ const sushis = [
     name: "Sea Urchin (Uni)",
     description: "2 pieces",
     price: "9.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -156,7 +158,7 @@ const sushis = [
     name: "Shrimp",
     description: "2 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -164,7 +166,7 @@ const sushis = [
     name: "Smelt Egg",
     description: "2 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -172,7 +174,7 @@ const sushis = [
     name: "Squid",
     description: "2 pieces",
     price: "4.50",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -180,7 +182,7 @@ const sushis = [
     name: "Sweet Shrimp",
     description: "2 pieces",
     price: "9.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -188,7 +190,7 @@ const sushis = [
     name: "White Fish",
     description: "2 pieces",
     price: "4.50",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

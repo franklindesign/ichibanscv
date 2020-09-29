@@ -45,11 +45,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const categories = [
-  {
-    name: "Lunch Specials",
-    image: "",
-    link: "/lunchspecials",
-  },
+  // {
+  //   name: "Lunch Specials",
+  //   image: "",
+  //   link: "/lunchspecials",
+  // },
   {
     name: "Fresh Rolls",
     image: "../static/categories/freshRolls.jpg",
@@ -142,7 +142,11 @@ const categories = [
     image: "../static/categories/beerAndWine.jpg",
     link: "/beerwine",
   },
-  { name: "Sake", image: "../static/categories/sake.jpg", link: "/sake" },
+  {
+    name: "Sake & Soju",
+    image: "../static/categories/sake.jpg",
+    link: "/sake",
+  },
 ];
 
 export default function menu() {

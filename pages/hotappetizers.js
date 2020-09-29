@@ -7,6 +7,8 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -99,7 +101,7 @@ const hotAppetizers = [
     description:
       "baked crab, scallop, shrimp, onion, mushroom with dynamite sauce",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -107,7 +109,7 @@ const hotAppetizers = [
     name: "Lobster Dynamite",
     description: "baked lobster with dynamite sauce",
     price: 12.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -148,7 +150,7 @@ const hotAppetizers = [
     name: "Sesami Chicken",
     description: "lightly fried chicken marinated in sesame sauce",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {

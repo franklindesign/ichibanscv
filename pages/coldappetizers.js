@@ -7,6 +7,8 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -34,7 +36,7 @@ const coldAppetizers = [
     name: "Fresh Oyster (2 pieces) ",
     description: "2 pieces of fresh oyster",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -42,7 +44,7 @@ const coldAppetizers = [
     name: "Fresh Oyster (6 pieces) ",
     description: "6 pieces of fresh oyster",
     price: 14.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -83,7 +85,7 @@ const coldAppetizers = [
     name: "Cajun Spicy Tuna Sashimi",
     description: "Cajun style spicy sashimi with avocado, ponzu, and chili oil",
     price: 16.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

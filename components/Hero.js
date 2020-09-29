@@ -16,7 +16,7 @@ export default function Hero() {
           <img
             style={{ width: "100%" }}
             src="../static/heroes/ichiban-hero-new-patio.jpg"
-            alt="Outdoor seating offer: 30% OFF Sushi, Sashimi, and Rolls."
+            alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
           ></img>
         </>
       )}
@@ -24,13 +24,13 @@ export default function Hero() {
         <div>
           <img
             style={{ width: "100%" }}
-            src="../static/heroes/outdoor-seating.jpg"
+            src="../static/heroes/Outdoor-dining-offer.jpg"
             alt="Our patio is now open for outdoor seating."
           ></img>
           <img
             style={{ width: "100%" }}
-            src="../static/heroes/30OFF-Outdoor-Seating.jpg"
-            alt="Outdoor seating offer: 30% OFF Sushi, Sashimi, and Rolls."
+            src="../static/heroes/Outdoor-Seatings.jpg"
+            alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
           ></img>
 
           <img

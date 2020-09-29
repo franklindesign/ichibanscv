@@ -6,6 +6,8 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -26,7 +28,7 @@ const desserts = [
     name: "Ice Cream",
     description: "green tea or vanilla",
     price: 2.5,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -42,7 +44,7 @@ const desserts = [
     name: "Tempura Ice Cream",
     description: "green tea or vanilla",
     price: 5.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -50,7 +52,7 @@ const desserts = [
     name: "Tempura Cheese Cake",
     description: "green tea or vanilla",
     price: 6.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {

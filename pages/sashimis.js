@@ -8,6 +8,8 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -26,8 +28,8 @@ const sashimis = [
     id: 1,
     name: "Tuna",
     description: "5-6 pieces",
-    price: "14.95",
-    image: "../static/items/NoImage.jpg",
+    price: "15.95",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -35,15 +37,15 @@ const sashimis = [
     name: "Cajun Tuna",
     description: "5-6 pieces",
     price: "15.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
     id: 3,
-    name: "Big Scallop",
+    name: "Octopus",
     description: "5-6 pieces",
-    price: "19.95",
-    image: " ../static/items/NoImage.jpg",
+    price: "13.95",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -51,7 +53,7 @@ const sashimis = [
     name: "Salmon",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -59,7 +61,7 @@ const sashimis = [
     name: "Escolar (ono)",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -67,7 +69,7 @@ const sashimis = [
     name: "Albacore",
     description: "5-6 pieces",
     price: "13.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -75,7 +77,7 @@ const sashimis = [
     name: "Halibut",
     description: "5-6 pieces",
     price: "14.95",
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -83,7 +85,15 @@ const sashimis = [
     name: "Yellowtail",
     description: "5-6 pieces",
     price: "14.95",
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
+    largeImage: "",
+  },
+  {
+    id: 9,
+    name: "Big Scallop",
+    description: "5-6 pieces",
+    price: "19.95",
+    image: NoImage,
     largeImage: "",
   },
 ];

@@ -6,6 +6,8 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -25,7 +27,7 @@ const soupAndNoodles = [
     name: "Tempura Udon",
     description: "shrimp tempura in noodle soup",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -33,7 +35,7 @@ const soupAndNoodles = [
     name: "Chicken Udon",
     description: "chicken in noodle soup",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -41,7 +43,7 @@ const soupAndNoodles = [
     name: "Beef Udon",
     description: "beef in noodle soup",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -49,7 +51,7 @@ const soupAndNoodles = [
     name: "Seafood Udon",
     description: "various seafood in noodle soup",
     price: 11.95,
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -57,7 +59,7 @@ const soupAndNoodles = [
     name: "Tonkotsu Ramen",
     description: "Choose regular or spicy flavor",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -65,7 +67,7 @@ const soupAndNoodles = [
     name: "Miso Ramen",
     description: "Choose regular or spicy flavor",
     price: 9.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -73,7 +75,7 @@ const soupAndNoodles = [
     name: "Seafood Ramen",
     description: "shrimp, jumbo scallop, mussel, calamari, vegetables",
     price: 11.95,
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -82,7 +84,7 @@ const soupAndNoodles = [
     description:
       "Choose 1 item with Ramen or Udon: Sushi (5), Sashimi (6), California Cut Roll, or Spicy Tuna Cut Roll",
     price: 13.95,
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -90,7 +92,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Vegetables)",
     description: "pan fried Japanese thin noodles with vegetables",
     price: 9.95,
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -98,7 +100,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Chicken)",
     description: "pan fried Japanese thin noodles with chicken",
     price: 11.95,
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -106,7 +108,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Beef)",
     description: "pan fried Japanese thin noodles with beef",
     price: 11.95,
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -114,7 +116,7 @@ const soupAndNoodles = [
     name: "Yaki Soba (Shrimp)",
     description: "pan fried Japanese thin noodles with shrimp",
     price: 11.95,
-    image: "../static/items/NoImage.jpg ",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -122,7 +124,7 @@ const soupAndNoodles = [
     name: "Sukiyaki",
     description: "beef, vegetables, tofu, yam noodle, egg with rice",
     price: 16.95,
-    image: " ../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];

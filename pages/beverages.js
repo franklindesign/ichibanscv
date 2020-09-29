@@ -6,6 +6,8 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
+const NoImage = "../static/items/NoImage.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -25,7 +27,7 @@ const kidsitems = [
     name: "Hot Tea",
     description: " ",
     price: 1.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -33,7 +35,7 @@ const kidsitems = [
     name: "Soda",
     description: "pepsi, diet pepsi, sierra mist, dr.pepper, lemonade",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -41,7 +43,7 @@ const kidsitems = [
     name: "VOSS Sparkling Water",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -49,7 +51,7 @@ const kidsitems = [
     name: "VOSS Bottled Water",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -57,7 +59,7 @@ const kidsitems = [
     name: "Iced Tea Regular",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -65,7 +67,7 @@ const kidsitems = [
     name: "Iced Tea Raspberry",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -73,7 +75,7 @@ const kidsitems = [
     name: "Ramune",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -81,7 +83,7 @@ const kidsitems = [
     name: "Iced Green Tea",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -89,7 +91,7 @@ const kidsitems = [
     name: "Arnold Palmer",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -97,7 +99,7 @@ const kidsitems = [
     name: "Shirley Temple",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -105,7 +107,7 @@ const kidsitems = [
     name: "Strawberry Lemonade",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
   {
@@ -113,7 +115,7 @@ const kidsitems = [
     name: "Apple Juice",
     description: " ",
     price: 2.95,
-    image: "../static/items/NoImage.jpg",
+    image: NoImage,
     largeImage: "",
   },
 ];
