@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
-import Alert from "@material-ui/lab/Alert";
+// import Alert from "@material-ui/lab/Alert";
 import OrderWith from "../components/OrderWith";
 
 const NoImage = "../static/items/NoImage.jpg";
@@ -208,11 +208,11 @@ export default function Sushis() {
                 <Typography variant="h4" id="sushis">
                   Sushi
                 </Typography>
-                <div className={classes.alerts}>
+                {/* <div className={classes.alerts}>
                   <Alert variant="outlined" severity="warning">
                     Out of Stock: Halibut and Sea Urchin (Uni)
                   </Alert>
-                </div>
+                </div> */}
               </div>
             </Grid>
 

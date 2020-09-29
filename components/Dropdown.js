@@ -63,7 +63,7 @@ export default function ClickAway() {
   };
 
   const categories = [
-    { category: "Lunch Specials", link: "/lunchspecials" },
+    // { category: "Lunch Specials", link: "/lunchspecials" },
     {
       category: "Fresh Rolls",
       link: "/freshrolls",
@@ -145,7 +145,7 @@ export default function ClickAway() {
       link: "/beerwine",
     },
     {
-      category: "Sake",
+      category: "Sake & Soju",
       link: "/sake",
     },
   ];
