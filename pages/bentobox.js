@@ -19,6 +19,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const lunchBentoPrice = "12.95";
+const dinnerBentoPrice = "15.95";
+
 const bentoboxes = [
   {
     id: 1,
@@ -118,13 +121,13 @@ export default function BentoBox() {
                 <p>Served with steamed rice, soup, salad & tempura.</p>
                 <p>(No substitutes and double order sushi & sashimi</p>
                 <p>
-                  <strong>Lunch Special: 9.95</strong>
+                  <strong>Lunch Special: {lunchBentoPrice}</strong>
                 </p>
                 <p>
-                  <strong>Dinner: 15.95</strong>
+                  <strong>Dinner: {dinnerBentoPrice}</strong>
                 </p>
                 <p>
-                  <strong>Choose 2 Items for your bento:</strong>{" "}
+                  <strong>Choose 2 Items for your bento:</strong>
                 </p>
               </div>
             </Grid>

@@ -12,13 +12,13 @@ export default function Hero() {
   return (
     <div>
       {isDesktopOrLaptop && (
-        <>
+        <div>
           <img
             style={{ width: "100%" }}
             src="../static/heroes/ichiban-hero-new-patio.jpg"
             alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
           ></img>
-        </>
+        </div>
       )}
       {isTabletOrMobileDevice && (
         <div>
