@@ -10,15 +10,13 @@ export default function Hero() {
   });
 
   return (
-    <div>
+    <>
       {isDesktopOrLaptop && (
-        <div>
-          <img
-            style={{ width: "100%" }}
-            src="../static/heroes/ichiban-hero-new-patio.jpg"
-            alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
-          ></img>
-        </div>
+        <img
+          style={{ width: "100%" }}
+          src="../static/heroes/ichiban-hero-new-patio.jpg"
+          alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
+        ></img>
       )}
       {isTabletOrMobileDevice && (
         <div>
@@ -26,12 +24,12 @@ export default function Hero() {
             style={{ width: "100%" }}
             src="../static/heroes/Outdoor-dining-offer.jpg"
             alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
-          ></img>
+          />
           <img
             style={{ width: "100%" }}
             src="../static/heroes/outdoor-seating.jpg"
             alt="Our patio is now open for outdoor seating."
-          ></img>
+          />
 
           {/* <img
             style={{ width: "100%" }}
@@ -40,6 +38,6 @@ export default function Hero() {
           ></img> */}
         </div>
       )}
-    </div>
+    </>
   );
 }
