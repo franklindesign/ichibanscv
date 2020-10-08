@@ -4,7 +4,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.47",
     "@mobiscroll/react-lite": "^4.10.2",
-    "next": "^9.5.3",
+    "next": "^9.5.4",
     "nuka-carousel": "^4.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
