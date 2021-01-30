@@ -20,22 +20,16 @@ export default function Hero() {
       )}
       {isTabletOrMobileDevice && (
         <div>
-          <img
+          {/* <img
             style={{ width: "100%" }}
             src="../static/heroes/Outdoor-dining-offer.jpg"
             alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
-          />
+          /> */}
           <img
             style={{ width: "100%" }}
             src="../static/heroes/outdoor-seating.jpg"
             alt="Our patio is now open for outdoor seating."
           />
-
-          {/* <img
-            style={{ width: "100%" }}
-            src="../static/heroes/lunchbentoboxtakeout.jpg"
-            alt="Lunch Special: Bento Box for $9.95."
-          ></img> */}
         </div>
       )}
     </>
