@@ -168,6 +168,7 @@ export default function happyhour() {
       <Container maxWidth="lg">
         <br></br>
         <Alert variant="outlined" severity="info">
+          <strong>Happy Hour is not available at this time.</strong>
           Please inform a server about any food allergies. All crabmeat is
           imitation.
         </Alert>

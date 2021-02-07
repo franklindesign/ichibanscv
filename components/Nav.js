@@ -100,7 +100,8 @@ export default function ButtonAppBar() {
                 Menu
               </Button>
             </Link>
-            <Link href="/happyhour" underline="none">
+            {/* Temporary disabled */}
+            {/* <Link href="/happyhour" underline="none">
               <Button color="secondary" className={classes.button}>
                 Happy Hour!
               </Button>
@@ -109,7 +110,7 @@ export default function ButtonAppBar() {
               <Button color="secondary" className={classes.button}>
                 All You Can Eat
               </Button>
-            </Link>
+            </Link> */}
             <Link href="/photos" underline="none">
               <Button color="secondary" className={classes.button}>
                 Photos
@@ -147,13 +148,14 @@ export default function ButtonAppBar() {
                 <Link href="/menu" className={classes.link}>
                   <MenuItem onClick={handleClose}>Menu</MenuItem>
                 </Link>
-                <Link href="/happyhour" className={classes.link}>
+                {/* Temporary Disabled */}
+                {/* <Link href="/happyhour" className={classes.link}>
                   <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
                 </Link>
 
                 <Link href="/ayce" className={classes.link}>
                   <MenuItem onClick={handleClose}>AYCE</MenuItem>
-                </Link>
+                </Link> */}
                 <Link href="/photos" className={classes.link}>
                   <MenuItem onClick={handleClose}>Photos</MenuItem>
                 </Link>

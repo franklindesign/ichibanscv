@@ -6,15 +6,15 @@ import Grid from "@material-ui/core/Grid";
 // import ScrollableTabsButtonAuto from "../components/AyceMenu";
 // import Ayce from "../components/NewAyceMenu";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   banner: { margin: "auto", width: "50%" },
   paper: {
     padding: theme.spacing(2),
     textAlign: "center",
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
   },
   banner: {
     display: "block",
@@ -23,12 +23,12 @@ const useStyles = makeStyles(theme => ({
     padding: 20,
     width: "100vw",
     [theme.breakpoints.up("sm")]: {
-      width: "50vw"
+      width: "50vw",
     },
     [theme.breakpoints.up("md")]: {
-      width: "40vw"
-    }
-  }
+      width: "40vw",
+    },
+  },
 }));
 
 export default function ayce() {
@@ -43,7 +43,7 @@ export default function ayce() {
       <div
         style={{
           backgroundColor: "#000",
-          paddingTop: 20
+          paddingTop: 20,
         }}
       >
         {" "}
@@ -51,6 +51,7 @@ export default function ayce() {
       </div>
       <Container maxWidth="md">
         <p style={{ textAlign: "center" }}>
+          <strong>AYCE IS NOT AVAILABLE AT THIS TIME</strong>
           All Items Listed are Included with All You Can Eat. Items may vary
           from photos.
         </p>
