@@ -25,6 +25,22 @@ const useStyles = makeStyles((theme) => ({
 const coldAppetizers = [
   {
     id: 1,
+    name: "Yummy Crunch Tuna",
+    description: "Fresh tuna with tomato salsa",
+    price: 9.95,
+    image: "../static/items/coldAppetizers/YummyCrunchTuna.jpg",
+    largeImage: "",
+  },
+  {
+    id: 2,
+    name: "Yummy Crunch Salmon",
+    description: "Fresh salmon with mango salsa",
+    price: 9.95,
+    image: "../static/items/coldAppetizers/YummyCrunchSalmon.jpg",
+    largeImage: "",
+  },
+  {
+    id: 3,
     name: "Spicy Tuna on Rice Crispy ",
     description: "4 pieces of crunchy rice cakes with spicy tuna on top",
     price: 9.95,
@@ -32,7 +48,7 @@ const coldAppetizers = [
     largeImage: "",
   },
   {
-    id: 2,
+    id: 4,
     name: "Fresh Oyster (2 pieces) ",
     description: "2 pieces of fresh oyster",
     price: 5.95,
@@ -40,7 +56,7 @@ const coldAppetizers = [
     largeImage: "",
   },
   {
-    id: 3,
+    id: 5,
     name: "Fresh Oyster (6 pieces) ",
     description: "6 pieces of fresh oyster",
     price: 14.95,
@@ -48,7 +64,7 @@ const coldAppetizers = [
     largeImage: "",
   },
   {
-    id: 4,
+    id: 6,
     name: "Sexy on the Beach",
     description:
       "tuna, spicy crab, and shrimp with avocado, ponzu, and chili oil",
@@ -57,7 +73,7 @@ const coldAppetizers = [
     largeImage: " ",
   },
   {
-    id: 5,
+    id: 7,
     name: "Oyster Shooter",
     description: "oyster with masago, green onions with ponzu and plum wine",
     price: "5.95",
@@ -65,7 +81,7 @@ const coldAppetizers = [
     largeImage: " ",
   },
   {
-    id: 6,
+    id: 8,
     name: "Yellowtail Carpaccio (6 Pieces)",
     description: "yellowtail with jalapeno, yuzu, and chili oil",
     price: 16.95,
@@ -73,7 +89,7 @@ const coldAppetizers = [
     largeImage: "",
   },
   {
-    id: 7,
+    id: 9,
     name: "Albacore Carpaccio (6 Pieces)",
     description: "albacore with ponzu and fried onion",
     price: 16.95,
@@ -81,7 +97,7 @@ const coldAppetizers = [
     largeImage: "",
   },
   {
-    id: 4,
+    id: 10,
     name: "Cajun Spicy Tuna Sashimi",
     description: "Cajun style spicy sashimi with avocado, ponzu, and chili oil",
     price: 16.95,

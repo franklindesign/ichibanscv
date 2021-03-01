@@ -46,45 +46,46 @@ const useStyles = makeStyles((theme) => ({
 const items = [
   {
     id: 1,
-    title: "Rainbow Roll",
-    src: "../static/featuredItems/featuredItem01.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls",
+    title: "Yummy Crunch Tuna",
+    src: "../static/newFeaturedItems/newfeaturedItems_YummyCrunchTuna.jpg",
+    categories: "Cold Appetizers",
+    link: "/coldappetizers",
   },
   {
     id: 2,
-    title: "Bento Box",
-    src: "../static/featuredItems/featuredItem02.jpg",
-    categories: "Bento Box",
-    link: "/bentobox",
+    title: "Lobster Crab Crunch Roll",
+    src:
+      "../static/newFeaturedItems/newfeaturedItems_LobsterCrabCrunchRoll.jpg",
+    categories: "Tempura Rolls",
+    link: "/tempurarolls",
   },
   {
     id: 3,
-    title: "911 Roll",
-    src: "../static/featuredItems/featuredItem03.jpg",
+    title: "Baked Crab Roll",
+    src: "../static/newFeaturedItems/newfeaturedItems_BakedCrabRoll.jpg",
     categories: "Fresh Roll",
     link: "/freshrolls",
   },
   {
     id: 4,
-    title: "Mexican Roll",
-    src: "../static/featuredItems/featuredItem04.jpg",
-    categories: "Fresh Roll",
-    link: "/freshrolls",
+    title: "Iron Man Sushi Burrito",
+    src: "../static/newFeaturedItems/newfeaturedItems_IronMan.jpg",
+    categories: "Sushi Burritos",
+    link: "/sushiburritos",
   },
   {
     id: 5,
-    title: "Crunch Roll",
-    src: "../static/featuredItems/featuredItem05.jpg",
-    categories: "Tempura Roll",
-    link: "/tempurarolls",
+    title: "Garlic Shrimp",
+    src: "../static/newFeaturedItems/newfeaturedItems_GarlicShrimp.jpg",
+    categories: "Entree",
+    link: "/entrees",
   },
   {
     id: 6,
-    title: "Spicy Albacore Crunch Roll",
-    src: "../static/featuredItems/featuredItem06.jpg",
-    categories: "Tempura Roll",
-    link: "/tempurarolls",
+    title: "Korean BBQ Bento",
+    src: "../static/newFeaturedItems/newfeaturedItems_KoreanBBQbento.jpg",
+    categories: "Entree",
+    link: "/entrees",
   },
 ];
 
@@ -94,7 +95,7 @@ export default function ListFeaturedItems() {
   return (
     <div className={classes.root}>
       <Typography gutterBottom variant="h4" component="h1">
-        Top Menu Items
+        New Menu Items!
       </Typography>
       <Grid container spacing={1}>
         {items.map((item) => (

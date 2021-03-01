@@ -77,6 +77,10 @@ export default function ClickAway() {
       link: "/bakedrolls",
     },
     {
+      category: "Sushi Burritos",
+      link: "/sushiburritos",
+    },
+    {
       category: "Regular Cut Rolls",
       link: "/regularrolls",
     },

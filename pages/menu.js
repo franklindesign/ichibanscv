@@ -66,6 +66,11 @@ const categories = [
     link: "/bakedrolls",
   },
   {
+    name: "Sushi Burritos",
+    image: "../static/categories/sushiBurritos.jpg",
+    link: "/sushiburritos",
+  },
+  {
     name: "Regular Cut Rolls",
     image: "../static/categories/regularCutRolls.jpg",
     link: "/regularrolls",

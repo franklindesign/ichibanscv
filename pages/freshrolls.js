@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: 50,
   },
 
-  ayce: {
+  title: {
     textAlign: "left",
     marginBottom: 25,
   },
@@ -167,7 +167,6 @@ const freshRolls = [
     image: "../static/items/freshRolls/RedDragonRoll.jpg",
     largeImage: "",
   },
-
   {
     id: 18,
     name: "Baja Roll",
@@ -179,11 +178,11 @@ const freshRolls = [
   },
   {
     id: 19,
-    name: "Superman Burrito Roll",
+    name: "Ichiban Roll",
     description:
-      "Spicy tuna, shrimp, asparagus tempura, avocado, cucumber, soy paper, with eel & spicy mayo sauce.",
-    price: 10.95,
-    image: "../static/items/freshRolls/SupermanBurrito.jpg",
+      "inside: tuna shrimp, avocado, cucumber. outside: tuna, masago, green onion, snow crab, chili oil, and eel sauce.",
+    price: 18.95,
+    image: "../static/items/freshRolls/IchibanRoll.jpg",
     largeImage: "",
   },
 ];
@@ -197,7 +196,7 @@ export default function menu() {
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Dropdown></Dropdown>
-              <div className={classes.ayce}>
+              <div className={classes.title}>
                 <Typography variant="h4" id="freshrolls">
                   Fresh Rolls
                 </Typography>

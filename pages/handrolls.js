@@ -145,6 +145,14 @@ const handRolls = [
     image: NoImage,
     largeImage: "",
   },
+  {
+    id: 16,
+    name: "Baked Crab (Hand Roll)",
+    description: "1 piece, soy paper",
+    price: "9.95",
+    image: NoImage,
+    largeImage: "",
+  },
 ];
 
 export default function HandRolls() {

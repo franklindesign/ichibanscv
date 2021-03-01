@@ -24,6 +24,23 @@ const useStyles = makeStyles((theme) => ({
 const bakedRolls = [
   {
     id: 1,
+    name: "Snow Roll",
+    description:
+      "inside: California roll. outside: baked white fish, soy paper",
+    price: 12.95,
+    image: "../static/items/bakedRolls/SnowRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 2,
+    name: "Baked Crab Roll",
+    description: "inside: California Roll. outside: baked snow crab (soy)",
+    price: 15.95,
+    image: "../static/items/bakedRolls/BakedCrabRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 3,
     name: "Baked Salmon Roll",
     description: "California roll, baked salmon, and eel sauce.",
     price: 11.95,
@@ -31,7 +48,7 @@ const bakedRolls = [
     largeImage: "",
   },
   {
-    id: 2,
+    id: 4,
     name: "Sunset Roll",
     description: "California roll, eel, avocado, and eel sauce",
     price: 12.95,
@@ -39,7 +56,7 @@ const bakedRolls = [
     largeImage: "",
   },
   {
-    id: 3,
+    id: 5,
     name: "Volcano Roll",
     description:
       "California roll, baked scallop, shrimp, crab, creamy and eel sauce",
@@ -48,7 +65,7 @@ const bakedRolls = [
     largeImage: "",
   },
   {
-    id: 4,
+    id: 6,
     name: "Caterpillar Roll",
     description: "fresh eel, cucumber, avocado, and eel sauce",
     price: 11.95,
@@ -56,7 +73,7 @@ const bakedRolls = [
     largeImage: "",
   },
   {
-    id: 5,
+    id: 7,
     name: "Lobster Roll",
     description: "California roll, baked lobster, and lobster sauce",
     price: 13.95,
@@ -65,7 +82,7 @@ const bakedRolls = [
   },
 
   {
-    id: 6,
+    id: 8,
     name: "B.S.C. Roll",
     description: "California roll, baked scallop, masago, and eel sauce",
     price: 12.95,

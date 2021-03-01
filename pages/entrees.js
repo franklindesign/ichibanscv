@@ -24,6 +24,24 @@ const useStyles = makeStyles((theme) => ({
 const entrees = [
   {
     id: 1,
+    name: "Garlic Shrimp",
+    description:
+      "sauteed jumbo shrimp with garlic includes miso soup, salad, and rice",
+    price: 19.95,
+    image: "../static/items/entrees/GarlicShrimp.jpg",
+    largeImage: "",
+  },
+  {
+    id: 2,
+    name: "Korean BBQ Bento",
+    description:
+      "Korean style BBQ bento with miso soup, salad, rice, tempura, and gyoza",
+    price: 19.95,
+    image: "../static/items/entrees/KoreanBBQBento.jpg",
+    largeImage: "",
+  },
+  {
+    id: 3,
     name: "Chicken Teriyaki",
     description: "grilled chicken with teriyaki sauce",
     price: 11.95,
@@ -31,7 +49,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 2,
+    id: 4,
     name: "Beef Teriyaki",
     description: "grilled beef with teriyaki sauce",
     price: 13.95,
@@ -39,7 +57,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 3,
+    id: 5,
     name: "Salmon Teriyaki",
     description: "grilled salmon with teriyaki sauce",
     price: 13.95,
@@ -47,7 +65,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 4,
+    id: 6,
     name: "Don Katsu",
     description: "pork, chicken or fish",
     price: 12.95,
@@ -55,7 +73,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 5,
+    id: 7,
     name: "Bulgogi Don",
     description: "marinated Korean style beef with vegetable",
     price: 9.95,
@@ -63,7 +81,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 6,
+    id: 8,
     name: "Chicken Don",
     description: "chicken teriyaki over rice",
     price: 8.95,
@@ -71,7 +89,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 7,
+    id: 9,
     name: "Beef Don",
     description: "grilled beef with teriyaki sauce, rice on top",
     price: 9.95,
@@ -79,7 +97,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 8,
+    id: 10,
     name: "Korean BBQ",
     description: "grilled tender marinated beef short ribs on hibachi",
     price: 18.95,
@@ -87,7 +105,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 9,
+    id: 11,
     name: "Beef Teppanyaki",
     description: "grilled tender stripe with vegetables",
     price: 13.95,
@@ -95,7 +113,7 @@ const entrees = [
     largeImage: "",
   },
   {
-    id: 10,
+    id: 12,
     name: "Chicken Teppanyaki",
     description: "grilled chicken with vegetables",
     price: 11.95,
