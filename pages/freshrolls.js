@@ -180,7 +180,7 @@ const freshRolls = [
     id: 19,
     name: "Ichiban Roll",
     description:
-      "inside: tuna shrimp, avocado, cucumber. outside: tuna, masago, green onion, snow crab, chili oil, and eel sauce.",
+      "inside: tuna, shrimp, avocado, cucumber. outside: tuna wrap, masago, green onion, chili oil, and eel sauce.",
     price: 18.95,
     image: "../static/items/freshRolls/IchibanRoll.jpg",
     largeImage: "",
