@@ -31,19 +31,19 @@ const sushicombos = [
   },
   {
     id: 2,
-    name: "Unagi Bowl",
+    name: "Unagi Donburi (Eel Bowl)",
     description: "sushi rice with broiled eel and avocado",
     price: 17.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/sushiCombo/unagiBowl.jpg",
     largeImage: "",
   },
   {
     id: 3,
-    name: "Sashimi Donbury",
+    name: "Sashimi Donburi",
     description:
-      "tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
+      "Korean-style poke bowl with tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
     price: 15.95,
-    image: "../static/items/NoImage.jpg",
+    image: "../static/items/sushiCombo/sashimiDonburi.jpg",
     largeImage: "",
   },
   {

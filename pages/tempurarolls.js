@@ -24,7 +24,7 @@ const tempuraRolls = [
   {
     id: 1,
     name: "Lobster & Crab Crunch Roll",
-    description: "deep fried lobster and crab, soy paper",
+    description: "a deep fried roll lobster and crab in soy paper",
     price: 14.95,
     image: "../static/items/tempuraRolls/LobsterCrabCrunchRoll.jpg",
     largeImage: "",
@@ -32,7 +32,7 @@ const tempuraRolls = [
   {
     id: 2,
     name: "Spicy Shrimp & Crab Crunch Roll",
-    description: "spicy shrimp, crab, hot sauce on top",
+    description: "a deep fried roll with spicy shrimp, crab, hot sauce on top",
     price: 9.95,
     image: "../static/items/tempuraRolls/SpicyShrimpCrunchRoll.jpg",
     largeImage: "",
@@ -40,7 +40,7 @@ const tempuraRolls = [
   {
     id: 3,
     name: "California Tempura Roll",
-    description: "deep fried California roll and eel sauce",
+    description: "a deep fried California roll with eel sauce",
     price: 9.95,
     image: "../static/items/tempuraRolls/CaliforniaTempuraRoll.jpg",
     largeImage: "",
@@ -48,7 +48,7 @@ const tempuraRolls = [
   {
     id: 4,
     name: "Avocado Crunch Roll",
-    description: "deep fried avocado roll, spicy mayo, and eel sauce.",
+    description: "a deep fried roll with avocado, spicy mayo, and eel sauce.",
     price: 9.95,
     image: "../static/items/tempuraRolls/AvocadoCrunchRoll.jpg",
     largeImage: "",

@@ -129,7 +129,7 @@ const freshRolls = [
     id: 13,
     name: "Mango Mania Roll",
     description:
-      "avocado, cucumber, mango, fresh salmon on top, goma and sweet mayo sauce",
+      "Fresh mango and salmon on top, with avocado, cucumber, goma and mayo sauce",
     price: 12.95,
     image: "../static/items/freshRolls/MangoManiaRoll.jpg",
     largeImage: "",

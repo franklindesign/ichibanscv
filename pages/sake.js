@@ -96,14 +96,14 @@ const sakes = [
     largeImage: "",
   },
 
-  {
-    id: 10,
-    name: "Kubota Junmai Daiginjo",
-    description: "premium cold sake (300ml), soft and smooth texture",
-    price: 24,
-    image: "../static/items/sake/kubota.jpg",
-    largeImage: "",
-  },
+  // {
+  //   id: 10,
+  //   name: "Kubota Junmai Daiginjo",
+  //   description: "premium cold sake (300ml), soft and smooth texture",
+  //   price: 24,
+  //   image: "../static/items/sake/kubota.jpg",
+  //   largeImage: "",
+  // },
   {
     id: 11,
     name: "Flavored Sake",
