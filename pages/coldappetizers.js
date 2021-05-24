@@ -26,7 +26,7 @@ const coldAppetizers = [
   {
     id: 1,
     name: "Yummy Crunch Tuna",
-    description: "Fresh tuna with tomato salsa",
+    description: "Tuna with tomato salsa, spicy mayo, and masago.",
     price: 9.95,
     image: "../static/items/coldAppetizers/YummyCrunchTuna.jpg",
     largeImage: "",
@@ -41,8 +41,9 @@ const coldAppetizers = [
   },
   {
     id: 3,
-    name: "Spicy Tuna on Rice Crispy ",
-    description: "4 pieces of crunchy rice cakes with spicy tuna on top",
+    name: "Tuna on Rice Crispy ",
+    description:
+      "4 pieces of crunchy rice cakes with avocado, masago, spicy tuna on top, spicy mayo, and eel sauce",
     price: 9.95,
     image: "../static/items/coldAppetizers/SpicyTunaOnRiceCrispy.jpg",
     largeImage: "",
@@ -67,7 +68,7 @@ const coldAppetizers = [
     id: 6,
     name: "Sexy on the Beach",
     description:
-      "tuna, spicy crab, and shrimp with avocado, ponzu, and chili oil",
+      "spicy crab, shrimp with avocado, wrapped in tuna, masago, green onions, ponzu sauce, and chili oil on top.",
     price: "5.95",
     image: "../static/items/coldAppetizers/SexyOnTheBeach.jpg",
     largeImage: " ",
@@ -83,7 +84,7 @@ const coldAppetizers = [
   {
     id: 8,
     name: "Yellowtail Carpaccio (6 Pieces)",
-    description: "yellowtail with jalapeno, yuzu, and chili oil",
+    description: "yellowtail with jalapeno, yuzu sauce, and chili oil",
     price: 16.95,
     image: "../static/items/coldAppetizers/YellowtailCappaccio.jpg",
     largeImage: "",

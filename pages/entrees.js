@@ -67,7 +67,8 @@ const entrees = [
   {
     id: 6,
     name: "Don Katsu",
-    description: "pork, chicken or fish",
+    description:
+      "Deep fried breaded pork or chicken. Includes miso soup, salad, and rice.",
     price: 12.95,
     image: "../static/items/entrees/donKatsu.jpg",
     largeImage: "",
@@ -75,7 +76,8 @@ const entrees = [
   {
     id: 7,
     name: "Bulgogi Don",
-    description: "marinated Korean style beef with vegetable",
+    description:
+      "Marinated Korean style beef with vegetable over rice. Includes miso soup.",
     price: 9.95,
     image: "../static/items/entrees/BulgogiBowl.jpg",
     largeImage: "",
@@ -83,7 +85,7 @@ const entrees = [
   {
     id: 8,
     name: "Chicken Don",
-    description: "chicken teriyaki over rice",
+    description: "Chicken teriyaki over rice. Includes miso soup.",
     price: 8.95,
     image: "../static/items/entrees/ChickenBowl.jpg",
     largeImage: "",
@@ -91,7 +93,8 @@ const entrees = [
   {
     id: 9,
     name: "Beef Don",
-    description: "grilled beef with teriyaki sauce, rice on top",
+    description:
+      "grilled beef with teriyaki sauce over rice. Includes miso soup.",
     price: 9.95,
     image: "../static/items/entrees/BeefBowl.jpg",
     largeImage: "",
@@ -99,7 +102,8 @@ const entrees = [
   {
     id: 10,
     name: "Korean BBQ",
-    description: "grilled tender marinated beef short ribs on hibachi",
+    description:
+      "grilled tender marinated beef short ribs on hibachi. Includes miso soup and rice.",
     price: 18.95,
     image: "../static/items/entrees/KBBQ.jpg",
     largeImage: "",
@@ -107,7 +111,8 @@ const entrees = [
   {
     id: 11,
     name: "Beef Teppanyaki",
-    description: "grilled tender stripe with vegetables",
+    description:
+      "grilled tender stripe with vegetables over rice. Includes miso soup.",
     price: 13.95,
     image: "../static/items/entrees/BeefTeppanyaki.jpg",
     largeImage: "",
@@ -115,7 +120,8 @@ const entrees = [
   {
     id: 12,
     name: "Chicken Teppanyaki",
-    description: "grilled chicken with vegetables",
+    description:
+      "grilled chicken with vegetables over rice. Includes miso soup.",
     price: 11.95,
     image: "../static/items/entrees/ChickenTeppanyaki.jpg",
     largeImage: "",

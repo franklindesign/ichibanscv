@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import CardItem from "../components/CardItem";
+import CardItem from "../components/CardItemRolls";
 import Dropdown from "../components/Dropdown";
 import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
@@ -25,8 +25,9 @@ const bakedRolls = [
   {
     id: 1,
     name: "Snow Roll",
-    description:
-      "inside: California roll. outside: baked white fish, soy paper",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked white fish, soy paper.",
+    descriptionSauce: "none",
     price: 12.95,
     image: "../static/items/bakedRolls/SnowRoll.jpg",
     largeImage: "",
@@ -34,7 +35,9 @@ const bakedRolls = [
   {
     id: 2,
     name: "Baked Crab Roll",
-    description: "inside: California Roll. outside: baked snow crab (soy)",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked snow crab.",
+    descriptionSauce: "none",
     price: 15.95,
     image: "../static/items/bakedRolls/BakedCrabRoll.jpg",
     largeImage: "",
@@ -42,7 +45,9 @@ const bakedRolls = [
   {
     id: 3,
     name: "Baked Salmon Roll",
-    description: "California roll, baked salmon, and eel sauce.",
+    descriptionIn: "crabmeat, avocado. ",
+    descriptionOut: "baked salmon.",
+    descriptionSauce: "eel sauce.",
     price: 11.95,
     image: "../static/items/bakedRolls/BakedSalmonRoll.jpg",
     largeImage: "",
@@ -50,7 +55,9 @@ const bakedRolls = [
   {
     id: 4,
     name: "Sunset Roll",
-    description: "California roll, eel, avocado, and eel sauce",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked eel, avocado.  ",
+    descriptionSauce: "eel sauce.",
     price: 12.95,
     image: "../static/items/bakedRolls/SunsetRoll.jpg",
     largeImage: "",
@@ -58,8 +65,9 @@ const bakedRolls = [
   {
     id: 5,
     name: "Volcano Roll",
-    description:
-      "California roll, baked scallop, shrimp, crab, creamy and eel sauce",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked scallop, shrimp, crab.",
+    descriptionSauce: "creamy sauce.",
     price: 12.95,
     image: "../static/items/bakedRolls/VolcanoRoll.jpg",
     largeImage: "",
@@ -67,7 +75,9 @@ const bakedRolls = [
   {
     id: 6,
     name: "Caterpillar Roll",
-    description: "fresh eel, cucumber, avocado, and eel sauce",
+    descriptionIn: "eel, cucumber.",
+    descriptionOut: "avocado.",
+    descriptionSauce: "eel sauce.",
     price: 11.95,
     image: " ../static/items/bakedRolls/CaterpillarRoll.jpg",
     largeImage: "",
@@ -75,7 +85,9 @@ const bakedRolls = [
   {
     id: 7,
     name: "Lobster Roll",
-    description: "California roll, baked lobster, and lobster sauce",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked lobster, masago.",
+    descriptionSauce: "lobster sauce.",
     price: 13.95,
     image: "../static/items/bakedRolls/LobsterRoll.jpg",
     largeImage: "",
@@ -83,8 +95,10 @@ const bakedRolls = [
 
   {
     id: 8,
-    name: "B.S.C. Roll",
-    description: "California roll, baked scallop, masago, and eel sauce",
+    name: "BSCR",
+    descriptionIn: "crabmeat, avocado.",
+    descriptionOut: "baked scallop, masago",
+    descriptionSauce: "eel sauce",
     price: 12.95,
     image: "../static/items/bakedRolls/BSCRoll.jpg",
     largeImage: "",
@@ -111,7 +125,11 @@ export default function BakedRolls() {
                 <CardItem
                   itemName={{ text: `${bakedRoll.name}` }}
                   title={{ text: `${bakedRoll.name}` }}
-                  itemDescription={{ text: `${bakedRoll.description}` }}
+                  itemDescriptionIn={{ text: `${bakedRoll.descriptionIn}` }}
+                  itemDescriptionOut={{ text: `${bakedRoll.descriptionOut}` }}
+                  itemDescriptionSauce={{
+                    text: `${bakedRoll.descriptionSauce}`,
+                  }}
                   itemPrice={{ price: `${bakedRoll.price}` }}
                   itemImage={{ image: `${bakedRoll.image}` }}
                 ></CardItem>

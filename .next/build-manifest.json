@@ -24,10 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sushicombo": [
+    "/bakedrolls": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/sushicombo.js"
+      "static/chunks/pages/bakedrolls.js"
     ],
     "/tempurarolls": [
       "static/chunks/main.js",
