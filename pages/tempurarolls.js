@@ -149,7 +149,7 @@ const tempuraRolls = [
     descriptionIn: "crabmeat, avocado. ",
     descriptionOut: "deep fried langostino.",
     descriptionSauce: "eel sauce.",
-    price: 13.95,
+    price: 14.95,
     image: "../static/items/tempuraRolls/PopcornLobsterRoll.jpg",
     largeImage: "",
   },

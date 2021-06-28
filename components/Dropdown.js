@@ -92,10 +92,10 @@ export default function ClickAway() {
       category: "Sushi",
       link: "/sushis",
     },
-    {
-      category: "Special Sushi",
-      link: "/specialsushis",
-    },
+    // {
+    //   category: "Special Sushi",
+    //   link: "/specialsushis",
+    // },
     {
       category: "Sushi Combo",
       link: "/sushicombo",

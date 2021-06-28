@@ -105,9 +105,9 @@ const freshRolls = [
   {
     id: 9,
     name: "Mexican Roll",
-    description: "spicy shrimp, crab. ",
-    description: "avocado.",
-    description: "spicy mayo and sriracha sauce.",
+    descriptionIn: "spicy shrimp, crab. ",
+    descriptionOut: "avocado.",
+    descriptionSauce: "spicy mayo and sriracha sauce.",
 
     price: 10.95,
     image: "../static/items/freshRolls/MexicanRoll.jpg",
@@ -199,7 +199,7 @@ const freshRolls = [
     descriptionIn: "crabmeat, red onion, jalapeno. ",
     descriptionOut: "avocado, jalapeno, cilantro. Sauce: garlic ponzu.",
     descriptionSauce: "garlic ponzu.",
-    price: 11.95,
+    price: 10.95,
     image: "../static/items/freshRolls/bajaRoll.jpg",
     largeImage: "",
   },

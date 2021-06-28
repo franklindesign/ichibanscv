@@ -76,7 +76,7 @@ const coldAppetizers = [
   {
     id: 7,
     name: "Oyster Shooter",
-    description: "oyster with masago, green onions with ponzu and plum wine",
+    description: "oyster with masago, green onions with ponzu and sake",
     price: "5.95",
     image: "../static/items/coldAppetizers/SexyOnTheBeach.jpg",
     largeImage: " ",

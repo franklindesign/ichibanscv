@@ -49,16 +49,16 @@ const hotAppetizers = [
   },
   {
     id: 4,
-    name: "Shrimp Tempura (3 Pieces)",
-    description: " ",
+    name: "Shrimp Tempura",
+    description: "4 pieces of shrimp tempura.",
     price: 6.95,
     image: "../static/items/hotAppetizers/ShrimpTempura.jpg",
     largeImage: "",
   },
   {
     id: 5,
-    name: "Vegetable Tempura (5 Pieces)",
-    description: " ",
+    name: "Vegetable Tempura",
+    description: "5 pieces of vegetable tempura.",
     price: 3.95,
     image: "../static/items/hotAppetizers/VegetableTempura.jpg",
     largeImage: "",
@@ -66,7 +66,7 @@ const hotAppetizers = [
   {
     id: 6,
     name: "Calamari Tempura",
-    description: " ",
+    description: "Multiple pieces of calamari tempura.",
     price: 7.95,
     image: "../static/items/hotAppetizers/CalamariTempura.jpg",
     largeImage: "",
@@ -74,7 +74,7 @@ const hotAppetizers = [
   {
     id: 7,
     name: "Mixed Tempura",
-    description: "shrimp and tempura",
+    description: "Multiple pieces of shrimp and vegetable tempura.",
     price: 8.95,
     image: "../static/items/hotAppetizers/MixedTempura.jpg",
     largeImage: "",
@@ -82,7 +82,7 @@ const hotAppetizers = [
   {
     id: 8,
     name: "Gyoza",
-    description: "lightly fried pork and vegetable pot stickers (6 pieces)",
+    description: "6 lightly fried pork and vegetable potstickers (gyoza). ",
     price: 5.95,
     image: "../static/items/hotAppetizers/Gyoza.jpg",
     largeImage: "",
@@ -90,7 +90,7 @@ const hotAppetizers = [
   {
     id: 9,
     name: "Shumai",
-    description: "lightly fried shrimp and vegetable dumplings (6 pieces)",
+    description: "Lightly fried shrimp and vegetable dumplings (6 pieces)",
     price: 5.95,
     image: "../static/items/hotAppetizers/Shumai.jpg",
     largeImage: "",
@@ -99,7 +99,7 @@ const hotAppetizers = [
     id: 10,
     name: "Dynamite",
     description:
-      "baked crab, scallop, shrimp, onion, mushroom with dynamite sauce",
+      "Baked crab, scallop, shrimp, onion, mushroom with dynamite sauce.",
     price: 9.95,
     image: NoImage,
     largeImage: "",
@@ -107,7 +107,7 @@ const hotAppetizers = [
   {
     id: 11,
     name: "Lobster Dynamite",
-    description: "baked lobster with dynamite sauce",
+    description: "Baked lobster with dynamite sauce.",
     price: 12.95,
     image: NoImage,
     largeImage: "",
@@ -123,7 +123,7 @@ const hotAppetizers = [
   {
     id: 13,
     name: "Deep Fried Tofu",
-    description: "fried tofu with masago, bonito, green onion",
+    description: "Fried tofu with masago, bonito, and green onions.",
     price: 5.95,
     image: "../static/items/hotAppetizers/DeepFriedTofu.jpg",
     largeImage: "",
@@ -131,7 +131,7 @@ const hotAppetizers = [
   {
     id: 14,
     name: "Shishito Peppers",
-    description: "",
+    description: "Slightly sweet sauteed peppers.",
     price: 6.95,
     image: "../static/items/hotAppetizers/Shishito.jpg",
     largeImage: "",
@@ -139,16 +139,16 @@ const hotAppetizers = [
   {
     id: 15,
     name: "Steamed Dimsum (5 Pieces)",
-    description: "",
-    price: 5.95,
+    description: "5 pieces of shrimp or pork dumplings.",
+    price: 7.95,
     image: "../static/items/hotAppetizers/Dimsum.jpg",
     largeImage: "",
   },
 
   {
     id: 16,
-    name: "Sesami Chicken",
-    description: "lightly fried chicken marinated in sesame sauce",
+    name: "Sesame Chicken",
+    description: "Lightly fried chicken marinated in sesame sauce.",
     price: 6.95,
     image: NoImage,
     largeImage: "",
@@ -156,7 +156,7 @@ const hotAppetizers = [
   {
     id: 17,
     name: "Salmon Collar",
-    description: "broiled salmon collar",
+    description: "Broiled salmon collar.",
     price: 6.95,
     image: "../static/items/hotAppetizers/SalmonCollar.jpg",
     largeImage: "",
@@ -164,23 +164,16 @@ const hotAppetizers = [
   {
     id: 18,
     name: "Yellowtail Collar",
-    description: "broiled yellowtail collar",
+    description: "Broiled yellowtail collar.",
     price: 8.95,
     image: "../static/items/hotAppetizers/YellowtailCollar.jpg",
     largeImage: "",
   },
+
   {
     id: 19,
-    name: "Yakitori",
-    description: "Japanese style skewers, shrimp, chicken, and beef",
-    price: 5.95,
-    image: "../static/items/hotAppetizers/Yakitori.jpg",
-    largeImage: "",
-  },
-  {
-    id: 20,
     name: "Spicy Tofu",
-    description: " ",
+    description: "Fried tofu with spicy sauce.",
     price: 6.95,
     image: "../static/items/hotAppetizers/SpicyTofu.jpg",
     largeImage: "",

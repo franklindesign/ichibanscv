@@ -26,7 +26,7 @@ const soupAndNoodles = [
     id: 1,
     name: "Tempura Udon",
     description: "shrimp tempura in noodle soup",
-    price: 9.95,
+    price: 11.95,
     image: NoImage,
     largeImage: "",
   },
@@ -80,10 +80,10 @@ const soupAndNoodles = [
   },
   {
     id: 8,
-    name: "Udon / Ramen Combo",
+    name: "Noodle Combo",
     description:
       "Choose 1 item with Ramen or Udon: Sushi (5), Sashimi (6), California Cut Roll, or Spicy Tuna Cut Roll",
-    price: 13.95,
+    price: 15.95,
     image: NoImage,
     largeImage: "",
   },

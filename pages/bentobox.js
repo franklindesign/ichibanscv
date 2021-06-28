@@ -90,7 +90,7 @@ const bentoboxes = [
   {
     id: 9,
     name: "California Roll",
-    description: " ",
+    description: "",
     price: null,
     image: "../static/items/NoImage.jpg",
     largeImage: "",

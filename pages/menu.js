@@ -85,11 +85,11 @@ const categories = [
     image: "../static/categories/sushi.jpg",
     link: "/sushis",
   },
-  {
-    name: "Special Sushi",
-    image: "",
-    link: "/specialsushis",
-  },
+  // {
+  //   name: "Special Sushi",
+  //   image: "",
+  //   link: "/specialsushis",
+  // },
   {
     name: "Sushi Combo",
     image: "../static/categories/sushiCombo.jpg",

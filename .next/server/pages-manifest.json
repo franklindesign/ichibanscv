@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/bakedrolls": "pages/bakedrolls.js",
-  "/tempurarolls": "pages/tempurarolls.js"
+  "/": "pages/index.js",
+  "/menu": "pages/menu.js",
+  "/bakedrolls": "pages/bakedrolls.js"
 }
