@@ -1,8 +1,9 @@
-import { createMuiTheme } from "@material-ui/core";
+// import { createMuiTheme } from "@material-ui/core";
+import { createTheme } from "@material-ui/core/styles";
 import { red } from "@material-ui/core/colors";
 
 // Create a theme instance.
-const theme = createMuiTheme({
+const theme = createTheme({
   props: {
     // Name of the component ⚛️
     MuiButtonBase: {
