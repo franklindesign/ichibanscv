@@ -21,5 +21,6 @@
     "build": "next build",
     "start": "next start",
     "export": "yarn build && next export"
-  }
+  },
+  "version": "0.0.0"
 }
