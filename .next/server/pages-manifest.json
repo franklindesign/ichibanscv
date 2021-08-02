@@ -3,6 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/menu": "pages/menu.js",
-  "/tempurarolls": "pages/tempurarolls.js"
+  "/menu": "pages/menu.js"
 }
