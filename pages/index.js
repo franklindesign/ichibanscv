@@ -7,7 +7,7 @@ import Container from "@material-ui/core/Container";
 // import BigSlider from "../components/BigSlider";
 import ListFeaturedItems from "../components/listFeaturedItems";
 import Hero from "../components/Hero";
-import Mailchimp from "../components/Mailchimp";
+// import Mailchimp from "../components/Mailchimp";
 import OrderWith from "../components/OrderWith";
 // import CardSlides from "../components/CardSlides";
 // import SpecialDiscount from "../components/SpecialDiscount";
@@ -42,7 +42,7 @@ export default function Index() {
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
           {/* <SpecialDiscount></SpecialDiscount> */}
           <Alerts></Alerts>
-          <Mailchimp></Mailchimp>
+          {/* <Mailchimp></Mailchimp> */}
           {/* <FeaturedVideo></FeaturedVideo> */}
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 40, marginBottom: 20 }}>

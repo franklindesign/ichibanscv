@@ -25,7 +25,7 @@ const sashimicombos = [
     id: 1,
     name: "Small Combo",
     description: "6 pieces of sashimi",
-    price: 14.95,
+    price: 16.95,
     image: "../static/items/NoImage.jpg",
     largeImage: "",
   },

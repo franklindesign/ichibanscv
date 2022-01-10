@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     transition: "all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)",
     transform: "translateY(0)",
     "&:hover": {
-      boxShadow: "0 5px 15px rgba(0,0,0,0.5)",
+      boxShadow: "0 5px 15px rgba(221,80,111,0.5)",
       transform: "translateY(-10px)",
     },
   },
