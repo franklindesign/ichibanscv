@@ -25,25 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bakedrolls": [
+    "/freshrolls": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bakedrolls.js"
-    ],
-    "/menu": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/menu.js"
+      "static/chunks/pages/freshrolls.js"
     ],
     "/photos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/photos.js"
-    ],
-    "/sushis": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sushis.js"
     ]
   },
   "ampFirstPages": []

@@ -7,11 +7,7 @@ export default function Photos() {
   return (
     <Layout>
       <Container maxWidth="lg" style={{ marginTop: 100, marginBottom: 50 }}>
-        <Typography variant="h4" id="freshrolls">
-          Photo Gallery
-        </Typography>
-        <p>Featuring selected customer's photos from our social channels.</p>
-
+        <Typography variant="h4">Photo Gallery</Typography>
         <Galleries />
       </Container>
     </Layout>

@@ -19,16 +19,19 @@ export default function Galleries() {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
+      <div>
+        <Gallery photos={photos} onClick={openLightbox} />
+      </div>
+
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={photos.map(x => ({
+              views={photos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
-                caption: x.title
+                caption: x.title,
               }))}
             />
           </Modal>
