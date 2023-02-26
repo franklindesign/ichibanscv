@@ -25,15 +25,15 @@ const sushicombos = [
     id: 1,
     name: "Chirashi",
     description: "mixed sashimi on a bowl of sushi rice",
-    price: 21.95,
-    image: "../static/items/NoImage.jpg",
+    price: 25.95,
+    image: "../static/items/sushiCombo/chirashi.jpg",
     largeImage: "",
   },
   {
     id: 2,
     name: "Unagi Donburi (Eel Bowl)",
     description: "sushi rice with broiled eel and avocado",
-    price: 19.95,
+    price: 22.95,
     image: "../static/items/sushiCombo/unagiBowl.jpg",
     largeImage: "",
   },
@@ -42,7 +42,7 @@ const sushicombos = [
     name: "Sashimi Donburi",
     description:
       "Korean-style poke bowl with tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
-    price: 17.95,
+    price: 19.95,
     image: "../static/items/sushiCombo/sashimiDonburi.jpg",
     largeImage: "",
   },
@@ -51,7 +51,7 @@ const sushicombos = [
     name: "Ichiban Poke Bowl",
     description:
       "tuna, salmon, scallop on sushi rice & spring mix top with seaweed salad, crab meat and avocado",
-    price: 17.95,
+    price: 19.95,
     image: "../static/items/sushiCombo/ichibanPokeBowl.jpg",
     largeImage: "",
   },
@@ -59,8 +59,8 @@ const sushicombos = [
     id: 5,
     name: "Special Sushi Combo",
     description: "10 pieces of sushi with California or spicy tuna roll",
-    price: 21.95,
-    image: "../static/items/NoImage.jpg",
+    price: 25.95,
+    image: "../static/items/sushiCombo/specialSushi.jpg",
     largeImage: "",
   },
   {
@@ -68,8 +68,8 @@ const sushicombos = [
     name: "Special Sashimi Combo",
     description:
       "12 pieces sashimi: tuna, salmon, albacore, ocean striped bass",
-    price: 21.95,
-    image: "../static/items/NoImage.jpg",
+    price: 25.95,
+    image: "../static/items/sushiCombo/specialSashimi.jpg",
     largeImage: "",
   },
   {
@@ -77,7 +77,7 @@ const sushicombos = [
     name: "Big Scallops Sashimi",
     description: "Multiple pieces of big scallops",
     price: 19.95,
-    image: "",
+    image: "../static/items/sushiCombo/bigScallops.jpg",
     largeImage: "",
   },
 ];

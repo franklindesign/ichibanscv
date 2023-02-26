@@ -8,7 +8,7 @@ import Dropdown from "../components/Dropdown";
 // import Alert from "@material-ui/lab/Alert";
 import OrderWith from "../components/OrderWith";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "../static/items/NoImageSushi.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -10,6 +10,7 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Link from "../src/Link";
 import MapIcon from "@material-ui/icons/Map";
+import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -100,22 +101,16 @@ export default function ButtonAppBar() {
                 Menu
               </Button>
             </Link>
-            {/* Temporary disabled */}
-            {/* <Link href="/happyhour" underline="none">
-              <Button color="secondary" className={classes.button}>
-                Happy Hour!
-              </Button>
-            </Link>
-            <Link href="/ayce" underline="none">
-              <Button color="secondary" className={classes.button}>
-                All You Can Eat
-              </Button>
-            </Link> */}
-            <Link href="/photos" underline="none">
-              <Button color="secondary" className={classes.button}>
-                Photos
-              </Button>
-            </Link>
+            <Button
+              color="secondary"
+              className={classes.button}
+              href="https://instagram.com/ichibanscv/"
+              target="_blank"
+              rel="noopener"
+            >
+              <PhotoLibraryIcon style={{ marginRight: 5 }}></PhotoLibraryIcon>{" "}
+              Photos
+            </Button>
             <Button
               color="secondary"
               className={classes.button}
@@ -148,17 +143,15 @@ export default function ButtonAppBar() {
                 <Link href="/menu" className={classes.link}>
                   <MenuItem onClick={handleClose}>Menu</MenuItem>
                 </Link>
-                {/* Temporary Disabled */}
-                {/* <Link href="/happyhour" className={classes.link}>
-                  <MenuItem onClick={handleClose}>Happy Hour</MenuItem>
-                </Link>
 
-                <Link href="/ayce" className={classes.link}>
-                  <MenuItem onClick={handleClose}>AYCE</MenuItem>
-                </Link> */}
-                <Link href="/photos" className={classes.link}>
-                  <MenuItem onClick={handleClose}>Photos</MenuItem>
-                </Link>
+                <a
+                  href="https://instagram.com/ichibanscv/"
+                  target="_blank"
+                  rel="noopener"
+                  className={classes.link}
+                >
+                  <MenuItem onClick={handleClose}>Photos</MenuItem>{" "}
+                </a>
                 <a
                   href="https://goo.gl/maps/qBwuJL1U36P6FE238"
                   target="_blank"

@@ -8,7 +8,7 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "../static/items/NoImageTemaki.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,6 +26,38 @@ const useStyles = makeStyles((theme) => ({
 const handRolls = [
   {
     id: 1,
+    name: "Baked Crab (Hand roll))",
+    description: "baked blue crab, masago, green onions",
+    price: "9.95",
+    image: "../static/items/handRolls/BakedCrabHandRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 2,
+    name: "Lobster (Hand Roll)",
+    description: "lobster, avocado, green onions",
+    price: "9.95",
+    image: "../static/items/handRolls/LobsterHandRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 3,
+    name: "LBJ (Hand Roll)",
+    description: "shrimp tempura, avocado, masago, green onions",
+    price: "9.95",
+    image: "../static/items/handRolls/LBJ.jpg",
+    largeImage: "",
+  },
+  {
+    id: 4,
+    name: "Shrimp Tempura (Hand Roll)",
+    description: "shrimp tempura, avocado, crabmeat",
+    price: "9.95",
+    image: "../static/items/handRolls/ShrimpTempuraHandRoll.jpg",
+    largeImage: "",
+  },
+  {
+    id: 5,
     name: "California (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -33,7 +65,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 2,
+    id: 6,
     name: "Spicy Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
@@ -41,7 +73,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 3,
+    id: 7,
     name: "Albacore (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -49,7 +81,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 4,
+    id: 8,
     name: "Avocado (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -66,7 +98,7 @@ const handRolls = [
   },
 
   {
-    id: 6,
+    id: 9,
     name: "Cucumber (Hand Roll)",
     description: "1 piece",
     price: "3.50",
@@ -74,7 +106,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 7,
+    id: 10,
     name: "Eel (Hand Roll)",
     description: "1 piece",
     price: "6.50",
@@ -82,7 +114,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 8,
+    id: 11,
     name: "Salmon (Hand Roll)",
     description: "1 piece",
     price: "6.50",
@@ -90,7 +122,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 9,
+    id: 12,
     name: "Salmon Skin (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -98,7 +130,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 10,
+    id: 13,
     name: "Scallop (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -106,7 +138,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 11,
+    id: 14,
     name: "Shrimp & Crab (Hand Roll)",
     description: "1 piece",
     price: "5.50",
@@ -114,7 +146,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 12,
+    id: 15,
     name: "Tuna (Hand Roll)",
     description: "1 piece",
     price: "6.50",
@@ -130,7 +162,7 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 14,
+    id: 16,
     name: "Yellowtail (Hand Roll)",
     description: "1 piece",
     price: "6.50",
@@ -138,18 +170,10 @@ const handRolls = [
     largeImage: "",
   },
   {
-    id: 15,
+    id: 17,
     name: "Philadelphia (Hand Roll)",
     description: "1 piece",
     price: "6.50",
-    image: NoImage,
-    largeImage: "",
-  },
-  {
-    id: 16,
-    name: "Baked Crab (Hand Roll)",
-    description: "1 piece, soy paper",
-    price: "9.95",
     image: NoImage,
     largeImage: "",
   },

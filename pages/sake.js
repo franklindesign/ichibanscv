@@ -27,7 +27,7 @@ const sakes = [
     id: 1,
     name: "House Hot Sake (Small)",
     description: "",
-    price: 3.5,
+    price: 4.5,
     image: "../static/items/sake/hotsake.jpg",
     largeImage: "",
   },
@@ -35,7 +35,7 @@ const sakes = [
     id: 2,
     name: "House Hot Sake (Large)",
     description: " ",
-    price: 6.5,
+    price: 7.5,
     image: "../static/items/sake/sake.jpg",
     largeImage: "",
   },
@@ -43,7 +43,7 @@ const sakes = [
     id: 3,
     name: "Plum Hot Sake (Large)",
     description: " ",
-    price: 9.5,
+    price: 11.95,
     image: "../static/items/sake/plumHotSake.jpg",
     largeImage: "",
   },
@@ -58,14 +58,14 @@ const sakes = [
   {
     id: 5,
     name: "Soju (Flavored)",
-    description: "Pineapple, Peach, or Blueberry (375ml)",
+    description: "Peach, Pineapple (375ml)",
     price: 12,
     image: "../static/items/sake/chamisul_flavored.jpg",
     largeImage: "",
   },
   {
     id: 6,
-    name: "Nigori",
+    name: "Nigori Sake",
     description: "cold sake, (300ml)",
     price: 12,
     image: "../static/items/sake/nigori.jpg",
@@ -73,14 +73,22 @@ const sakes = [
   },
   {
     id: 7,
-    name: "Ginjo",
+    name: "Nigori Sakura Sake",
+    description: "Sakura sake, (300ml)",
+    price: 12,
+    image: "../static/items/sake/nigoriSakuraSake.jpg",
+    largeImage: "",
+  },
+  {
+    id: 8,
+    name: "Ginjo Sake",
     description: "cold sake, (300ml)",
     price: 14,
     image: "../static/items/sake/ginjo.jpg",
     largeImage: "",
   },
   {
-    id: 8,
+    id: 9,
     name: "Kikusui (Small)",
     description: "cold sake, (300ml)",
     price: 17,
@@ -88,7 +96,7 @@ const sakes = [
     largeImage: "",
   },
   {
-    id: 9,
+    id: 10,
     name: "Kikusui (Large)",
     description: "cold sake, (720ml)",
     price: 38,
@@ -97,11 +105,27 @@ const sakes = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Hana Flavored Sake",
-    description: "Choose a flavor of pineapple or peach.",
-    price: 12,
+    description: "Pineapple or peach.",
+    price: 14,
     image: "../static/items/sake/flavored-sake.jpg",
+    largeImage: "",
+  },
+  {
+    id: 12,
+    name: "Junmai Daiginjo (180ml)",
+    description: "cold sake, (180ml)",
+    price: 12,
+    image: "../static/items/sake/junmaiDaiginjoS_small.jpg",
+    largeImage: "",
+  },
+  {
+    id: 13,
+    name: "Junmai Daiginjo (500ml)",
+    description: "cold sake, (500ml)",
+    price: 28,
+    image: "../static/items/sake/junmaiDaiginjoS_large.jpg",
     largeImage: "",
   },
 ];
@@ -116,7 +140,7 @@ export default function Entrees() {
             <Grid item xs={12}>
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
-                <Typography variant="h4" id="kidsMenu">
+                <Typography variant="h4" id="sake">
                   Sake
                 </Typography>
                 <p>Must be 21 or older to drink sake.</p>

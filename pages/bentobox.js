@@ -19,8 +19,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const lunchBentoPrice = "14.95";
-const dinnerBentoPrice = "17.95";
+const lunchBentoPrice = "16.95";
+const dinnerBentoPrice = "18.95";
 
 const bentoboxes = [
   {

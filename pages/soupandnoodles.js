@@ -127,6 +127,14 @@ const soupAndNoodles = [
     image: NoImage,
     largeImage: "",
   },
+  {
+    id: 14,
+    name: "Udon Pasta",
+    description: "shrimp, jumbo scallops, mussel and calamari.",
+    price: 19.95,
+    image: NoImage,
+    largeImage: "",
+  },
 ];
 
 export default function SoupAndNoodles() {
