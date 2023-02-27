@@ -14,7 +14,8 @@
     "react-images": "^1.2.0-beta.7",
     "react-responsive": "^9.0.0-beta.5",
     "react-slick": "^0.28.0",
-    "serialize-javascript": "^6.0.0"
+    "serialize-javascript": "^6.0.0",
+    "sharp": "^0.31.3"
   },
   "scripts": {
     "dev": "next",
