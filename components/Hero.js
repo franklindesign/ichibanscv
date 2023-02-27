@@ -15,16 +15,11 @@ export default function Hero() {
         <img
           style={{ width: "100%" }}
           src="../static/heroes/ichiban-hero-new-patio.jpg"
-          alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
+          alt="Outdoor seating"
         ></img>
       )}
       {isTabletOrMobileDevice && (
         <div>
-          {/* <img
-            style={{ width: "100%" }}
-            src="../static/heroes/Outdoor-dining-offer.jpg"
-            alt="Outdoor seating offer: 20% OFF Sushi, Sashimi, and Rolls."
-          /> */}
           <img
             style={{ width: "100%" }}
             src="../static/heroes/outdoor-seating.jpg"

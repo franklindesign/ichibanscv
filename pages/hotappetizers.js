@@ -109,7 +109,7 @@ const hotAppetizers = [
     name: "Lobster Dynamite",
     description: "Baked lobster with dynamite sauce.",
     price: 16.95,
-    image: NoImage,
+    image: "../static/items/hotAppetizers/lobsterDynamite.jpg",
     largeImage: "",
   },
   {
@@ -150,7 +150,7 @@ const hotAppetizers = [
     name: "Sesame Chicken",
     description: "Lightly fried chicken marinated in sesame sauce.",
     price: 9.95,
-    image: NoImage,
+    image: "../static/items/hotAppetizers/sesameChicken.jpg",
     largeImage: "",
   },
   {
@@ -184,7 +184,7 @@ const hotAppetizers = [
     description:
       "Deep fried jalapeno, cream cheese, spicy tuna with eel sauce and masago.",
     price: 9.95,
-    image: " ",
+    image: "../static/items/hotAppetizers/heartAttack.jpg",
     largeImage: "",
   },
 ];

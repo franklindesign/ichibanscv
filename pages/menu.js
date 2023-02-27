@@ -85,11 +85,6 @@ const categories = [
     image: "../static/categories/sushi.jpg",
     link: "/sushis",
   },
-  // {
-  //   name: "Special Sushi",
-  //   image: "",
-  //   link: "/specialsushis",
-  // },
   {
     name: "Sushi Combo",
     image: "../static/categories/sushiCombo.jpg",
@@ -106,13 +101,13 @@ const categories = [
     link: "/sashimicombo",
   },
   {
-    name: "Cold Appetizers",
+    name: "Appetizers (Cold)",
     image: "../static/categories/coldAppetizers.jpg",
     link: "/coldappetizers",
   },
   {
-    name: "Hot Appetizers",
-    image: "../static/categories/hotAppetizers.jpg",
+    name: "Appetizers (Warm)",
+    image: "../static/categories/warmAppetizers.jpg",
     link: "/hotappetizers",
   },
   {
@@ -131,7 +126,11 @@ const categories = [
     image: "../static/categories/bentobox.jpg",
     link: "/bentobox",
   },
-  { name: "Kid's Menu", image: "", link: "/kidsmenu" },
+  {
+    name: "Kid's Menu",
+    image: "../static/categories/kids.jpg",
+    link: "/kidsmenu",
+  },
   {
     name: "Dessert",
     image: "../static/categories/dessert.jpg",
