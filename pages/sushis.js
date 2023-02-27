@@ -195,9 +195,9 @@ const sushis = [
   },
   {
     id: 22,
-    name: "Toro",
+    name: "Otoro",
     description: "2 pieces",
-    price: "9.95",
+    price: "13.95",
     image: NoImage,
     largeImage: "",
   },

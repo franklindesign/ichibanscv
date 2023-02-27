@@ -8,7 +8,7 @@ import Dropdown from "../components/Dropdown";
 // import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "../static/items/NoImageSashimi.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
