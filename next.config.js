@@ -1,6 +1,6 @@
 module.exports = {
-  distDir: "build",
-  target: "serverless",
+  distDir: ".next",
+  // target: "serverless",
   // webpack(config) {
   //   config.module.rules.push({
   //     test: /\.svg$/,
