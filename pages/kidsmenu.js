@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
-
+import OrderWith from "../components/OrderWith";
 const NoImage = "../static/items/NoImage.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -77,6 +77,7 @@ export default function KidsMenu() {
               </Grid>
             ))}
           </Grid>
+          <OrderWith></OrderWith>
         </div>
       </Container>
     </Layout>

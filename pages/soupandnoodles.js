@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const NoImage = "../static/items/NoImage.jpg";
+const NoImage = "../static/items/NoImageNoodles.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
