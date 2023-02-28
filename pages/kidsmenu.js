@@ -11,7 +11,6 @@ const NoImage = "../static/items/NoImage.jpg";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    height: "100vh",
     marginTop: 100,
     marginBottom: 50,
   },

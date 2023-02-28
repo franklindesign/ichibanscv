@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import React from "react";
+import Link from "../src/Link";
 
 export default function Hero() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -11,22 +12,24 @@ export default function Hero() {
 
   return (
     <>
-      {isDesktopOrLaptop && (
-        <img
-          style={{ width: "100%" }}
-          src="../static/heroes/ichiban-hero-new-patio.jpg"
-          alt="Outdoor seating"
-        ></img>
-      )}
-      {isTabletOrMobileDevice && (
-        <div>
+      <Link href="/menu">
+        {isDesktopOrLaptop && (
           <img
             style={{ width: "100%" }}
-            src="../static/heroes/outdoor-seating.jpg"
-            alt="Our patio is now open for outdoor seating."
-          />
-        </div>
-      )}
+            src="../static/heroes/oysterBar.jpg"
+            alt="Our oyster bar is now open!"
+          ></img>
+        )}
+        {isTabletOrMobileDevice && (
+          <div>
+            <img
+              style={{ width: "100%" }}
+              src=".../static/heroes/oysterBar.jpg"
+              alt="Our oyster bar is now open!"
+            />
+          </div>
+        )}
+      </Link>
     </>
   );
 }
