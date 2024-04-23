@@ -5,8 +5,7 @@ export default function Alerts() {
     <div style={{ marginTop: 20 }}>
       <Alert severity="info">
         <AlertTitle>Valued Patrons,</AlertTitle>Our patio is now open for
-        outdoor dining. No All-You-Can-Eat (AYCE) options at this time.
-        Questions? Give us a call.
+        outdoor dining. Questions? Give us a call at (661) 360-8526.
       </Alert>
     </div>
   );

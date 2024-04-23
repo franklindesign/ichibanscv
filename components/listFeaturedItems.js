@@ -94,7 +94,7 @@ export default function ListFeaturedItems() {
   return (
     <div className={classes.root}>
       <Typography gutterBottom variant="h4" component="h1">
-        New Menu Items!
+        New Items!
       </Typography>
       <Grid container spacing={1}>
         {items.map((item) => (

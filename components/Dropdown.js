@@ -63,7 +63,6 @@ export default function ClickAway() {
   };
 
   const categories = [
-    { category: "Oyster Bar Items", link: "/oysterbar" },
     {
       category: "Fresh Rolls",
       link: "/freshrolls",

@@ -1,17 +1,9 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Container from "@material-ui/core/Container";
-// import Typography from "@material-ui/core/Typography";
-// import Box from "@material-ui/core/Box";
-// import Link from "../src/Link";
-// import BigSlider from "../components/BigSlider";
 import ListFeaturedItems from "../components/listFeaturedItems";
-import Hero from "../components/Hero";
-// import Mailchimp from "../components/Mailchimp";
+// import Hero from "../components/Hero";
 import OrderWith from "../components/OrderWith";
-// import CardSlides from "../components/CardSlides";
-// import SpecialDiscount from "../components/SpecialDiscount";
-// import FeaturedVideo from "../components/featuredVideo";
 import Alerts from "../components/Alerts";
 
 export default function Index() {
@@ -33,17 +25,11 @@ export default function Index() {
         <meta name="author" content="FranklinDesign (designbyfranklin.com)" />
       </Head>
       <Layout>
-        <div>
-          <Hero></Hero>
-          {/* <BigSlider></BigSlider> */}
-          {/* <CardSlides></CardSlides> */}
-        </div>
+        <div>{/* <Hero></Hero> */}</div>
 
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
-          {/* <SpecialDiscount></SpecialDiscount> */}
           <Alerts></Alerts>
-          {/* <Mailchimp></Mailchimp> */}
-          {/* <FeaturedVideo></FeaturedVideo> */}
+
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 40, marginBottom: 20 }}>
             <OrderWith></OrderWith>
