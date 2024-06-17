@@ -27,10 +27,10 @@ export default class MyApp extends App {
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
           {/* PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta name="theme-color" content={theme.palette.background} />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            href="https://fonts.googleapis.com/css?family=Hind:wght@300;400;500;600;700&display=swap"
           />
         </Head>
         <ThemeProvider theme={theme}>

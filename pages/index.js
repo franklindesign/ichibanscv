@@ -2,7 +2,7 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import Container from "@material-ui/core/Container";
 import ListFeaturedItems from "../components/listFeaturedItems";
-// import Hero from "../components/Hero";
+import Hero from "../components/Hero";
 import OrderWith from "../components/OrderWith";
 import Alerts from "../components/Alerts";
 
@@ -25,13 +25,13 @@ export default function Index() {
         <meta name="author" content="FranklinDesign (designbyfranklin.com)" />
       </Head>
       <Layout>
-        <div>{/* <Hero></Hero> */}</div>
+        <div><Hero></Hero></div>
 
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
+          
           <Alerts></Alerts>
-
           <ListFeaturedItems></ListFeaturedItems>
-          <div style={{ marginTop: 40, marginBottom: 20 }}>
+          <div style={{ marginTop: 50, marginBottom: 25 }}>
             <OrderWith></OrderWith>
           </div>
         </Container>

@@ -16,10 +16,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  nav: { background: "#000" },
+  nav: { background: "#fff" },
   button: {
     "&:hover": {
-      color: "#fff",
+      color: "#000",
     },
     margin: theme.spacing(1),
     fontSize: 18,
@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   link: {
-    color: "#fff",
+    color: "#000",
     cursor: "pointer",
     "&:hover": {
-      color: "#6a8caf",
+      color: "#000",
     },
   },
 
@@ -97,12 +97,12 @@ export default function ButtonAppBar() {
 
           <div className={classes.sectionDesktop}>
             <Link href="/menu" underline="none">
-              <Button color="secondary" className={classes.button}>
+              <Button color="#000" className={classes.button}>
                 Menu
               </Button>
             </Link>
             <Button
-              color="secondary"
+              color="#000"
               className={classes.button}
               href="https://instagram.com/ichibanscv/"
               target="_blank"
@@ -112,7 +112,7 @@ export default function ButtonAppBar() {
               Photos
             </Button>
             <Button
-              color="secondary"
+              color="#000"
               className={classes.button}
               href="https://goo.gl/maps/qBwuJL1U36P6FE238"
               target="_blank"
@@ -121,13 +121,14 @@ export default function ButtonAppBar() {
               <MapIcon style={{ marginRight: 5 }}></MapIcon> Location
             </Button>
           </div>
-          <div>
+          <div >
             <IconButton
               edge="start"
               className={classes.menuButton}
-              color="primary"
+              color="#000"
               aria-label="menu"
               onClick={handleClick}
+               
             >
               <MenuIcon aria-controls="simple-menu" aria-haspopup="true" />
               <Menu

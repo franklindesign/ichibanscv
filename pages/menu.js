@@ -35,9 +35,6 @@ const useStyles = makeStyles((theme) => ({
   pos: {
     marginBottom: 12,
   },
-  alerts: {
-    marginTop: 20,
-  },
   category: {
     marginTop: 40,
     color: `#fff`,
@@ -190,8 +187,7 @@ export default function menu() {
               </Grid>
             ))}
           </Grid>
-          <div className="mb-4">
-            <div className={classes.alerts}>
+          <div style={{ marginTop: 50, marginBottom:25 }}>
               <Alert variant="outlined" severity="info">
                 Consuming raw or undercooked meats, poultry, seafood, shellfish
                 or eggs may increase your risk of foodborne illness, especially
@@ -200,7 +196,6 @@ export default function menu() {
                 without prior notice. Please inform your server of any allergies
                 you may have.
               </Alert>
-            </div>
           </div>
         </div>
       </Container>

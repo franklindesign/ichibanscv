@@ -66,7 +66,7 @@ export default function CardItem({
           <Typography className={classes.product} component="h6" variant="h6">
             {itemName.text}
           </Typography>
-          <Typography className={classes.description} variant="body2">
+          <Typography className={classes.description} variant="body1">
             <i>{itemDescription.text}</i>
           </Typography>
 
