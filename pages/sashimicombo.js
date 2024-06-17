@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    
   },
 
   ayce: {
@@ -25,7 +24,7 @@ const sashimicombos = [
     id: 1,
     name: "Small Combo",
     description: "6 pieces of sashimi",
-    price: 16.95,
+    price: 18.95,
     image: "../static/items/NoImage.jpg",
     largeImage: "",
   },
@@ -33,7 +32,7 @@ const sashimicombos = [
     id: 2,
     name: "Medium Combo",
     description: "16 pieces of sashimi",
-    price: 34.95,
+    price: 39.95,
     image: "../static/items/NoImage.jpg",
     largeImage: "",
   },
@@ -41,7 +40,14 @@ const sashimicombos = [
     id: 3,
     name: "Large Combo",
     description: "24 pieces of sashimi",
-    price: 59.95,
+    price: 69.95,
+    image: "../static/items/NoImage.jpg",
+    largeImage: "",
+  },{
+    id: 4,
+    name: "Large Combo",
+    description: "24 pieces of sashimi + sweet shrimp & uni",
+    price: 89.95,
     image: "../static/items/NoImage.jpg",
     largeImage: "",
   },
@@ -58,7 +64,7 @@ export default function SashimiCombo() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="sashimicombo">
-                  Sashimi Combo
+                  SASHIMI COMBO
                 </Typography>
               </div>
             </Grid>

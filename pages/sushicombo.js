@@ -25,7 +25,7 @@ const sushicombos = [
     id: 1,
     name: "Chirashi",
     description: "mixed sashimi on a bowl of sushi rice",
-    price: 25.95,
+    price: 27.95,
     image: "../static/items/sushiCombo/chirashi.jpg",
     largeImage: "",
   },
@@ -33,7 +33,7 @@ const sushicombos = [
     id: 2,
     name: "Unagi Donburi (Eel Bowl)",
     description: "sushi rice with broiled eel and avocado",
-    price: 22.95,
+    price: 24.95,
     image: "../static/items/sushiCombo/unagiBowl.jpg",
     largeImage: "",
   },
@@ -42,7 +42,7 @@ const sushicombos = [
     name: "Sashimi Donburi",
     description:
       "Korean-style poke bowl with tuna, salmon on sushi rice & spring mix with masago, seaweed salad, hot sauce and sesame oil & seed",
-    price: 19.95,
+    price: 21.95,
     image: "../static/items/sushiCombo/sashimiDonburi.jpg",
     largeImage: "",
   },
@@ -51,7 +51,7 @@ const sushicombos = [
     name: "Ichiban Poke Bowl",
     description:
       "tuna, salmon, scallop on sushi rice & spring mix top with seaweed salad, crab meat and avocado",
-    price: 19.95,
+    price: 21.95,
     image: "../static/items/sushiCombo/ichibanPokeBowl.jpg",
     largeImage: "",
   },
@@ -68,7 +68,7 @@ const sushicombos = [
     name: "Special Sashimi Combo",
     description:
       "12 pieces sashimi: tuna, salmon, albacore, ocean striped bass",
-    price: 25.95,
+    price: 28.95,
     image: "../static/items/sushiCombo/specialSashimi.jpg",
     largeImage: "",
   },
@@ -76,7 +76,7 @@ const sushicombos = [
     id: 7,
     name: "Big Scallops Sashimi",
     description: "Multiple pieces of big scallops",
-    price: 19.95,
+    price: 21.95,
     image: "../static/items/sushiCombo/bigScallops.jpg",
     largeImage: "",
   },
@@ -93,7 +93,7 @@ export default function SushiCombo() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="sushicombo">
-                  Sushi Combo
+                  SUSHI COMBO
                 </Typography>
                 <Typography>*served with miso soup</Typography>
               </div>

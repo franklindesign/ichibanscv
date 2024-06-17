@@ -26,7 +26,7 @@ const kidsitems = [
     id: 1,
     name: "Chicken Bowl",
     description: " ",
-    price: 6.95,
+    price: 7.95,
     image: NoImage,
     largeImage: "",
   },
@@ -34,7 +34,7 @@ const kidsitems = [
     id: 2,
     name: "Beef Bowl",
     description: " ",
-    price: 8.95,
+    price: 9.95,
     image: NoImage,
     largeImage: "",
   },
@@ -42,7 +42,7 @@ const kidsitems = [
     id: 3,
     name: "Bulgogi Bowl",
     description: " ",
-    price: 8.95,
+    price: 9.95,
     image: NoImage,
     largeImage: "",
   },
@@ -59,7 +59,7 @@ export default function KidsMenu() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="kidsMenu">
-                  Kid's Menu
+                  KIDS' MENU
                 </Typography>
               </div>
             </Grid>

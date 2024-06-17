@@ -13,7 +13,7 @@ const theme = createTheme({
   },
 
   palette: {
-    type: "dark",
+    type: "light",
     primary: { main: "#ed2227" }, // [brand]red
     secondary: {
       main: "#f6a8ca", // [brand]pink
@@ -22,7 +22,7 @@ const theme = createTheme({
       main: red.A400,
     },
     background: {
-      default: "#050505", // preferred background color
+      default: "#fffff", // preferred background color
     },
   },
 });

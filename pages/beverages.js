@@ -124,7 +124,7 @@ export default function Entrees() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="kidsMenu">
-                  Beverages
+                  BEVERAGES
                 </Typography>
               </div>
             </Grid>

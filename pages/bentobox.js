@@ -19,8 +19,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const lunchBentoPrice = "16.95";
-const dinnerBentoPrice = "18.95";
+const lunchBentoPrice = "18.95";
+const dinnerBentoPrice = "20.95";
 
 const bentoboxes = [
   {
@@ -116,16 +116,16 @@ export default function BentoBox() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="bentoboxes">
-                  Bento Boxes
+                  BENTO BOXES
                 </Typography>
                 <p>Served with steamed rice, soup, salad & tempura.</p>
                 <p>(No substitutes and double order sushi & sashimi</p>
-                <p>
+                {/* <p>
                   <strong>Lunch Special: {lunchBentoPrice}</strong>
                 </p>
                 <p>
                   <strong>Dinner: {dinnerBentoPrice}</strong>
-                </p>
+                </p> */}
                 <p>
                   <strong>Choose 2 Items for your bento:</strong>
                 </p>
@@ -138,7 +138,7 @@ export default function BentoBox() {
                   itemName={{ text: `${bentoboxe.name}` }}
                   title={{ text: `${bentoboxe.name}` }}
                   itemDescription={{ text: `${bentoboxe.description}` }}
-                  itemPrice={{}}
+                  // itemPrice={{}}
                   itemImage={{ image: `${bentoboxe.image}` }}
                 ></CardItem>
               </Grid>

@@ -190,7 +190,7 @@ export default function HandRolls() {
             <Grid item xs={12}>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="handrolls">
-                  Hand Rolls
+                  HAND ROLLS
                 </Typography>
               </div>
             </Grid>

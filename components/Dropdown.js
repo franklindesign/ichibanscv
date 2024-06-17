@@ -9,7 +9,7 @@ import Link from "../src/Link";
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "absolute",
-    background: "#ed2228",
+    background: "#fff",
     zIndex: "1",
     right: "5%",
     [theme.breakpoints.up("md")]: {
@@ -31,15 +31,16 @@ const useStyles = makeStyles((theme) => ({
     height: 640,
     width: 140,
     padding: 0,
-    backgroundColor: "#2a2a2a",
+    backgroundColor: "#000",
+    color: "#fff",
   },
   list: {
     listStyleType: "none",
     padding: 4,
     width: "100%",
     "&:hover": {
-      backgroundColor: "#f26624",
-      color: "#000",
+      backgroundColor: "#000",
+      color: "#fff",
     },
   },
   link: {
@@ -91,10 +92,6 @@ export default function ClickAway() {
       category: "Sushi",
       link: "/sushis",
     },
-    // {
-    //   category: "Special Sushi",
-    //   link: "/specialsushis",
-    // },
     {
       category: "Sushi Combo",
       link: "/sushicombo",

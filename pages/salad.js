@@ -24,58 +24,59 @@ const salads = [
   {
     id: 1,
     name: "House Salad",
-    description: "ginger dressing",
-    price: 6.5,
+    description: "house salad with ginger dressing",
+    price: 8.5,
     image: "../static/items/salad/houseSalad.jpg",
     largeImage: "",
   },
   {
     id: 2,
     name: "Cucumber Salad",
-    description: "cucumber in a vinagrette with sesame seed",
-    price: 6.5,
+    description: "cucumber salad with vinaigrette and sesame seeds.",
+    price: 7.5,
     image: "../static/items/salad/cucumberSalad.jpg",
     largeImage: "",
   },
   {
     id: 3,
-    name: "Seaweed Salad",
-    description: "marinated seaweed with sesame oil and seed",
-    price: "6.50",
-    image: "../static/items/salad/seaweedSalad.jpg",
+    name: "Octopus Salad",
+    description: "octopus salad with green onions.",
+    price: 13.95,
+    image: "../static/items/salad/octopusSalad.jpg",
     largeImage: "",
   },
   {
     id: 4,
-    name: "Salmon Skin Salad",
-    description: "broiled salmon skin, gobo, bonito",
-    price: 11.95,
-    image: "../static/items/salad/salmonSkinSalad.jpg",
+    name: "Seaweed Salad",
+    description: "marinated seaweed with sesame oil and seed",
+    price: 7.5,
+    image: "../static/items/salad/seaweedSalad.jpg",
     largeImage: "",
   },
   {
     id: 5,
-    name: "Spicy Tuna Salad",
-    description:
-      "spicy tuna, cucumber with gobo, masago, green onion, sesame oil and seed",
-    price: 16.95,
-    image: "../static/items/salad/spicyTunaSalad.jpg",
+    name: "Salmon Skin Salad",
+    description: "broiled salmon skin, gobo, bonito",
+    price: 13.95,
+    image: "../static/items/salad/salmonSkinSalad.jpg",
     largeImage: "",
   },
+
   {
     id: 6,
     name: "Sashimi Salad",
     description: "Green salad with 8 pieces of sashimi",
-    price: 18.95,
+    price: 20.95,
     image: "../static/items/salad/sashimiSalad.jpg",
     largeImage: "",
   },
   {
     id: 7,
-    name: "Calamari Salad",
-    description: "Green salad with calamari tempura.",
-    price: 13.95,
-    image: "../static/items/salad/calamariTempuraSalad.jpg",
+    name: "Spicy Tuna Salad",
+    description:
+      "spicy tuna, cucumber with gobo, masago, green onion, sesame oil and seed",
+    price: 18.95,
+    image: "../static/items/salad/spicyTunaSalad.jpg",
     largeImage: "",
   },
 ];
@@ -91,7 +92,7 @@ export default function Salad() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="salad">
-                  Salad
+                  SALAD
                 </Typography>
               </div>
             </Grid>

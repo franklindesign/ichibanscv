@@ -157,13 +157,6 @@ export default function menu() {
           <Typography variant="h4" id="freshrolls">
             Categories
           </Typography>
-          <div className={classes.alerts}>
-            <Alert variant="outlined" severity="info">
-              Menu is subject to changes. Items may vary from photos. Please
-              inform us of any food allergies. All crabmeat is imitation.
-            </Alert>
-          </div>
-
           <Grid
             container
             spacing={3}
@@ -197,6 +190,18 @@ export default function menu() {
               </Grid>
             ))}
           </Grid>
+          <div className="mb-4">
+            <div className={classes.alerts}>
+              <Alert variant="outlined" severity="info">
+                Consuming raw or undercooked meats, poultry, seafood, shellfish
+                or eggs may increase your risk of foodborne illness, especially
+                if you have certain medical conditions.Pictures shown may be
+                different from actual orders. Prices are subject to change
+                without prior notice. Please inform your server of any allergies
+                you may have.
+              </Alert>
+            </div>
+          </div>
         </div>
       </Container>
     </Layout>

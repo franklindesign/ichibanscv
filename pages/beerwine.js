@@ -21,6 +21,14 @@ const useStyles = makeStyles((theme) => ({
 
 const beerAndWines = [
   {
+    id: 0,
+    name: "Kizakura Beer",
+    description: "Lucky Cat, Lucky Cat, Matcha IPA",
+    price: 11,
+    image: "../static/items/wineBeer/beerKizakura.jpg",
+    largeImage: "",
+  },
+  {
     id: 1,
     name: "Beer Bottles",
     description: "Kirin, Kirin Light, Sapporo, and Asahi",
@@ -137,7 +145,7 @@ export default function Entrees() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="beerAndWine">
-                  Beer & Wine
+                  BEER & WINE
                 </Typography>
                 <p>Must be 21 or older to drink beer and wine.</p>
               </div>

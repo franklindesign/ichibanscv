@@ -27,7 +27,7 @@ const entrees = [
     name: "Garlic Shrimp",
     description:
       "sauteed jumbo shrimp with garlic includes miso soup, salad, and rice",
-    price: 22.95,
+    price: 25.95,
     image: "../static/items/entrees/GarlicShrimp.jpg",
     largeImage: "",
   },
@@ -36,7 +36,7 @@ const entrees = [
     name: "Korean BBQ Bento",
     description:
       "Korean style BBQ bento with miso soup, salad, rice, tempura, and gyoza",
-    price: 22.95,
+    price: 24.95,
     image: "../static/items/entrees/KoreanBBQBento.jpg",
     largeImage: "",
   },
@@ -44,7 +44,7 @@ const entrees = [
     id: 3,
     name: "Chicken Teriyaki",
     description: "grilled chicken with teriyaki sauce",
-    price: 14.95,
+    price: 164.95,
     image: "../static/items/entrees/ChickenTeriyaki.jpg",
     largeImage: "",
   },
@@ -52,7 +52,7 @@ const entrees = [
     id: 4,
     name: "Beef Teriyaki",
     description: "grilled beef with teriyaki sauce",
-    price: 18.95,
+    price: 19.95,
     image: "../static/items/entrees/BeefTeriyaki.jpg",
     largeImage: "",
   },
@@ -60,7 +60,7 @@ const entrees = [
     id: 5,
     name: "Salmon Teriyaki",
     description: "grilled salmon with teriyaki sauce",
-    price: 18.95,
+    price: 19.95,
     image: "../static/items/entrees/SalmonTeriyaki.jpg",
     largeImage: "",
   },
@@ -69,60 +69,52 @@ const entrees = [
     name: "Don Katsu",
     description:
       "Deep fried breaded pork or chicken. Includes miso soup, salad, and rice.",
-    price: 14.95,
+    price: 16.95,
     image: "../static/items/entrees/donKatsu.jpg",
     largeImage: "",
   },
+
   {
     id: 7,
-    name: "Bulgogi Don",
-    description:
-      "Marinated Korean style beef with vegetable over rice. Includes miso soup.",
-    price: 13.95,
-    image: "../static/items/entrees/BulgogiBowl.jpg",
-    largeImage: "",
-  },
-  {
-    id: 8,
     name: "Chicken Don",
     description: "Chicken teriyaki over rice. Includes miso soup.",
-    price: 11.95,
+    price: 12.95,
     image: "../static/items/entrees/ChickenBowl.jpg",
     largeImage: "",
   },
   {
-    id: 9,
+    id: 8,
     name: "Beef Don",
     description:
       "grilled beef with teriyaki sauce over rice. Includes miso soup.",
-    price: 13.95,
+    price: 14.95,
     image: "../static/items/entrees/BeefBowl.jpg",
     largeImage: "",
   },
   {
-    id: 10,
+    id: 9,
     name: "Beef Galbi (Korean BBQ)",
     description:
       "grilled tender marinated beef short ribs on hibachi. Includes miso soup and rice.",
-    price: 24.95,
+    price: 27.95,
     image: "../static/items/entrees/KBBQ.jpg",
     largeImage: "",
   },
   {
-    id: 11,
+    id: 10,
     name: "Beef Teppanyaki",
     description:
       "grilled tender stripe with vegetables over rice. Includes miso soup.",
-    price: 16.95,
+    price: 17.95,
     image: "../static/items/entrees/BeefTeppanyaki.jpg",
     largeImage: "",
   },
   {
-    id: 12,
+    id: 11,
     name: "Chicken Teppanyaki",
     description:
       "grilled chicken with vegetables over rice. Includes miso soup.",
-    price: 14.95,
+    price: 15.95,
     image: "../static/items/entrees/ChickenTeppanyaki.jpg",
     largeImage: "",
   },
@@ -139,7 +131,7 @@ export default function Entrees() {
             <Grid item xs={12}>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="entrees">
-                  Entrees
+                  ENTRÉES
                 </Typography>
               </div>
             </Grid>

@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   link: {
-    color: "#f6a8ca",
+    color: "#fff",
     cursor: "pointer",
     "&:hover": {
-      color: "#fff",
+      color: "#6a8caf",
     },
   },
 
@@ -125,7 +125,7 @@ export default function ButtonAppBar() {
             <IconButton
               edge="start"
               className={classes.menuButton}
-              color="secondary"
+              color="primary"
               aria-label="menu"
               onClick={handleClick}
             >

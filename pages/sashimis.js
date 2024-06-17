@@ -132,7 +132,7 @@ export default function Sashimis() {
             <Grid item xs={12}>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="sashimis">
-                  Sashimi
+                  SASHIMI
                 </Typography>
               </div>
             </Grid>

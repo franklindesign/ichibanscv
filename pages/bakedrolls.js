@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItemRolls";
 import Dropdown from "../components/Dropdown";
-import UberEats from "../components/UberEats";
+// import UberEats from "../components/UberEats";
 import OrderWith from "../components/OrderWith";
 
 const useStyles = makeStyles((theme) => ({
@@ -116,7 +116,7 @@ export default function BakedRolls() {
             <Grid item xs={12}>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="bakedrolls">
-                  Baked Rolls
+                  BAKED ROLLS
                 </Typography>
               </div>
             </Grid>

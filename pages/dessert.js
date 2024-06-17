@@ -28,7 +28,7 @@ const desserts = [
     name: "Ice Cream",
     description: "green tea or vanilla",
     price: "3.50",
-    image: NoImage,
+    image: "../static/items/desserts/icecream.jpg",
     largeImage: "",
   },
   {
@@ -43,8 +43,8 @@ const desserts = [
     id: 3,
     name: "Tempura Ice Cream",
     description: "green tea or vanilla",
-    price: 7.95,
-    image: NoImage,
+    price: 8.95,
+    image: "../static/items/desserts/tempuraicecream.jpg",
     largeImage: "",
   },
   {
@@ -59,7 +59,7 @@ const desserts = [
     id: 5,
     name: "MACARON Gelato Sandwiches",
     description: "multiple flavors",
-    price: "3.50",
+    price: "4.50",
     image: "../static/items/desserts/macaron.jpg",
     largeImage: "",
   },
@@ -76,7 +76,7 @@ export default function Entrees() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="dessert">
-                  Dessert
+                  DESSERT
                 </Typography>
               </div>
             </Grid>
