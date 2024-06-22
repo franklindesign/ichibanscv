@@ -7,7 +7,7 @@ import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
 const NoImage = "../static/items/NoImage.jpg";
-const NoPrice = "Ask server for price";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {

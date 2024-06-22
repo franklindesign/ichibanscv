@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   link: {
-    color: "#000",
+    color: "primary",
     cursor: "pointer",
     "&:hover": {
-      color: "#000",
+      color: "secondary",
     },
   },
 

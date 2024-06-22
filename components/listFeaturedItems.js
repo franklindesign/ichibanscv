@@ -98,7 +98,7 @@ export default function ListFeaturedItems() {
       </Typography>
       <Grid container spacing={1}>
         {items.map((item) => (
-          <Grid item xs={12} sm={6} md={4} key={item.id}>
+          <Grid item xs={6} sm={6} md={3} key={item.id}>
             <Card className={classes.card}>
               <CardMedia
                 component="img"

@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
+    height: "100vh"
   },
 
   ayce: {

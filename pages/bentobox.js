@@ -3,8 +3,14 @@ import Container from "@material-ui/core/Container";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,87 +28,23 @@ const useStyles = makeStyles((theme) => ({
 const lunchBentoPrice = "18.95";
 const dinnerBentoPrice = "20.95";
 
-const bentoboxes = [
-  {
-    id: 1,
-    name: "Chicken",
-    description: "grilled chicken with teriyaki sauce",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 2,
-    name: "Beef",
-    description: "grilled beef with teriyaki sauce",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 3,
-    name: "Salmon",
-    description: "broiled fresh salmon with teriyaki sauce",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 4,
-    name: "Pork Cutlet",
-    description: "tender pork breaded and deep fried with tonkatsu sauce",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 5,
-    name: "Bulgogi",
-    description: "marinated Korean style beef",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 6,
-    name: "Sesame Chicken",
-    description: "lightly fried chicken marinated in sesame sauce",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 7,
-    name: "Sushi",
-    description: "Chef's choice (5 pieces)",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 8,
-    name: "Sashimi",
-    description: "Chef's choice (6 pieces)",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 9,
-    name: "California Roll",
-    description: "",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
-  {
-    id: 10,
-    name: "Spicy Tuna",
-    description: " ",
-    price: null,
-    image: "../static/items/NoImage.jpg",
-    largeImage: "",
-  },
+
+
+function createData(name, description, ) {
+  return { name, description,  };
+}
+
+const rows = [
+  createData('Grilled Chicken', "Grilled chicken with teriyaki sauce."),
+  createData('Grilled Beef', "Grilled beef with teriyaki sauce."),
+  createData('Salmon', "Broiled fresh salmon with teriyaki sauce." ),
+  createData('Pork Cutlet', "tender pork breaded and deep fried with tonkatsu sauce" ),
+  createData('Bulgogi', "Marinated Korean style beef." ),
+  createData('Sesame Chicken', "Lightly fried chicken marinated in sesame sauce." ),
+  createData('Sushi', "Chef's choice (5 pieces)." ),
+  createData('Sashimi', "Chef's choice (6 pieces)." ),
+  createData('California Roll', "" ),
+  createData('Spicy Tuna Roll', "" ),
 ];
 
 export default function BentoBox() {
@@ -118,31 +60,46 @@ export default function BentoBox() {
                 <Typography variant="h4" id="bentoboxes">
                   BENTO BOXES
                 </Typography>
-                <p>Served with steamed rice, soup, salad & tempura.</p>
-                <p>(No substitutes and double order sushi & sashimi</p>
+                <img
+                src="../static/items/bentobox/bentobox_web.jpg"
+                style={{ width: "100%", marginTop: 40, marginBottom: 20 }}
+              ></img>
+                <p>*Served with steamed rice, soup, salad & tempura.</p>
+                <p>^(No substitutes and double order sushi & sashimi.)</p>
                 {/* <p>
                   <strong>Lunch Special: {lunchBentoPrice}</strong>
                 </p>
                 <p>
                   <strong>Dinner: {dinnerBentoPrice}</strong>
                 </p> */}
-                <p>
-                  <strong>Choose 2 Items for your bento:</strong>
-                </p>
+                
               </div>
             </Grid>
-
-            {bentoboxes.map((bentoboxe) => (
-              <Grid item xs={12} sm={6} key={bentoboxe.name}>
-                <CardItem
-                  itemName={{ text: `${bentoboxe.name}` }}
-                  title={{ text: `${bentoboxe.name}` }}
-                  itemDescription={{ text: `${bentoboxe.description}` }}
-                  // itemPrice={{}}
-                  itemImage={{ image: `${bentoboxe.image}` }}
-                ></CardItem>
-              </Grid>
-            ))}
+            <TableContainer component={Paper}>
+      <Table className={classes.table} aria-label="simple table">
+        <TableHead>
+          <TableRow>
+            <TableCell><strong>Choose 2 Items for your bento*^:</strong></TableCell>
+            <TableCell align="left"></TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row) => (
+            <TableRow key={row.name}>
+              <TableCell component="th" scope="row">
+                {row.name}
+              </TableCell>
+              <TableCell align="left">{row.description}</TableCell>
+          
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+    <img
+                src="../static/items/bentobox/koreanBentoBox.jpg"
+                style={{ width: "100%", marginTop: 40, marginBottom: 20 }}
+              ></img>
           </Grid>
         </div>
       </Container>

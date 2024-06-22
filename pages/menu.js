@@ -13,7 +13,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginTop: 100,
   },
-
+  img: {
+    opacity: .2
+  },
   ayce: {
     textAlign: "left",
   },
@@ -37,11 +39,17 @@ const useStyles = makeStyles((theme) => ({
   },
   category: {
     marginTop: 40,
-    color: `#fff`,
+    marginLeft: 10,
+    marginRight: 10,
+    color: `#000`,
+    backgroundColor: "white",
+    borderRadius: 5
+    
   },
 }));
 
 const categories = [
+   
   {
     name: "Fresh Rolls",
     image: "../static/categories/freshRolls.jpg",
@@ -63,7 +71,7 @@ const categories = [
     link: "/sushiburritos",
   },
   {
-    name: "Regular Cut Rolls",
+    name: "Regular Rolls",
     image: "../static/categories/regularCutRolls.jpg",
     link: "/regularrolls",
   },
@@ -71,6 +79,11 @@ const categories = [
     name: "Hand Rolls",
     image: "../static/categories/handRolls.jpg",
     link: "/handrolls",
+  },
+  {
+    name: "Inari Sushi",
+    image: "../static/categories/inarisushi.jpg",
+    link: "/inarisushi",
   },
   {
     name: "Sushi",
@@ -88,7 +101,7 @@ const categories = [
     link: "/sashimis",
   },
   {
-    name: "Sashimi Combo",
+    name: "Mix Sashimi",
     image: "../static/categories/sashimiCombo.jpg",
     link: "/sashimicombo",
   },
@@ -169,15 +182,18 @@ export default function menu() {
                       backgroundRepeat: `no-repeat`,
                       backgroundSize: `cover`,
                       backgroundPosition: `center`,
-                      backgroundColor: `#000`,
+                      backgroundColor: `#fff`,
+                     
+                      
                     }}
                   >
-                    <CardContent>
+                     <CardContent>
                       <Typography
                         variant="h5"
                         component="h2"
                         align="center"
                         className={classes.category}
+                         
                       >
                         {category.name}
                       </Typography>
