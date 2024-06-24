@@ -43,8 +43,8 @@ const rows = [
   createData('Sesame Chicken', "Lightly fried chicken marinated in sesame sauce." ),
   createData('Sushi', "Chef's choice (5 pieces)." ),
   createData('Sashimi', "Chef's choice (6 pieces)." ),
-  createData('California Roll', "" ),
-  createData('Spicy Tuna Roll', "" ),
+  createData('California Roll', "California cut roll." ),
+  createData('Spicy Tuna Roll', "Spicy tuna cut roll." ),
 ];
 
 export default function BentoBox() {
@@ -64,14 +64,14 @@ export default function BentoBox() {
                 src="../static/items/bentobox/bentobox_web.jpg"
                 style={{ width: "100%", marginTop: 40, marginBottom: 20 }}
               ></img>
-                <p>*Served with steamed rice, soup, salad & tempura.</p>
-                <p>^(No substitutes and double order sushi & sashimi.)</p>
-                {/* <p>
+                <p>* Served with steamed rice, soup, salad & tempura.</p>
+                <p>^ (No substitutes and double order sushi & sashimi.)</p>
+                <p>
                   <strong>Lunch Special: {lunchBentoPrice}</strong>
                 </p>
                 <p>
                   <strong>Dinner: {dinnerBentoPrice}</strong>
-                </p> */}
+                </p>
                 
               </div>
             </Grid>
@@ -79,7 +79,7 @@ export default function BentoBox() {
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell><strong>Choose 2 Items for your bento*^:</strong></TableCell>
+            <TableCell> Choose 2 Items for your bento*^: </TableCell>
             <TableCell align="left"></TableCell>
           </TableRow>
         </TableHead>
@@ -87,7 +87,7 @@ export default function BentoBox() {
           {rows.map((row) => (
             <TableRow key={row.name}>
               <TableCell component="th" scope="row">
-                {row.name}
+              <strong>{row.name}</strong>   
               </TableCell>
               <TableCell align="left">{row.description}</TableCell>
           

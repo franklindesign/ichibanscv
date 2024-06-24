@@ -28,10 +28,8 @@ export default class MyApp extends App {
           />
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.background} />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Hind:wght@300;400;500;600;700&display=swap"
-          />
+          <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet"></link>
+         
         </Head>
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

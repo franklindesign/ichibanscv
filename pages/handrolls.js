@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 const handRolls = [
   {
     id: 1,
-    name: "Baked Crab (Hand roll))",
+    name: "Baked Crab (Hand roll)",
     description: "baked blue crab, masago, green onions",
     price: "9.95",
     image: "../static/items/handRolls/BakedCrabHandRoll.jpg",

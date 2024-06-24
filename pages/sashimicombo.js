@@ -68,6 +68,10 @@ export default function SashimiCombo() {
                   SASHIMI COMBO
                 </Typography>
               </div>
+              <img
+                src="../static/items/sashimiCombo/sashimicombo_banner.jpg"
+                style={{ width: "100%", marginBottom: 20 }}
+              ></img>
             </Grid>
 
             {sashimicombos.map((sashimicombo) => (

@@ -134,6 +134,7 @@ export default function Sashimis() {
                 <Typography variant="h4" id="sashimis">
                   SASHIMI
                 </Typography>
+                
               </div>
             </Grid>
 

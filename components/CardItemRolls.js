@@ -34,9 +34,13 @@ const useStyles = makeStyles((theme) => ({
     flex: "0 0 150px",
     width: 125,
   },
-  product: { color: "#e92b2e" },
+  product: { color: "#e92b2e", textAlign: "left" },
   price: {
-    color: "#f4a8ca", // price $ color
+    color: "#000", // price $ color
+    textAlign: "right",
+    position: "absolute",
+    top: 20,
+    right: 10,
   },
   description: {
     color: "#000", // text color
@@ -51,7 +55,6 @@ export default function CardItem({
   itemDescriptionSauce,
   itemImage,
   itemPrice,
-  title,
 }) {
   const classes = useStyles();
 
@@ -65,27 +68,22 @@ export default function CardItem({
       />
       <div className={classes.details}>
         <CardContent className={classes.content}>
-          <Typography className={classes.product} component="h6" variant="h6">
-            {itemName.text}
+          <div style={{ display: "inline" }}>
+            <Typography className={classes.product} component="h6" variant="h6">
+              {itemName.text}
+            </Typography>
+            {/* <Typography className={classes.price} variant="subtitle1">
+              {itemPrice.price}
+            </Typography> */}
+          </div>
+          <Typography className={classes.description} variant="body1">
+            <strong>In:</strong> {itemDescriptionIn.text}
           </Typography>
-          <Typography className={classes.description} variant="body2">
-            <i>
-              <strong>In:</strong> {itemDescriptionIn.text}
-            </i>
+          <Typography className={classes.description} variant="body1">
+            <strong>Out:</strong> {itemDescriptionOut.text}
           </Typography>
-          <Typography className={classes.description} variant="body2">
-            <i>
-              <strong>Out:</strong> {itemDescriptionOut.text}
-            </i>
-          </Typography>
-          <Typography className={classes.description} variant="body2">
-            <i>
-              <strong>Sauce:</strong> {itemDescriptionSauce.text}
-            </i>
-          </Typography>
-
-          <Typography className={classes.price} variant="body2">
-            {/* {itemPrice.price} */}
+          <Typography className={classes.description} variant="body1">
+            <strong>Sauce:</strong> {itemDescriptionSauce.text}
           </Typography>
         </CardContent>
       </div>

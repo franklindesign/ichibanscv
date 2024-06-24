@@ -12,9 +12,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
-  },
-  img: {
-    opacity: .2
+     
   },
   ayce: {
     textAlign: "left",
@@ -43,7 +41,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 10,
     color: `#000`,
     backgroundColor: "white",
-    borderRadius: 5
+    borderRadius: 5,
+    "&:hover": {
+      backgroundColor: "#f5f5f5"
+    }
     
   },
 }));
@@ -86,7 +87,7 @@ const categories = [
     link: "/inarisushi",
   },
   {
-    name: "Sushi",
+    name: "Nigiri Sushi",
     image: "../static/categories/sushi.jpg",
     link: "/sushis",
   },

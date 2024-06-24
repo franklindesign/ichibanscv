@@ -93,10 +93,14 @@ export default function SushiCombo() {
               <Dropdown></Dropdown>
               <div className={classes.ayce}>
                 <Typography variant="h4" id="sushicombo">
-                  SUSHI COMBO
+                  SUSHI & SASHIMI COMBO
                 </Typography>
                 <Typography>*served with miso soup</Typography>
               </div>
+              <img
+                src="../static/items/sushiCombo/sushicombo_banner.jpg"
+                style={{ width: "100%", marginBottom: 20 }}
+              ></img>
             </Grid>
 
             {sushicombos.map((sushicombo) => (

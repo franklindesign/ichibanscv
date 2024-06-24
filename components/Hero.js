@@ -1,6 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import React from "react";
-import Link from "../src/Link";
+
 
 export default function Hero() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -12,7 +12,7 @@ export default function Hero() {
 
   return (
     <>
-      <Link href="/menu">
+      
         {isDesktopOrLaptop && (
           <img
             style={{ width: "100%" }}
@@ -29,7 +29,7 @@ export default function Hero() {
             />
           </div>
         )}
-      </Link>
+      
     </>
   );
 }

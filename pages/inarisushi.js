@@ -100,6 +100,7 @@ export default function InariSushis() {
                 <Typography variant="h4" id="inariSushis">
                   INARI SUSHI
                 </Typography>
+                <p>Inari sushi or inarizushi is a fried and seasoned tofu pocket stuffed with sushi rice. Select from a variety of topping with your inari sushi:</p>
               </div>
             </Grid>
             {inariSushis.map((inariSushi) => (

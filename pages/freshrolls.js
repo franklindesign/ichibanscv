@@ -280,6 +280,10 @@ export default function menu() {
                   FRESH ROLLS
                 </Typography>
               </div>
+              <img
+                src="../static/items/freshRolls/freshRoll_banner.jpg"
+                style={{ width: "100%", marginBottom: 20 }}
+              ></img>
             </Grid>
 
             {freshRolls.map((freshRoll) => (

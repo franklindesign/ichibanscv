@@ -46,45 +46,60 @@ const useStyles = makeStyles((theme) => ({
 const items = [
   {
     id: 1,
-    title: "Love Roll",
-    src: "../static/newFeaturedItems/newfeaturedItems_01.jpg",
-    categories: "Fresh Rolls",
-    link: "/freshrolls",
+    title: "Lobster & Crab Crunch Roll",
+    src: "../static/FeaturedItems/01.jpg",
+    categories: "Baked Rolls",
+    link: "/bakedrolls",
   },
   {
     id: 2,
-    title: "Valentine Roll",
-    src: "../static/newFeaturedItems/newfeaturedItems_02.jpg",
-    categories: "Fresh Rolls",
-    link: "/freshrolls",
+    title: "Baked Salmon Roll",
+    src: "../static/FeaturedItems/02.jpg",
+    categories: "Baked Rolls",
+    link: "/bakedrolls",
   },
   {
     id: 3,
-    title: "LBJ Hand Roll",
-    src: "../static/newFeaturedItems/newfeaturedItems_03.jpg",
-    categories: "Hand Rolls",
-    link: "/handrolls",
+    title: "Albacore Delight Roll",
+    src: "../static/FeaturedItems/03.jpg",
+    categories: "Fresh Rolls",
+    link: "/freshrolls",
   },
+   
   {
     id: 4,
-    title: "Elmo Roll",
-    src: "../static/newFeaturedItems/newfeaturedItems_04.jpg",
+    title: "Rainbow Roll",
+    src: "../static/FeaturedItems/04.jpg",
     categories: "Fresh Rolls",
     link: "/freshrolls",
   },
   {
     id: 5,
-    title: "Spicy Seafood Udon Pasta",
-    src: "../static/newFeaturedItems/newfeaturedItems_05.jpg",
-    categories: "Soup & Noodles",
-    link: "/soupandnoodles",
+    title: "Alaskan Roll",
+    src: "../static/FeaturedItems/05.jpg",
+    categories: "Fresh Rolls",
+    link: "/freshrolls",
   },
   {
     id: 6,
-    title: "Lobster & Shrimp Tempura Roll",
-    src: "../static/newFeaturedItems/newfeaturedItems_06.jpg",
+    title: "Sean's Roll",
+    src: "../static/FeaturedItems/06.jpg",
     categories: "Tempura Rolls",
     link: "/tempurarolls",
+  },
+  {
+    id: 7,
+    title: "Bento Box",
+    src: "../static/FeaturedItems/07.jpg",
+    categories: "Bento Box",
+    link: "/bentobox",
+  },
+  {
+    id: 8,
+    title: "View More Items",
+    src: "../static/FeaturedItems/08.jpg",
+    categories: "Menu",
+    link: "/menu",
   },
 ];
 
@@ -94,32 +109,36 @@ export default function ListFeaturedItems() {
   return (
     <div className={classes.root}>
       <Typography gutterBottom variant="h4" component="h1">
-        New Items!
+        Featured Items
       </Typography>
+      <p>Most ordered</p>
       <Grid container spacing={1}>
         {items.map((item) => (
           <Grid item xs={6} sm={6} md={3} key={item.id}>
+             <Link href={`${item.link}`} className={classes.link}>
             <Card className={classes.card}>
               <CardMedia
                 component="img"
                 alt={`${item.title}`}
-                height="240"
+                height="160"
                 image={`${item.src}`}
                 title={`${item.title}`}
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
+                <Typography gutterBottom variant="h6">
                   {item.title}
                 </Typography>
-                <Link href={`${item.link}`} className={classes.link}>
+                
                   <Chip
-                    color="secondary"
-                    size="medium"
+                  variant="outlined" 
+                    color="primary"
+                    size="small"
                     label={`${item.categories}`}
                   ></Chip>
-                </Link>
+                 
               </CardContent>
             </Card>
+            </Link>
           </Grid>
         ))}
       </Grid>

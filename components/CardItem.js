@@ -36,7 +36,10 @@ const useStyles = makeStyles((theme) => ({
   },
   product: { color: "#e92b2e" },
   price: {
-    color: "#f4a8ca", // price $ color
+    color: "#000", // price $ color
+    position: "absolute",
+    top: 20,
+    right: 10
   },
   description: {
     color: "#000", // text color
@@ -49,7 +52,7 @@ export default function CardItem({
   itemDescription,
   itemImage,
   itemPrice,
-  title,
+  
 }) {
   const classes = useStyles();
 
@@ -67,12 +70,12 @@ export default function CardItem({
             {itemName.text}
           </Typography>
           <Typography className={classes.description} variant="body1">
-            <i>{itemDescription.text}</i>
+            {itemDescription.text}
           </Typography>
 
-          <Typography className={classes.price} variant="body2">
-            {/* {itemPrice.price} */}
-          </Typography>
+          {/* <Typography className={classes.price} variant="subtitle1">
+            {itemPrice.price}
+          </Typography> */}
         </CardContent>
       </div>
     </Card>

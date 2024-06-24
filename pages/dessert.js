@@ -6,14 +6,14 @@ import Grid from "@material-ui/core/Grid";
 import CardItem from "../components/CardItem";
 import Dropdown from "../components/Dropdown";
 
-const NoImage = "../static/items/NoImage.jpg";
+ 
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100vh",
+    
   },
 
   ayce: {
@@ -78,6 +78,10 @@ export default function Entrees() {
                 <Typography variant="h4" id="dessert">
                   DESSERT
                 </Typography>
+                <img
+                src="../static/items/desserts/dessert.jpg"
+                style={{ width: "100%", marginTop: 40, marginBottom: 20 }}
+              ></img>
               </div>
             </Grid>
 

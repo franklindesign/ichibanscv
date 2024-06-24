@@ -149,6 +149,10 @@ export default function Entrees() {
                 </Typography>
                 <p>Must be 21 or older to drink beer and wine.</p>
               </div>
+              <img
+                src="../static/items/wineBeer/luckybrew_banner.jpg"
+                style={{ width: "100%", marginBottom: 20 }}
+              ></img>
             </Grid>
 
             {beerAndWines.map((beerAndWine) => (
