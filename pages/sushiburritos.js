@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginTop: 100,
     marginBottom: 50,
-    height: "100vh"
+    
   },
 
   category: {
@@ -73,6 +73,7 @@ export default function SushiBurritos() {
                 <Typography variant="h4" id="sushiBurritos">
                   SUSHI BURRITOS
                 </Typography>
+                <p>Sushi burrito or sushirrito is a type of Japanese-American fusion cuisine that combines sushi ingredients with a large nori wrap or soy paper, similar to a Mexican burrito.</p>
               </div>
             </Grid>
             {sushiBurritos.map((sushiBurrito) => (
