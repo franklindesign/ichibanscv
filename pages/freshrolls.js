@@ -228,8 +228,8 @@ const freshRolls = [
     name: "Elmo Roll",
     descriptionIn: "spicy shrimp, crab, avocado, soy paper ",
     descriptionOut:
-      "seared cajun tuna, masago, green onions, crispy onions on top",
-    descriptionSauce: "chili oil and spicy ponzu sauce",
+      "seared cajun tuna, masago, green onions, crispy onions",
+    descriptionSauce: "chili oil, spicy ponzu ",
     price: 18.95,
     image: "../static/items/freshRolls/ElmoRoll.jpg",
     largeImage: "",
