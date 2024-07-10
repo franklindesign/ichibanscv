@@ -51,7 +51,7 @@ const sakes = [
     id: 4,
     name: "Soju (Flavored)",
     description: "Peach, Pineapple (375ml)",
-    price: 14,
+    price: 13,
     image: "../static/items/sake/chamisul_flavored.jpg",
     largeImage: "",
   },

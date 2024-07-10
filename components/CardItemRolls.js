@@ -72,9 +72,9 @@ export default function CardItem({
             <Typography className={classes.product} component="h6" variant="h6">
               {itemName.text}
             </Typography>
-            {/* <Typography className={classes.price} variant="subtitle1">
+            <Typography className={classes.price} variant="subtitle1">
               {itemPrice.price}
-            </Typography> */}
+            </Typography>
           </div>
           <Typography className={classes.description} variant="body1">
             <strong>In:</strong> {itemDescriptionIn.text}

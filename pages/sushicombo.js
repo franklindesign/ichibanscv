@@ -59,7 +59,7 @@ const sushicombos = [
     id: 5,
     name: "Special Sushi Combo",
     description: "10 pieces of sushi with California or spicy tuna roll",
-    price: 25.95,
+    price: 27.95,
     image: "../static/items/sushiCombo/specialSushi.jpg",
     largeImage: "",
   },

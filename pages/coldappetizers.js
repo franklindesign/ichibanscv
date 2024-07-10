@@ -110,7 +110,7 @@ const coldAppetizers = [
     name: "Aguachile Shrimp",
     description:
       "Avocado, cucumber, red onions, cilantro, tomato, and aguachile sauce.",
-    price: 18.95,
+    price: 15.95,
     image: "../static/items/coldAppetizers/AguachileShrimp.jpg",
     largeImage: "",
   },

@@ -73,9 +73,9 @@ export default function CardItem({
             {itemDescription.text}
           </Typography>
 
-          {/* <Typography className={classes.price} variant="subtitle1">
+          <Typography className={classes.price} variant="subtitle1">
             {itemPrice.price}
-          </Typography> */}
+          </Typography>
         </CardContent>
       </div>
     </Card>
