@@ -4,8 +4,7 @@ export default function Alerts() {
   return (
     <div style={{ marginTop: 25 }}>
       <Alert severity="info">
-        <AlertTitle>Valued Patrons,</AlertTitle>Our patio is now open for
-        outdoor dining. Questions? Give us a call at (661) 360-8526.
+        <AlertTitle>Valued Patrons,</AlertTitle>Our menu has been updated. Come try our new items!
       </Alert>
     </div>
   );

@@ -5,6 +5,7 @@ import ListFeaturedItems from "../components/listFeaturedItems";
 import Hero from "../components/Hero";
 import OrderWith from "../components/OrderWith";
 import Alerts from "../components/Alerts";
+import NewItems from "../components/newItems";
 
 export default function Index() {
   return (
@@ -30,6 +31,7 @@ export default function Index() {
         <Container maxWidth="lg" style={{ marginBottom: 50 }}>
           
           <Alerts></Alerts>
+          <NewItems></NewItems>
           <ListFeaturedItems></ListFeaturedItems>
           <div style={{ marginTop: 50, marginBottom: 25 }}>
             <OrderWith></OrderWith>
